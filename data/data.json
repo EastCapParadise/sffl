@@ -1,0 +1,7056 @@
+{
+  "meta": {
+    "league_name": "Strickland Fantasy Football League",
+    "abbreviation": "SFFL",
+    "founded": 2013,
+    "current_season": 2025,
+    "last_updated": "2026-04-17 16:42"
+  },
+  "owners": {
+    "Mark": {
+      "name": "Mark",
+      "active": true,
+      "career": {
+        "wins": 71,
+        "losses": 102,
+        "ties": 1,
+        "win_pct": 0.408,
+        "points_for": 15514.0,
+        "points_against": 16621.0,
+        "points_per_game": 89.16,
+        "championships": 1,
+        "playoff_appearances": 3,
+        "division_titles": 2,
+        "playoff_wins": 4,
+        "playoff_losses": 2
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1139.0,
+          "final_rank": 6,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1247.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 997.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1031.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 2,
+          "losses": 10,
+          "ties": 1,
+          "points_for": 922.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1182.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1231.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1084.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "points_for": 1120.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1264.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2023,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1161.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1594.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1542.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "Michael": {
+      "name": "Michael",
+      "active": true,
+      "career": {
+        "wins": 94,
+        "losses": 79,
+        "ties": 1,
+        "win_pct": 0.5402,
+        "points_for": 16154.0,
+        "points_against": 15876.0,
+        "points_per_game": 92.84,
+        "championships": 2,
+        "playoff_appearances": 8,
+        "division_titles": 3,
+        "playoff_wins": 5,
+        "playoff_losses": 6
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1180.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 3,
+          "losses": 9,
+          "ties": 1,
+          "points_for": 1053.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1247.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2016,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 981.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1043.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1274.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1136.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2020,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1239.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1363.0,
+          "final_rank": 7,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1270.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1455.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1551.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1362.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "Watty": {
+      "name": "Watty",
+      "active": true,
+      "career": {
+        "wins": 83,
+        "losses": 91,
+        "ties": 0,
+        "win_pct": 0.477,
+        "points_for": 15662.0,
+        "points_against": 15502.0,
+        "points_per_game": 90.01,
+        "championships": 2,
+        "playoff_appearances": 6,
+        "division_titles": 1,
+        "playoff_wins": 7,
+        "playoff_losses": 4
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1254.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1182.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 906.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1121.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1070.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2018,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1165.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1180.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1218.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2021,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1228.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1201.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1328.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1486.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1323.0,
+          "final_rank": 14,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "BR": {
+      "name": "BR",
+      "active": true,
+      "career": {
+        "wins": 87,
+        "losses": 84,
+        "ties": 3,
+        "win_pct": 0.5,
+        "points_for": 15658.0,
+        "points_against": 15909.0,
+        "points_per_game": 89.99,
+        "championships": 2,
+        "playoff_appearances": 8,
+        "division_titles": 2,
+        "playoff_wins": 7,
+        "playoff_losses": 6
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1064.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "points_for": 1070.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1091.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1122.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1093.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 9,
+          "losses": 3,
+          "ties": 1,
+          "points_for": 1225.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2019,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1127.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1033.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 10,
+          "losses": 3,
+          "ties": 1,
+          "points_for": 1388.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2022,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1142.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1273.0,
+          "final_rank": 7,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1458.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1572.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        }
+      ]
+    },
+    "Emily": {
+      "name": "Emily",
+      "active": true,
+      "career": {
+        "wins": 81,
+        "losses": 92,
+        "ties": 1,
+        "win_pct": 0.4655,
+        "points_for": 15180.0,
+        "points_against": 15946.0,
+        "points_per_game": 87.24,
+        "championships": 0,
+        "playoff_appearances": 4,
+        "division_titles": 1,
+        "playoff_wins": 5,
+        "playoff_losses": 4
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 992.0,
+          "final_rank": null,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 4,
+          "losses": 8,
+          "ties": 1,
+          "points_for": 985.0,
+          "final_rank": null,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1182.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1139.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1092.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1249.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1060.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1186.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1081.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1110.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1088.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1555.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1461.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "Brian": {
+      "name": "Brian",
+      "active": true,
+      "career": {
+        "wins": 96,
+        "losses": 77,
+        "ties": 1,
+        "win_pct": 0.5517,
+        "points_for": 16005.0,
+        "points_against": 15719.0,
+        "points_per_game": 91.98,
+        "championships": 1,
+        "playoff_appearances": 6,
+        "division_titles": 3,
+        "playoff_wins": 4,
+        "playoff_losses": 5
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1438.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2014,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1224.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1059.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1024.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1078.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 5,
+          "losses": 7,
+          "ties": 1,
+          "points_for": 1201.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1040.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "points_for": 1075.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1334.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1378.0,
+          "final_rank": 7,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1271.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1397.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1486.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "Abby": {
+      "name": "Abby",
+      "active": false,
+      "career": {
+        "wins": 47,
+        "losses": 57,
+        "ties": 0,
+        "win_pct": 0.4519,
+        "points_for": 8476.0,
+        "points_against": 8982.0,
+        "points_per_game": 81.5,
+        "championships": 0,
+        "playoff_appearances": 4,
+        "division_titles": 0,
+        "playoff_wins": 3,
+        "playoff_losses": 4
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1172.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1081.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 896.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1125.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1215.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 884.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1144.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 959.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "Russell": {
+      "name": "Russell",
+      "active": true,
+      "career": {
+        "wins": 90,
+        "losses": 82,
+        "ties": 2,
+        "win_pct": 0.5172,
+        "points_for": 16395.0,
+        "points_against": 15615.1,
+        "points_per_game": 94.22,
+        "championships": 2,
+        "playoff_appearances": 9,
+        "division_titles": 1,
+        "playoff_wins": 11,
+        "playoff_losses": 7
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "points_for": 1228.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "points_for": 1233.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2015,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1109.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1173.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1099.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1224.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1138.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1392.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1268.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1183.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1145.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1554.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1649.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        }
+      ]
+    },
+    "David": {
+      "name": "David",
+      "active": true,
+      "career": {
+        "wins": 85,
+        "losses": 88,
+        "ties": 1,
+        "win_pct": 0.4885,
+        "points_for": 15556.0,
+        "points_against": 15717.0,
+        "points_per_game": 89.4,
+        "championships": 0,
+        "playoff_appearances": 8,
+        "division_titles": 1,
+        "playoff_wins": 5,
+        "playoff_losses": 8
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1136.0,
+          "final_rank": 5,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1369.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 989.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1082.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 5,
+          "losses": 7,
+          "ties": 1,
+          "points_for": 975.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1108.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1228.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 974.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1251.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1138.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1182.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1600.0,
+          "final_rank": 7,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1524.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        }
+      ]
+    },
+    "Matt": {
+      "name": "Matt",
+      "active": true,
+      "career": {
+        "wins": 80,
+        "losses": 93,
+        "ties": 1,
+        "win_pct": 0.4598,
+        "points_for": 15933.0,
+        "points_against": 16003.0,
+        "points_per_game": 91.57,
+        "championships": 0,
+        "playoff_appearances": 7,
+        "division_titles": 2,
+        "playoff_wins": 3,
+        "playoff_losses": 7
+      },
+      "seasons": [
+        {
+          "season": 2013,
+          "wins": 4,
+          "losses": 8,
+          "ties": 1,
+          "points_for": 1148.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2014,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1190.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2015,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1183.0,
+          "final_rank": 7,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1224.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1132.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1236.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1170.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1110.0,
+          "final_rank": 10,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1191.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1034.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1284.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "points_for": 1492.0,
+          "final_rank": 13,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1539.0,
+          "final_rank": 7,
+          "playoff": true,
+          "champion": false
+        }
+      ]
+    },
+    "Brent": {
+      "name": "Brent",
+      "active": true,
+      "career": {
+        "wins": 95,
+        "losses": 52,
+        "ties": 1,
+        "win_pct": 0.6419,
+        "points_for": 14439.0,
+        "points_against": 13180.0,
+        "points_per_game": 97.56,
+        "championships": 1,
+        "playoff_appearances": 9,
+        "division_titles": 5,
+        "playoff_wins": 4,
+        "playoff_losses": 8
+      },
+      "seasons": [
+        {
+          "season": 2015,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1237.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 12,
+          "losses": 1,
+          "ties": 0,
+          "points_for": 1384.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2017,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1152.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1316.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1236.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1144.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 8,
+          "losses": 5,
+          "ties": 1,
+          "points_for": 1163.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1368.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1390.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1452.0,
+          "final_rank": 8,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1597.0,
+          "final_rank": 5,
+          "playoff": true,
+          "champion": false
+        }
+      ]
+    },
+    "Charles": {
+      "name": "Charles",
+      "active": true,
+      "career": {
+        "wins": 82,
+        "losses": 66,
+        "ties": 0,
+        "win_pct": 0.5541,
+        "points_for": 14511.1,
+        "points_against": 13486.0,
+        "points_per_game": 98.05,
+        "championships": 2,
+        "playoff_appearances": 8,
+        "division_titles": 5,
+        "playoff_wins": 9,
+        "playoff_losses": 6
+      },
+      "seasons": [
+        {
+          "season": 2015,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1137.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2016,
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1272.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2017,
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1196.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2018,
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1219.0,
+          "final_rank": 9,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2019,
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1151.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2020,
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1408.0,
+          "final_rank": 3,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2021,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1427.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1215.0,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1117.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2024,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1634.0,
+          "final_rank": 1,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "season": 2025,
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1735.1,
+          "final_rank": 4,
+          "playoff": true,
+          "champion": false
+        }
+      ]
+    },
+    "Arnold": {
+      "name": "Arnold",
+      "active": true,
+      "career": {
+        "wins": 29,
+        "losses": 41,
+        "ties": 0,
+        "win_pct": 0.4143,
+        "points_for": 6497.0,
+        "points_against": 7060.0,
+        "points_per_game": 92.81,
+        "championships": 0,
+        "playoff_appearances": 1,
+        "division_titles": 0,
+        "playoff_wins": 0,
+        "playoff_losses": 1
+      },
+      "seasons": [
+        {
+          "season": 2021,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1174.0,
+          "final_rank": 11,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2022,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1223.0,
+          "final_rank": 8,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2023,
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "points_for": 1181.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2024,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1584.0,
+          "final_rank": 6,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1335.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    },
+    "Jordan": {
+      "name": "Jordan",
+      "active": true,
+      "career": {
+        "wins": 11,
+        "losses": 17,
+        "ties": 0,
+        "win_pct": 0.3929,
+        "points_for": 2975.0,
+        "points_against": 3126.0,
+        "points_per_game": 106.25,
+        "championships": 0,
+        "playoff_appearances": 1,
+        "division_titles": 0,
+        "playoff_wins": 2,
+        "playoff_losses": 1
+      },
+      "seasons": [
+        {
+          "season": 2024,
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "points_for": 1404.0,
+          "final_rank": 14,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1571.0,
+          "final_rank": 2,
+          "playoff": true,
+          "champion": false
+        }
+      ]
+    },
+    "Grayson": {
+      "name": "Grayson",
+      "active": true,
+      "career": {
+        "wins": 9,
+        "losses": 19,
+        "ties": 0,
+        "win_pct": 0.3214,
+        "points_for": 2873.0,
+        "points_against": 3086.0,
+        "points_per_game": 102.61,
+        "championships": 0,
+        "playoff_appearances": 0,
+        "division_titles": 0,
+        "playoff_wins": 0,
+        "playoff_losses": 0
+      },
+      "seasons": [
+        {
+          "season": 2024,
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1467.0,
+          "final_rank": 12,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "season": 2025,
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1406.0,
+          "final_rank": 13,
+          "playoff": false,
+          "champion": false
+        }
+      ]
+    }
+  },
+  "head_to_head": {
+    "Mark": {
+      "Michael": {
+        "wins": 5,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1329.0,
+        "points_against": 1503.0
+      },
+      "Watty": {
+        "wins": 10,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1519.0,
+        "points_against": 1443.0
+      },
+      "BR": {
+        "wins": 3,
+        "losses": 13,
+        "ties": 0,
+        "points_for": 1301.0,
+        "points_against": 1553.0
+      },
+      "Emily": {
+        "wins": 8,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1495.0,
+        "points_against": 1508.0
+      },
+      "Brian": {
+        "wins": 9,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1509.0,
+        "points_against": 1562.0
+      },
+      "Abby": {
+        "wins": 3,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 666.0,
+        "points_against": 769.0
+      },
+      "Russell": {
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1214.0,
+        "points_against": 1324.0
+      },
+      "David": {
+        "wins": 8,
+        "losses": 4,
+        "ties": 1,
+        "points_for": 1296.0,
+        "points_against": 1158.0
+      },
+      "Matt": {
+        "wins": 8,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1390.0,
+        "points_against": 1550.0
+      },
+      "Brent": {
+        "wins": 2,
+        "losses": 13,
+        "ties": 0,
+        "points_for": 1358.0,
+        "points_against": 1598.0
+      },
+      "Charles": {
+        "wins": 2,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1039.0,
+        "points_against": 1349.0
+      },
+      "Arnold": {
+        "wins": 6,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 926.0,
+        "points_against": 822.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 244.0,
+        "points_against": 232.0
+      },
+      "Grayson": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 228.0,
+        "points_against": 250.0
+      }
+    },
+    "Michael": {
+      "Mark": {
+        "wins": 10,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1503.0,
+        "points_against": 1329.0
+      },
+      "Watty": {
+        "wins": 13,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 2120.0,
+        "points_against": 1916.0
+      },
+      "BR": {
+        "wins": 7,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1461.0,
+        "points_against": 1560.0
+      },
+      "Emily": {
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1229.0,
+        "points_against": 1149.0
+      },
+      "Brian": {
+        "wins": 6,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1395.0,
+        "points_against": 1288.0
+      },
+      "Abby": {
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 988.0,
+        "points_against": 940.0
+      },
+      "Russell": {
+        "wins": 8,
+        "losses": 6,
+        "ties": 1,
+        "points_for": 1419.0,
+        "points_against": 1400.0
+      },
+      "David": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1155.0,
+        "points_against": 1345.0
+      },
+      "Matt": {
+        "wins": 9,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1400.0,
+        "points_against": 1365.0
+      },
+      "Brent": {
+        "wins": 4,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1004.0,
+        "points_against": 1100.0
+      },
+      "Charles": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1236.0,
+        "points_against": 1347.0
+      },
+      "Arnold": {
+        "wins": 6,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 824.0,
+        "points_against": 675.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 208.0,
+        "points_against": 224.0
+      },
+      "Grayson": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 212.0,
+        "points_against": 238.0
+      }
+    },
+    "Watty": {
+      "Mark": {
+        "wins": 6,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1443.0,
+        "points_against": 1519.0
+      },
+      "Michael": {
+        "wins": 10,
+        "losses": 13,
+        "ties": 0,
+        "points_for": 1916.0,
+        "points_against": 2120.0
+      },
+      "BR": {
+        "wins": 9,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1669.0,
+        "points_against": 1593.0
+      },
+      "Emily": {
+        "wins": 8,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1370.0,
+        "points_against": 1098.0
+      },
+      "Brian": {
+        "wins": 7,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1240.0,
+        "points_against": 1307.0
+      },
+      "Abby": {
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1021.0,
+        "points_against": 844.0
+      },
+      "Russell": {
+        "wins": 6,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1430.0,
+        "points_against": 1539.0
+      },
+      "David": {
+        "wins": 5,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1409.0,
+        "points_against": 1356.0
+      },
+      "Matt": {
+        "wins": 7,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1149.0,
+        "points_against": 1152.0
+      },
+      "Brent": {
+        "wins": 5,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 931.0,
+        "points_against": 968.0
+      },
+      "Charles": {
+        "wins": 7,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1056.0,
+        "points_against": 1112.0
+      },
+      "Arnold": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 582.0,
+        "points_against": 497.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 202.0,
+        "points_against": 203.0
+      },
+      "Grayson": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 244.0,
+        "points_against": 194.0
+      }
+    },
+    "BR": {
+      "Mark": {
+        "wins": 13,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 1553.0,
+        "points_against": 1301.0
+      },
+      "Michael": {
+        "wins": 9,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1560.0,
+        "points_against": 1461.0
+      },
+      "Watty": {
+        "wins": 9,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1593.0,
+        "points_against": 1669.0
+      },
+      "Emily": {
+        "wins": 8,
+        "losses": 8,
+        "ties": 1,
+        "points_for": 1582.0,
+        "points_against": 1525.0
+      },
+      "Brian": {
+        "wins": 7,
+        "losses": 6,
+        "ties": 1,
+        "points_for": 1270.0,
+        "points_against": 1298.0
+      },
+      "Abby": {
+        "wins": 6,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 765.0,
+        "points_against": 745.0
+      },
+      "Russell": {
+        "wins": 4,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1231.0,
+        "points_against": 1455.0
+      },
+      "David": {
+        "wins": 6,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1227.0,
+        "points_against": 1233.0
+      },
+      "Matt": {
+        "wins": 7,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1288.0,
+        "points_against": 1361.0
+      },
+      "Brent": {
+        "wins": 5,
+        "losses": 9,
+        "ties": 1,
+        "points_for": 1307.0,
+        "points_against": 1453.0
+      },
+      "Charles": {
+        "wins": 8,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1468.0,
+        "points_against": 1565.0
+      },
+      "Arnold": {
+        "wins": 4,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 486.0,
+        "points_against": 428.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 213.0,
+        "points_against": 188.0
+      },
+      "Grayson": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 115.0,
+        "points_against": 227.0
+      }
+    },
+    "Emily": {
+      "Mark": {
+        "wins": 10,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1508.0,
+        "points_against": 1495.0
+      },
+      "Michael": {
+        "wins": 4,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1149.0,
+        "points_against": 1229.0
+      },
+      "Watty": {
+        "wins": 5,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1098.0,
+        "points_against": 1370.0
+      },
+      "BR": {
+        "wins": 8,
+        "losses": 8,
+        "ties": 1,
+        "points_for": 1525.0,
+        "points_against": 1582.0
+      },
+      "Brian": {
+        "wins": 3,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1144.0,
+        "points_against": 1331.0
+      },
+      "Abby": {
+        "wins": 6,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 912.0,
+        "points_against": 812.0
+      },
+      "Russell": {
+        "wins": 14,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 2039.0,
+        "points_against": 1941.0
+      },
+      "David": {
+        "wins": 6,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1186.0,
+        "points_against": 1359.0
+      },
+      "Matt": {
+        "wins": 10,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1539.0,
+        "points_against": 1487.0
+      },
+      "Brent": {
+        "wins": 4,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1171.0,
+        "points_against": 1381.0
+      },
+      "Charles": {
+        "wins": 5,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 972.0,
+        "points_against": 1030.0
+      },
+      "Arnold": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 526.0,
+        "points_against": 530.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 220.0,
+        "points_against": 219.0
+      },
+      "Grayson": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 191.0,
+        "points_against": 180.0
+      }
+    },
+    "Brian": {
+      "Mark": {
+        "wins": 8,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1562.0,
+        "points_against": 1509.0
+      },
+      "Michael": {
+        "wins": 9,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1288.0,
+        "points_against": 1395.0
+      },
+      "Watty": {
+        "wins": 7,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1307.0,
+        "points_against": 1240.0
+      },
+      "BR": {
+        "wins": 6,
+        "losses": 7,
+        "ties": 1,
+        "points_for": 1298.0,
+        "points_against": 1270.0
+      },
+      "Emily": {
+        "wins": 11,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 1331.0,
+        "points_against": 1144.0
+      },
+      "Abby": {
+        "wins": 2,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 688.0,
+        "points_against": 703.0
+      },
+      "Russell": {
+        "wins": 5,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1309.0,
+        "points_against": 1622.0
+      },
+      "David": {
+        "wins": 18,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 2277.0,
+        "points_against": 2024.0
+      },
+      "Matt": {
+        "wins": 11,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1628.0,
+        "points_against": 1532.0
+      },
+      "Brent": {
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1338.0,
+        "points_against": 1282.0
+      },
+      "Charles": {
+        "wins": 6,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1038.0,
+        "points_against": 1097.0
+      },
+      "Arnold": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 541.0,
+        "points_against": 516.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 197.0,
+        "points_against": 166.0
+      },
+      "Grayson": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 203.0,
+        "points_against": 219.0
+      }
+    },
+    "Abby": {
+      "Mark": {
+        "wins": 6,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 769.0,
+        "points_against": 666.0
+      },
+      "Michael": {
+        "wins": 4,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 940.0,
+        "points_against": 988.0
+      },
+      "Watty": {
+        "wins": 4,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 844.0,
+        "points_against": 1021.0
+      },
+      "BR": {
+        "wins": 3,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 745.0,
+        "points_against": 765.0
+      },
+      "Emily": {
+        "wins": 5,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 812.0,
+        "points_against": 912.0
+      },
+      "Brian": {
+        "wins": 7,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 703.0,
+        "points_against": 688.0
+      },
+      "Russell": {
+        "wins": 3,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 754.0,
+        "points_against": 841.0
+      },
+      "David": {
+        "wins": 7,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 800.0,
+        "points_against": 701.0
+      },
+      "Matt": {
+        "wins": 5,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1190.0,
+        "points_against": 1234.0
+      },
+      "Brent": {
+        "wins": 1,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 444.0,
+        "points_against": 539.0
+      },
+      "Charles": {
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 475.0,
+        "points_against": 627.0
+      }
+    },
+    "Russell": {
+      "Mark": {
+        "wins": 9,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1324.0,
+        "points_against": 1214.0
+      },
+      "Michael": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 1,
+        "points_for": 1400.0,
+        "points_against": 1419.0
+      },
+      "Watty": {
+        "wins": 11,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1539.0,
+        "points_against": 1430.0
+      },
+      "BR": {
+        "wins": 11,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1455.0,
+        "points_against": 1231.0
+      },
+      "Emily": {
+        "wins": 7,
+        "losses": 14,
+        "ties": 0,
+        "points_for": 1941.0,
+        "points_against": 2039.0
+      },
+      "Brian": {
+        "wins": 11,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1622.0,
+        "points_against": 1309.0
+      },
+      "Abby": {
+        "wins": 6,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 841.0,
+        "points_against": 754.0
+      },
+      "David": {
+        "wins": 12,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1772.0,
+        "points_against": 1586.0
+      },
+      "Matt": {
+        "wins": 3,
+        "losses": 10,
+        "ties": 1,
+        "points_for": 1203.0,
+        "points_against": 1329.0
+      },
+      "Brent": {
+        "wins": 4,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 925.0,
+        "points_against": 962.0
+      },
+      "Charles": {
+        "wins": 5,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1427.0,
+        "points_against": 1458.1
+      },
+      "Arnold": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 481.0,
+        "points_against": 494.0
+      },
+      "Jordan": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 235.0,
+        "points_against": 190.0
+      },
+      "Grayson": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 230.0,
+        "points_against": 200.0
+      }
+    },
+    "David": {
+      "Mark": {
+        "wins": 4,
+        "losses": 8,
+        "ties": 1,
+        "points_for": 1158.0,
+        "points_against": 1296.0
+      },
+      "Michael": {
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1345.0,
+        "points_against": 1155.0
+      },
+      "Watty": {
+        "wins": 11,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1356.0,
+        "points_against": 1409.0
+      },
+      "BR": {
+        "wins": 7,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1233.0,
+        "points_against": 1227.0
+      },
+      "Emily": {
+        "wins": 9,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1359.0,
+        "points_against": 1186.0
+      },
+      "Brian": {
+        "wins": 6,
+        "losses": 18,
+        "ties": 0,
+        "points_for": 2024.0,
+        "points_against": 2277.0
+      },
+      "Abby": {
+        "wins": 2,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 701.0,
+        "points_against": 800.0
+      },
+      "Russell": {
+        "wins": 7,
+        "losses": 12,
+        "ties": 0,
+        "points_for": 1586.0,
+        "points_against": 1772.0
+      },
+      "Matt": {
+        "wins": 12,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1584.0,
+        "points_against": 1475.0
+      },
+      "Brent": {
+        "wins": 5,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1042.0,
+        "points_against": 1042.0
+      },
+      "Charles": {
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1204.0,
+        "points_against": 1255.0
+      },
+      "Arnold": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 512.0,
+        "points_against": 420.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 230.0,
+        "points_against": 236.0
+      },
+      "Grayson": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 222.0,
+        "points_against": 167.0
+      }
+    },
+    "Matt": {
+      "Mark": {
+        "wins": 8,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1550.0,
+        "points_against": 1390.0
+      },
+      "Michael": {
+        "wins": 6,
+        "losses": 9,
+        "ties": 0,
+        "points_for": 1365.0,
+        "points_against": 1400.0
+      },
+      "Watty": {
+        "wins": 6,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1152.0,
+        "points_against": 1149.0
+      },
+      "BR": {
+        "wins": 8,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1361.0,
+        "points_against": 1288.0
+      },
+      "Emily": {
+        "wins": 6,
+        "losses": 10,
+        "ties": 0,
+        "points_for": 1487.0,
+        "points_against": 1539.0
+      },
+      "Brian": {
+        "wins": 6,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1532.0,
+        "points_against": 1628.0
+      },
+      "Abby": {
+        "wins": 9,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1234.0,
+        "points_against": 1190.0
+      },
+      "Russell": {
+        "wins": 10,
+        "losses": 3,
+        "ties": 1,
+        "points_for": 1329.0,
+        "points_against": 1203.0
+      },
+      "David": {
+        "wins": 5,
+        "losses": 12,
+        "ties": 0,
+        "points_for": 1475.0,
+        "points_against": 1584.0
+      },
+      "Brent": {
+        "wins": 6,
+        "losses": 11,
+        "ties": 0,
+        "points_for": 1450.0,
+        "points_against": 1592.0
+      },
+      "Charles": {
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1058.0,
+        "points_against": 1049.0
+      },
+      "Arnold": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 436.0,
+        "points_against": 540.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 275.0,
+        "points_against": 227.0
+      },
+      "Grayson": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 229.0,
+        "points_against": 224.0
+      }
+    },
+    "Brent": {
+      "Mark": {
+        "wins": 13,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 1598.0,
+        "points_against": 1358.0
+      },
+      "Michael": {
+        "wins": 7,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1100.0,
+        "points_against": 1004.0
+      },
+      "Watty": {
+        "wins": 6,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 968.0,
+        "points_against": 931.0
+      },
+      "BR": {
+        "wins": 9,
+        "losses": 5,
+        "ties": 1,
+        "points_for": 1453.0,
+        "points_against": 1307.0
+      },
+      "Emily": {
+        "wins": 10,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 1381.0,
+        "points_against": 1171.0
+      },
+      "Brian": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1282.0,
+        "points_against": 1338.0
+      },
+      "Abby": {
+        "wins": 5,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 539.0,
+        "points_against": 444.0
+      },
+      "Russell": {
+        "wins": 6,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 962.0,
+        "points_against": 925.0
+      },
+      "David": {
+        "wins": 6,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1042.0,
+        "points_against": 1042.0
+      },
+      "Matt": {
+        "wins": 11,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1592.0,
+        "points_against": 1450.0
+      },
+      "Charles": {
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1412.0,
+        "points_against": 1356.0
+      },
+      "Arnold": {
+        "wins": 5,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 660.0,
+        "points_against": 490.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 171.0,
+        "points_against": 191.0
+      },
+      "Grayson": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 279.0,
+        "points_against": 173.0
+      }
+    },
+    "Charles": {
+      "Mark": {
+        "wins": 10,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 1349.0,
+        "points_against": 1039.0
+      },
+      "Michael": {
+        "wins": 8,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1347.0,
+        "points_against": 1236.0
+      },
+      "Watty": {
+        "wins": 5,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1112.0,
+        "points_against": 1056.0
+      },
+      "BR": {
+        "wins": 9,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1565.0,
+        "points_against": 1468.0
+      },
+      "Emily": {
+        "wins": 6,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1030.0,
+        "points_against": 972.0
+      },
+      "Brian": {
+        "wins": 5,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 1097.0,
+        "points_against": 1038.0
+      },
+      "Abby": {
+        "wins": 4,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 627.0,
+        "points_against": 475.0
+      },
+      "Russell": {
+        "wins": 10,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 1458.1,
+        "points_against": 1427.0
+      },
+      "David": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1255.0,
+        "points_against": 1204.0
+      },
+      "Matt": {
+        "wins": 4,
+        "losses": 7,
+        "ties": 0,
+        "points_for": 1049.0,
+        "points_against": 1058.0
+      },
+      "Brent": {
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1356.0,
+        "points_against": 1412.0
+      },
+      "Arnold": {
+        "wins": 5,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 651.0,
+        "points_against": 549.0
+      },
+      "Jordan": {
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 364.0,
+        "points_against": 315.0
+      },
+      "Grayson": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 251.0,
+        "points_against": 237.0
+      }
+    },
+    "Arnold": {
+      "Mark": {
+        "wins": 3,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 822.0,
+        "points_against": 926.0
+      },
+      "Michael": {
+        "wins": 1,
+        "losses": 6,
+        "ties": 0,
+        "points_for": 675.0,
+        "points_against": 824.0
+      },
+      "Watty": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 497.0,
+        "points_against": 582.0
+      },
+      "BR": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 0,
+        "points_for": 428.0,
+        "points_against": 486.0
+      },
+      "Emily": {
+        "wins": 3,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 530.0,
+        "points_against": 526.0
+      },
+      "Brian": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 516.0,
+        "points_against": 541.0
+      },
+      "Russell": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 494.0,
+        "points_against": 481.0
+      },
+      "David": {
+        "wins": 2,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 420.0,
+        "points_against": 512.0
+      },
+      "Matt": {
+        "wins": 4,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 540.0,
+        "points_against": 436.0
+      },
+      "Brent": {
+        "wins": 1,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 490.0,
+        "points_against": 660.0
+      },
+      "Charles": {
+        "wins": 1,
+        "losses": 5,
+        "ties": 0,
+        "points_for": 549.0,
+        "points_against": 651.0
+      },
+      "Jordan": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 235.0,
+        "points_against": 203.0
+      },
+      "Grayson": {
+        "wins": 3,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 301.0,
+        "points_against": 232.0
+      }
+    },
+    "Jordan": {
+      "Mark": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 232.0,
+        "points_against": 244.0
+      },
+      "Michael": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 224.0,
+        "points_against": 208.0
+      },
+      "Watty": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 203.0,
+        "points_against": 202.0
+      },
+      "BR": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 188.0,
+        "points_against": 213.0
+      },
+      "Emily": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 219.0,
+        "points_against": 220.0
+      },
+      "Brian": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 166.0,
+        "points_against": 197.0
+      },
+      "Russell": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 190.0,
+        "points_against": 235.0
+      },
+      "David": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 236.0,
+        "points_against": 230.0
+      },
+      "Matt": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 227.0,
+        "points_against": 275.0
+      },
+      "Brent": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 191.0,
+        "points_against": 171.0
+      },
+      "Charles": {
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 315.0,
+        "points_against": 364.0
+      },
+      "Arnold": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 203.0,
+        "points_against": 235.0
+      },
+      "Grayson": {
+        "wins": 2,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 381.0,
+        "points_against": 332.0
+      }
+    },
+    "Grayson": {
+      "Mark": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 250.0,
+        "points_against": 228.0
+      },
+      "Michael": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 238.0,
+        "points_against": 212.0
+      },
+      "Watty": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 194.0,
+        "points_against": 244.0
+      },
+      "BR": {
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "points_for": 227.0,
+        "points_against": 115.0
+      },
+      "Emily": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 180.0,
+        "points_against": 191.0
+      },
+      "Brian": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 219.0,
+        "points_against": 203.0
+      },
+      "Russell": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 200.0,
+        "points_against": 230.0
+      },
+      "David": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 167.0,
+        "points_against": 222.0
+      },
+      "Matt": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 224.0,
+        "points_against": 229.0
+      },
+      "Brent": {
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 173.0,
+        "points_against": 279.0
+      },
+      "Charles": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "points_for": 237.0,
+        "points_against": 251.0
+      },
+      "Arnold": {
+        "wins": 0,
+        "losses": 3,
+        "ties": 0,
+        "points_for": 232.0,
+        "points_against": 301.0
+      },
+      "Jordan": {
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "points_for": 332.0,
+        "points_against": 381.0
+      }
+    }
+  },
+  "seasons": {
+    "2013": {
+      "season": 2013,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Brian",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1413.0,
+          "points_against": 1219.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Russell",
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "points_for": 1228.0,
+          "points_against": 1171.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Watty",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1254.0,
+          "points_against": 1183.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Abby",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1172.0,
+          "points_against": 1138.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "David",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1136.0,
+          "points_against": 1136.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Mark",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1139.0,
+          "points_against": 1148.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Michael",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1180.0,
+          "points_against": 1257.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Matt",
+          "wins": 4,
+          "losses": 8,
+          "ties": 1,
+          "points_for": 1148.0,
+          "points_against": 1194.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Sarah",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1017.0,
+          "points_against": 1087.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "BR",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1064.0,
+          "points_against": 1218.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Semis",
+          "manager": "Watty",
+          "opponent": "Brian",
+          "points": 110.5,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brian",
+          "opponent": "Watty",
+          "points": 118.5,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Abby",
+          "opponent": "Russell",
+          "points": 82.5,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Russell",
+          "opponent": "Abby",
+          "points": 107.5,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Russell",
+          "opponent": "Brian",
+          "points": 67.5,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Brian",
+          "opponent": "Russell",
+          "points": 121.5,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2014": {
+      "season": 2014,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Russell",
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "points_for": 1233.0,
+          "points_against": 1189.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Mark",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1247.0,
+          "points_against": 1148.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "BR",
+          "wins": 6,
+          "losses": 6,
+          "ties": 1,
+          "points_for": 1070.0,
+          "points_against": 1094.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "David",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1369.0,
+          "points_against": 1188.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Brian",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1224.0,
+          "points_against": 1226.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Abby",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1081.0,
+          "points_against": 977.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Matt",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1190.0,
+          "points_against": 1208.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Michael",
+          "wins": 3,
+          "losses": 9,
+          "ties": 1,
+          "points_for": 1053.0,
+          "points_against": 1217.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Watty",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1182.0,
+          "points_against": 1159.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Sarah",
+          "wins": 4,
+          "losses": 8,
+          "ties": 1,
+          "points_for": 985.0,
+          "points_against": 1228.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "Brian",
+          "points": 86.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brian",
+          "opponent": "Russell",
+          "points": 56.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "BR",
+          "opponent": "Abby",
+          "points": 123.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Abby",
+          "opponent": "BR",
+          "points": 62.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Russell",
+          "opponent": "David",
+          "points": 79.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "David",
+          "opponent": "Russell",
+          "points": 69.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "BR",
+          "opponent": "Mark",
+          "points": 57.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Mark",
+          "opponent": "BR",
+          "points": 83.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Russell",
+          "opponent": "Mark",
+          "points": 88.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Mark",
+          "opponent": "Russell",
+          "points": 74.0,
+          "outcome": "L"
+        }
+      ]
+    },
+    "2015": {
+      "season": 2015,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Michael",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1249.0,
+          "points_against": 1153.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Brent",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1237.0,
+          "points_against": 1174.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "BR",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1091.0,
+          "points_against": 1153.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "David",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 989.0,
+          "points_against": 1007.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Emily",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1178.0,
+          "points_against": 1056.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Russell",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1109.0,
+          "points_against": 1197.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Matt",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1183.0,
+          "points_against": 1065.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Charles",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1152.0,
+          "points_against": 1038.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Brian",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1098.0,
+          "points_against": 1021.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Watty",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 906.0,
+          "points_against": 1069.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Abby",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 896.0,
+          "points_against": 1047.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Mark",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 997.0,
+          "points_against": 1105.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "BR",
+          "opponent": "Russell",
+          "points": 104.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "BR",
+          "points": 80.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Emily",
+          "points": 71.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Emily",
+          "opponent": "David",
+          "points": 55.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brent",
+          "opponent": "BR",
+          "points": 131.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "BR",
+          "opponent": "Brent",
+          "points": 106.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "David",
+          "opponent": "Michael",
+          "points": 65.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Michael",
+          "opponent": "David",
+          "points": 106.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Brent",
+          "opponent": "Michael",
+          "points": 111.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Michael",
+          "opponent": "Brent",
+          "points": 119.0,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2016": {
+      "season": 2016,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Brent",
+          "wins": 12,
+          "losses": 1,
+          "ties": 0,
+          "points_for": 1384.0,
+          "points_against": 1052.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Emily",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1139.0,
+          "points_against": 1193.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "David",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1082.0,
+          "points_against": 1036.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Charles",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1272.0,
+          "points_against": 1102.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Matt",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1224.0,
+          "points_against": 1044.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Russell",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1173.0,
+          "points_against": 1129.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Michael",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 981.0,
+          "points_against": 1123.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Abby",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1125.0,
+          "points_against": 1180.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Brian",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1024.0,
+          "points_against": 1222.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "BR",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1122.0,
+          "points_against": 1248.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Mark",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1031.0,
+          "points_against": 1139.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Watty",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1121.0,
+          "points_against": 1210.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Russell",
+          "points": 107.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "David",
+          "points": 92.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Emily",
+          "opponent": "Matt",
+          "points": 70.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Matt",
+          "opponent": "Emily",
+          "points": 61.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "David",
+          "opponent": "Brent",
+          "points": 85.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brent",
+          "opponent": "David",
+          "points": 95.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Emily",
+          "opponent": "Charles",
+          "points": 103.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "Emily",
+          "points": 76.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Emily",
+          "opponent": "Brent",
+          "points": 73.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Brent",
+          "opponent": "Emily",
+          "points": 101.0,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2017": {
+      "season": 2017,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Watty",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1070.0,
+          "points_against": 999.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Abby",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1215.0,
+          "points_against": 1091.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Charles",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1196.0,
+          "points_against": 1035.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Matt",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1132.0,
+          "points_against": 1057.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Russell",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1099.0,
+          "points_against": 1087.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Michael",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1043.0,
+          "points_against": 1021.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "BR",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1093.0,
+          "points_against": 1087.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Brent",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1152.0,
+          "points_against": 1182.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Mark",
+          "wins": 2,
+          "losses": 10,
+          "ties": 1,
+          "points_for": 922.0,
+          "points_against": 1204.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Emily",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1092.0,
+          "points_against": 1083.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "David",
+          "wins": 5,
+          "losses": 7,
+          "ties": 1,
+          "points_for": 975.0,
+          "points_against": 1135.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Brian",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1078.0,
+          "points_against": 1086.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Michael",
+          "opponent": "Abby",
+          "points": 78.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Abby",
+          "opponent": "Michael",
+          "points": 104.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Watty",
+          "opponent": "Russell",
+          "points": 88.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "Watty",
+          "points": 70.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Watty",
+          "opponent": "Charles",
+          "points": 114.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "Watty",
+          "points": 79.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Abby",
+          "opponent": "Matt",
+          "points": 97.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Matt",
+          "opponent": "Abby",
+          "points": 92.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Watty",
+          "opponent": "Abby",
+          "points": 114.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Abby",
+          "opponent": "Watty",
+          "points": 65.0,
+          "outcome": "L"
+        }
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "BR",
+          "wins": 9,
+          "losses": 3,
+          "ties": 1,
+          "points_for": 1225.0,
+          "points_against": 1127.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Emily",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1249.0,
+          "points_against": 1175.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Russell",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1224.0,
+          "points_against": 1068.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Brent",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1316.0,
+          "points_against": 1132.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Michael",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1274.0,
+          "points_against": 1178.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Matt",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1236.0,
+          "points_against": 1223.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Brian",
+          "wins": 5,
+          "losses": 7,
+          "ties": 1,
+          "points_for": 1201.0,
+          "points_against": 1263.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Mark",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1182.0,
+          "points_against": 1249.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Charles",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1219.0,
+          "points_against": 1247.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Watty",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1165.0,
+          "points_against": 1159.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "David",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1108.0,
+          "points_against": 1287.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Abby",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 884.0,
+          "points_against": 1175.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "Michael",
+          "points": 79.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Michael",
+          "opponent": "Russell",
+          "points": 65.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Matt",
+          "opponent": "Emily",
+          "points": 98.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Emily",
+          "opponent": "Matt",
+          "points": 105.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Russell",
+          "opponent": "BR",
+          "points": 55.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "BR",
+          "opponent": "Russell",
+          "points": 94.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Emily",
+          "opponent": "Brent",
+          "points": 106.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brent",
+          "opponent": "Emily",
+          "points": 95.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Emily",
+          "opponent": "BR",
+          "points": 96.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "BR",
+          "opponent": "Emily",
+          "points": 101.0,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Michael",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1135.0,
+          "points_against": 1119.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Matt",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1164.0,
+          "points_against": 1275.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "David",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1251.0,
+          "points_against": 1157.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Abby",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1179.0,
+          "points_against": 1061.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "BR",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1152.0,
+          "points_against": 1119.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Mark",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1244.0,
+          "points_against": 1196.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Russell",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1142.0,
+          "points_against": 1158.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Brent",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1205.0,
+          "points_against": 1171.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Brian",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 991.0,
+          "points_against": 1041.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Watty",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1180.0,
+          "points_against": 1092.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Emily",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1043.0,
+          "points_against": 1209.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Charles",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1151.0,
+          "points_against": 1239.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "BR",
+          "opponent": "Abby",
+          "points": 59.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Abby",
+          "opponent": "BR",
+          "points": 110.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Mark",
+          "points": 95.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Mark",
+          "opponent": "David",
+          "points": 92.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Abby",
+          "opponent": "Michael",
+          "points": 69.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Michael",
+          "opponent": "Abby",
+          "points": 78.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "David",
+          "opponent": "Matt",
+          "points": 105.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Matt",
+          "opponent": "David",
+          "points": 110.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Matt",
+          "opponent": "Michael",
+          "points": 71.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Michael",
+          "opponent": "Matt",
+          "points": 72.0,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Watty",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1218.0,
+          "points_against": 1054.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Russell",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1392.0,
+          "points_against": 1215.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Charles",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1408.0,
+          "points_against": 1077.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Brian",
+          "wins": 11,
+          "losses": 2,
+          "ties": 0,
+          "points_for": 1075.0,
+          "points_against": 966.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Brent",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1144.0,
+          "points_against": 1075.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Michael",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1239.0,
+          "points_against": 1182.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Abby",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 959.0,
+          "points_against": 1311.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "BR",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1033.0,
+          "points_against": 1106.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "David",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 974.0,
+          "points_against": 1134.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Matt",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1110.0,
+          "points_against": 1167.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Emily",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1186.0,
+          "points_against": 1175.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Mark",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1084.0,
+          "points_against": 1360.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "Brent",
+          "points": 82.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brent",
+          "opponent": "Russell",
+          "points": 65.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Michael",
+          "opponent": "Watty",
+          "points": 85.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Watty",
+          "opponent": "Michael",
+          "points": 104.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brian",
+          "opponent": "Russell",
+          "points": 71.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Russell",
+          "opponent": "Brian",
+          "points": 119.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "Watty",
+          "points": 81.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Watty",
+          "opponent": "Charles",
+          "points": 99.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Russell",
+          "opponent": "Watty",
+          "points": 70.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Watty",
+          "opponent": "Russell",
+          "points": 82.0,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        },
+        {
+          "week": 14,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "BR",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1388.0,
+          "points_against": 1242.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Matt",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1191.0,
+          "points_against": 1249.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "David",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1251.0,
+          "points_against": 1144.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Charles",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1427.0,
+          "points_against": 1304.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Brian",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1334.0,
+          "points_against": 1276.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Brent",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1163.0,
+          "points_against": 1171.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Michael",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1363.0,
+          "points_against": 1101.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Watty",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1228.0,
+          "points_against": 1271.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Russell",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1268.0,
+          "points_against": 1218.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Emily",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1081.0,
+          "points_against": 1304.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Arnold",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1174.0,
+          "points_against": 1306.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Mark",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "points_for": 1120.0,
+          "points_against": 1402.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Brent",
+          "opponent": "Charles",
+          "points": 69.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Charles",
+          "opponent": "Brent",
+          "points": 87.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Matt",
+          "opponent": "Michael",
+          "points": 97.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Michael",
+          "opponent": "Matt",
+          "points": 81.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Brian",
+          "points": 82.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brian",
+          "opponent": "David",
+          "points": 60.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "BR",
+          "points": 80.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "BR",
+          "opponent": "Charles",
+          "points": 133.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Matt",
+          "opponent": "David",
+          "points": 135.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "David",
+          "opponent": "Matt",
+          "points": 77.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Matt",
+          "opponent": "BR",
+          "points": 79.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "BR",
+          "opponent": "Matt",
+          "points": 116.0,
+          "outcome": "W"
+        }
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        },
+        {
+          "week": 14,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Mark",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1264.0,
+          "points_against": 1184.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Brent",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1368.0,
+          "points_against": 1057.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Michael",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1270.0,
+          "points_against": 1289.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Charles",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1215.0,
+          "points_against": 1292.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "David",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1138.0,
+          "points_against": 1303.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Watty",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1201.0,
+          "points_against": 1118.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Brian",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1378.0,
+          "points_against": 1176.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Arnold",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1223.0,
+          "points_against": 1318.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Russell",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1183.0,
+          "points_against": 1181.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Emily",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1110.0,
+          "points_against": 1233.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "BR",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1142.0,
+          "points_against": 1196.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Matt",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1034.0,
+          "points_against": 1179.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Watty",
+          "opponent": "Michael",
+          "points": 89.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Michael",
+          "opponent": "Watty",
+          "points": 97.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brian",
+          "opponent": "Charles",
+          "points": 76.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Charles",
+          "opponent": "Brian",
+          "points": 121.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Mark",
+          "points": 72.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Mark",
+          "opponent": "David",
+          "points": 113.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Michael",
+          "opponent": "Brent",
+          "points": 74.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brent",
+          "opponent": "Michael",
+          "points": 79.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "Mark",
+          "points": 95.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Mark",
+          "opponent": "Charles",
+          "points": 116.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Mark",
+          "opponent": "Brent",
+          "points": 75.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Brent",
+          "opponent": "Mark",
+          "points": 73.0,
+          "outcome": "L"
+        }
+      ]
+    },
+    "2023": {
+      "season": 2023,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        },
+        {
+          "week": 14,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Charles",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1124.0,
+          "points_against": 1160.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Brian",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1279.0,
+          "points_against": 1278.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Michael",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "points_for": 1455.0,
+          "points_against": 1169.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Watty",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1321.0,
+          "points_against": 1211.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Brent",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1382.0,
+          "points_against": 1249.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Matt",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1284.0,
+          "points_against": 1159.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "BR",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1273.0,
+          "points_against": 1322.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "David",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1182.0,
+          "points_against": 1237.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Mark",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1161.0,
+          "points_against": 1327.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Russell",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1145.0,
+          "points_against": 1169.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Emily",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1088.0,
+          "points_against": 1139.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Arnold",
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "points_for": 1181.0,
+          "points_against": 1455.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Matt",
+          "opponent": "Brian",
+          "points": 55.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brian",
+          "opponent": "Matt",
+          "points": 75.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "BR",
+          "opponent": "Watty",
+          "points": 55.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Watty",
+          "opponent": "BR",
+          "points": 99.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Charles",
+          "opponent": "Brent",
+          "points": 116.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brent",
+          "opponent": "Charles",
+          "points": 86.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Brian",
+          "opponent": "Michael",
+          "points": 86.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Michael",
+          "opponent": "Brian",
+          "points": 80.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "Watty",
+          "points": 135.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Watty",
+          "opponent": "Charles",
+          "points": 50.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Charles",
+          "opponent": "Brian",
+          "points": 96.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Brian",
+          "opponent": "Charles",
+          "points": 57.0,
+          "outcome": "L"
+        }
+      ]
+    },
+    "2024": {
+      "season": 2024,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        },
+        {
+          "week": 14,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Charles",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1634.0,
+          "points_against": 1526.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Russell",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1559.0,
+          "points_against": 1480.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "Emily",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1562.0,
+          "points_against": 1425.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "BR",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1502.0,
+          "points_against": 1523.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Watty",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1496.0,
+          "points_against": 1499.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "Arnold",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1610.0,
+          "points_against": 1504.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "David",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1600.0,
+          "points_against": 1462.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Brent",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1467.0,
+          "points_against": 1453.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Michael",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1551.0,
+          "points_against": 1507.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Brian",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1396.0,
+          "points_against": 1523.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Mark",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1645.0,
+          "points_against": 1613.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Grayson",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "points_for": 1467.0,
+          "points_against": 1597.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 13,
+          "owner": "Matt",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "points_for": 1498.0,
+          "points_against": 1657.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 14,
+          "owner": "Jordan",
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "points_for": 1413.0,
+          "points_against": 1631.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "Brent",
+          "opponent": "Emily",
+          "points": 79.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Emily",
+          "opponent": "Brent",
+          "points": 175.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "BR",
+          "opponent": "Arnold",
+          "points": 113.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Arnold",
+          "opponent": "BR",
+          "points": 95.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Russell",
+          "opponent": "David",
+          "points": 123.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Russell",
+          "points": 83.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Watty",
+          "opponent": "Charles",
+          "points": 122.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Charles",
+          "opponent": "Watty",
+          "points": 158.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Russell",
+          "opponent": "Emily",
+          "points": 119.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Emily",
+          "opponent": "Russell",
+          "points": 117.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "BR",
+          "opponent": "Charles",
+          "points": 97.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "BR",
+          "points": 153.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Charles",
+          "opponent": "Russell",
+          "points": 149.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Championship",
+          "manager": "Russell",
+          "opponent": "Charles",
+          "points": 135.0,
+          "outcome": "L"
+        }
+      ]
+    },
+    "2025": {
+      "season": 2025,
+      "weeks": [
+        {
+          "week": 1,
+          "matchups": []
+        },
+        {
+          "week": 2,
+          "matchups": []
+        },
+        {
+          "week": 3,
+          "matchups": []
+        },
+        {
+          "week": 4,
+          "matchups": []
+        },
+        {
+          "week": 5,
+          "matchups": []
+        },
+        {
+          "week": 6,
+          "matchups": []
+        },
+        {
+          "week": 7,
+          "matchups": []
+        },
+        {
+          "week": 8,
+          "matchups": []
+        },
+        {
+          "week": 9,
+          "matchups": []
+        },
+        {
+          "week": 10,
+          "matchups": []
+        },
+        {
+          "week": 11,
+          "matchups": []
+        },
+        {
+          "week": 12,
+          "matchups": []
+        },
+        {
+          "week": 13,
+          "matchups": []
+        },
+        {
+          "week": 14,
+          "matchups": []
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "owner": "Russell",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "points_for": 1649.0,
+          "points_against": 1388.0,
+          "playoff": true,
+          "champion": true
+        },
+        {
+          "rank": 2,
+          "owner": "Jordan",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "points_for": 1571.0,
+          "points_against": 1505.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 3,
+          "owner": "David",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1524.0,
+          "points_against": 1500.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 4,
+          "owner": "Charles",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1735.0,
+          "points_against": 1524.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 5,
+          "owner": "Brent",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1597.0,
+          "points_against": 1513.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 6,
+          "owner": "BR",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1572.0,
+          "points_against": 1491.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 7,
+          "owner": "Matt",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "points_for": 1539.0,
+          "points_against": 1509.0,
+          "playoff": true,
+          "champion": false
+        },
+        {
+          "rank": 8,
+          "owner": "Brian",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "points_for": 1486.0,
+          "points_against": 1485.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 9,
+          "owner": "Mark",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1542.0,
+          "points_against": 1542.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 10,
+          "owner": "Emily",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1461.0,
+          "points_against": 1624.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 11,
+          "owner": "Michael",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1362.0,
+          "points_against": 1561.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 12,
+          "owner": "Arnold",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "points_for": 1335.0,
+          "points_against": 1477.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 13,
+          "owner": "Grayson",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1406.0,
+          "points_against": 1498.0,
+          "playoff": false,
+          "champion": false
+        },
+        {
+          "rank": 14,
+          "owner": "Watty",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "points_for": 1323.0,
+          "points_against": 1485.0,
+          "playoff": false,
+          "champion": false
+        }
+      ],
+      "playoffs": [
+        {
+          "round": "Quarters",
+          "manager": "David",
+          "opponent": "Matt",
+          "points": 97.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Matt",
+          "opponent": "David",
+          "points": 91.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "BR",
+          "opponent": "Charles",
+          "points": 92.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Charles",
+          "opponent": "BR",
+          "points": 179.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Brent",
+          "opponent": "Jordan",
+          "points": 115.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Quarters",
+          "manager": "Jordan",
+          "opponent": "Brent",
+          "points": 160.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "David",
+          "opponent": "Russell",
+          "points": 122.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Semis",
+          "manager": "Russell",
+          "opponent": "David",
+          "points": 143.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Jordan",
+          "opponent": "Charles",
+          "points": 105.0,
+          "outcome": "W"
+        },
+        {
+          "round": "Semis",
+          "manager": "Charles",
+          "opponent": "Jordan",
+          "points": 91.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Jordan",
+          "opponent": "Russell",
+          "points": 106.0,
+          "outcome": "L"
+        },
+        {
+          "round": "Championship",
+          "manager": "Russell",
+          "opponent": "Jordan",
+          "points": 129.0,
+          "outcome": "W"
+        }
+      ]
+    }
+  },
+  "records": {
+    "highest_scores": [
+      {
+        "Manager": "BR",
+        "Opponent": "Watty",
+        "Season": 2021,
+        "Week": 5,
+        "Points": 174.0
+      },
+      {
+        "Manager": "Brent",
+        "Opponent": "Charles",
+        "Season": 2025,
+        "Week": 4,
+        "Points": 172.0
+      },
+      {
+        "Manager": "Russell",
+        "Opponent": "Emily",
+        "Season": 2025,
+        "Week": 4,
+        "Points": 171.0
+      },
+      {
+        "Manager": "BR",
+        "Opponent": "Brian",
+        "Season": 2024,
+        "Week": 8,
+        "Points": 169.0
+      },
+      {
+        "Manager": "Mark",
+        "Opponent": "David",
+        "Season": 2025,
+        "Week": 8,
+        "Points": 167.0
+      },
+      {
+        "Manager": "Jordan",
+        "Opponent": "Grayson",
+        "Season": 2024,
+        "Week": 2,
+        "Points": 165.0
+      },
+      {
+        "Manager": "Mark",
+        "Opponent": "Watty",
+        "Season": 2024,
+        "Week": 10,
+        "Points": 164.0
+      },
+      {
+        "Manager": "Charles",
+        "Opponent": "Mark",
+        "Season": 2020,
+        "Week": 2,
+        "Points": 163.0
+      },
+      {
+        "Manager": "Brent",
+        "Opponent": "Emily",
+        "Season": 2019,
+        "Week": 5,
+        "Points": 161.0
+      },
+      {
+        "Manager": "Arnold",
+        "Opponent": "Matt",
+        "Season": 2024,
+        "Week": 5,
+        "Points": 161.0
+      }
+    ],
+    "lowest_scores": [
+      {
+        "Manager": "Abby",
+        "Opponent": "Russell",
+        "Season": 2015,
+        "Week": 10,
+        "Points": 19.0
+      },
+      {
+        "Manager": "BR",
+        "Opponent": "Matt",
+        "Season": 2015,
+        "Week": 11,
+        "Points": 28.0
+      },
+      {
+        "Manager": "David",
+        "Opponent": "Matt",
+        "Season": 2021,
+        "Week": 14,
+        "Points": 34.0
+      },
+      {
+        "Manager": "BR",
+        "Opponent": "Brian",
+        "Season": 2013,
+        "Week": 6,
+        "Points": 36.0
+      },
+      {
+        "Manager": "Emily",
+        "Opponent": "Watty",
+        "Season": 2019,
+        "Week": 9,
+        "Points": 36.0
+      },
+      {
+        "Manager": "Brian",
+        "Opponent": "Abby",
+        "Season": 2015,
+        "Week": 4,
+        "Points": 39.0
+      },
+      {
+        "Manager": "Mark",
+        "Opponent": "Abby",
+        "Season": 2017,
+        "Week": 1,
+        "Points": 40.0
+      },
+      {
+        "Manager": "David",
+        "Opponent": "Mark",
+        "Season": 2020,
+        "Week": 10,
+        "Points": 40.0
+      },
+      {
+        "Manager": "David",
+        "Opponent": "Watty",
+        "Season": 2018,
+        "Week": 6,
+        "Points": 41.0
+      },
+      {
+        "Manager": "Abby",
+        "Opponent": "Watty",
+        "Season": 2015,
+        "Week": 5,
+        "Points": 42.0
+      }
+    ],
+    "biggest_blowouts": [
+      {
+        "Manager": "Watty",
+        "Opponent": "Emily",
+        "Season": 2019,
+        "Week": 9,
+        "Points": 135.0,
+        "Diff": 99.0
+      },
+      {
+        "Manager": "Charles",
+        "Opponent": "Abby",
+        "Season": 2020,
+        "Week": 3,
+        "Points": 149.0,
+        "Diff": 93.0
+      },
+      {
+        "Manager": "David",
+        "Opponent": "Michael",
+        "Season": 2019,
+        "Week": 5,
+        "Points": 153.0,
+        "Diff": 90.0
+      },
+      {
+        "Manager": "Russell",
+        "Opponent": "Brian",
+        "Season": 2023,
+        "Week": 4,
+        "Points": 142.0,
+        "Diff": 88.0
+      },
+      {
+        "Manager": "Charles",
+        "Opponent": "Brian",
+        "Season": 2016,
+        "Week": 1,
+        "Points": 141.0,
+        "Diff": 87.0
+      },
+      {
+        "Manager": "Mark",
+        "Opponent": "Watty",
+        "Season": 2024,
+        "Week": 10,
+        "Points": 164.0,
+        "Diff": 86.0
+      },
+      {
+        "Manager": "Matt",
+        "Opponent": "Watty",
+        "Season": 2015,
+        "Week": 8,
+        "Points": 135.0,
+        "Diff": 85.0
+      },
+      {
+        "Manager": "Watty",
+        "Opponent": "Emily",
+        "Season": 2021,
+        "Week": 6,
+        "Points": 146.0,
+        "Diff": 84.0
+      },
+      {
+        "Manager": "David",
+        "Opponent": "Matt",
+        "Season": 2021,
+        "Week": 5,
+        "Points": 132.0,
+        "Diff": 82.0
+      },
+      {
+        "Manager": "Charles",
+        "Opponent": "Mark",
+        "Season": 2020,
+        "Week": 2,
+        "Points": 163.0,
+        "Diff": 81.0
+      }
+    ]
+  }
+}
