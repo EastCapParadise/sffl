@@ -4,7 +4,10 @@
     "abbreviation": "SFFL",
     "espn_league_id": 820785,
     "founded": 2013,
-    "current_season": 2025
+    "current_season": 2025,
+    "current_champion": "Russell",
+    "current_champion_full": "Russell Strickland",
+    "current_champion_season": 2025
   },
   "theme": {
     "primary": "#0a1628",
