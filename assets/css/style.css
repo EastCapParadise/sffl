@@ -450,3 +450,273 @@ a:hover {
 /* ============================================================
    RESPONSIVE
    ============================================================ */
+
+   /* ============================================================
+   PAGE HEADER
+   ============================================================ */
+
+.page-header {
+  background: linear-gradient(135deg, var(--primary) 0%, #0d1f3c 100%);
+  border-bottom: 3px solid var(--secondary);
+  padding: 48px 0;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.season-selector {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.selector-label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.selector-dropdown {
+  background-color: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.selector-dropdown:hover,
+.selector-dropdown:focus {
+  border-color: var(--secondary);
+}
+
+.selector-small {
+  font-size: 0.9rem;
+  padding: 8px 12px;
+}
+
+.week-selector-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* ============================================================
+   SEASON CHAMPION CARD
+   ============================================================ */
+
+.season-champion-card {
+  background: linear-gradient(135deg, var(--card) 0%, #162032 100%);
+  border: 2px solid var(--secondary);
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+}
+
+.season-champion-trophy {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.season-champion-label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+}
+
+.season-champion-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  color: var(--secondary);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 8px;
+}
+
+.season-champion-record {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+.season-champion-pts {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-top: 4px;
+}
+
+/* ============================================================
+   PLAYOFF RESULTS
+   ============================================================ */
+
+.playoff-round {
+  margin-bottom: 32px;
+}
+
+.playoff-round-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--secondary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.playoff-matchups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
+
+.playoff-matchup {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.playoff-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.playoff-team:last-child {
+  border-bottom: none;
+}
+
+.playoff-team.winner {
+  background-color: rgba(201, 168, 76, 0.08);
+}
+
+.playoff-team-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.playoff-team.winner .playoff-team-name {
+  color: var(--secondary);
+}
+
+.playoff-team-score {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.playoff-team.winner .playoff-team-score {
+  color: var(--secondary);
+}
+
+.playoff-win-badge {
+  font-size: 0.7rem;
+  color: var(--secondary);
+  margin-left: 8px;
+}
+
+/* ============================================================
+   WEEK BY WEEK MATCHUPS
+   ============================================================ */
+
+.matchups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.matchup-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.matchup-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.matchup-team:last-child {
+  border-bottom: none;
+}
+
+.matchup-team.winner {
+  background-color: rgba(201, 168, 76, 0.08);
+}
+
+.matchup-team-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchup-team-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.matchup-team.winner .matchup-team-name {
+  color: var(--secondary);
+}
+
+.matchup-team-record {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.matchup-score {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.matchup-team.winner .matchup-score {
+  color: var(--secondary);
+}
+
+@media (max-width: 768px) {
+  .matchups-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .playoff-matchups {
+    grid-template-columns: 1fr;
+  }
+
+  .season-champion-name {
+    font-size: 2rem;
+  }
+}
