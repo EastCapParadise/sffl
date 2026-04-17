@@ -1,0 +1,21 @@
+{
+  "league": {
+    "name": "Strickland Fantasy Football League",
+    "abbreviation": "SFFL",
+    "espn_league_id": 820785,
+    "founded": 2013,
+    "current_season": 2025
+  },
+  "theme": {
+    "primary": "#0a1628",
+    "secondary": "#c9a84c",
+    "accent": "#ffffff",
+    "background": "#111827",
+    "card": "#1e2a3a",
+    "text": "#e2e8f0"
+  },
+  "owners": {
+    "active": ["Brian", "Watty", "Russell", "Charles", "Brent", "Michael", "Mark", "Matt", "David", "Emily", "BR", "Arnold", "Grayson", "Jordan"],
+    "historical": ["Abby", "Sarah"]
+  }
+}
