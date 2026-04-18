@@ -720,3 +720,204 @@ a:hover {
     font-size: 2rem;
   }
 }
+
+/* ============================================================
+   OWNER CARDS
+   ============================================================ */
+
+.owner-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.owner-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.owner-card:hover {
+  border-color: var(--secondary);
+  transform: translateY(-3px);
+  background-color: rgba(201, 168, 76, 0.05);
+}
+
+.owner-card-initial {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--secondary), #a07830);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.owner-card-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.owner-card-years {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.owner-card-record {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  color: var(--text);
+  margin-top: 8px;
+}
+
+.owner-card-badges {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ============================================================
+   OWNER PROFILE
+   ============================================================ */
+
+.back-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 32px;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.profile-initial {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--secondary), #a07830);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.profile-info h2 {
+  font-size: 2.5rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.profile-info p {
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.profile-badges {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.stat-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--secondary);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
+  color: var(--secondary);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ============================================================
+   CHART
+   ============================================================ */
+
+.chart-wrapper {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  max-height: 400px;
+}
+
+/* ============================================================
+   RESPONSIVE OWNERS
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-badges {
+    justify-content: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
