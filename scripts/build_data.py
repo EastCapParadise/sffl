@@ -346,6 +346,196 @@ def calculate_founding_brothers(rs, po):
     return results
 
 # ============================================================
+# STEP 8 - WOODSHEDS
+# ============================================================
+def calculate_woodsheds(rs, po):
+    print("Calculating woodsheds...")
+    MARGIN = 50.0
+
+    # Regular season: compute signed margin for every row
+    rs_m = rs.copy()
+    rs_m["Margin"] = rs_m["Points"] - rs_m["Opp Score"]
+
+    # RS woodshed entries (winner perspective only: Margin >= 50)
+    rs_entries = [
+        {
+            "manager": str(r["Manager"]),
+            "opponent": str(r["Opponent"]),
+            "season": int(r["Season"]),
+            "week": int(r["Week"]),
+            "points": round(float(r["Points"]), 2),
+            "opp_score": round(float(r["Opp Score"]), 2),
+            "margin": round(float(r["Margin"]), 2),
+            "type": "regular"
+        }
+        for _, r in rs_m[rs_m["Margin"] >= MARGIN].iterrows()
+    ]
+
+    # Playoff: build O(1) lookup then compute margins once per row
+    po_lookup = {
+        (int(r["Season"]), str(r["Round"]), str(r["Manager"]), str(r["Opponent"])): float(r["Points"])
+        for _, r in po.iterrows()
+    }
+    po_games = []  # (manager, opponent, season, round_str, points, opp_score, margin)
+    for _, row in po.iterrows():
+        opp_key = (int(row["Season"]), str(row["Round"]), str(row["Opponent"]), str(row["Manager"]))
+        if opp_key not in po_lookup:
+            continue
+        opp_score = po_lookup[opp_key]
+        margin = float(row["Points"]) - opp_score
+        po_games.append((
+            str(row["Manager"]), str(row["Opponent"]),
+            int(row["Season"]), str(row["Round"]),
+            float(row["Points"]), opp_score, margin
+        ))
+
+    # Playoff woodshed entries (winner perspective: margin >= 50)
+    po_entries = [
+        {
+            "manager": g[0], "opponent": g[1],
+            "season": g[2], "week": g[3],
+            "points": round(g[4], 2), "opp_score": round(g[5], 2),
+            "margin": round(g[6], 2), "type": "playoff"
+        }
+        for g in po_games if g[6] >= MARGIN
+    ]
+
+    all_ws = sorted(rs_entries + po_entries, key=lambda x: x["margin"], reverse=True)
+    top10 = all_ws[:10]
+
+    # Per-owner stats (regular + playoff)
+    owner_stats = {}
+    for manager in rs["Manager"].unique():
+        mgr = rs_m[rs_m["Manager"] == manager]
+        rs_given    = int((mgr["Margin"] >= MARGIN).sum())
+        rs_received = int((mgr["Margin"] <= -MARGIN).sum())
+        po_given    = sum(1 for g in po_games if g[0] == manager and g[6] >= MARGIN)
+        po_received = sum(1 for g in po_games if g[0] == manager and g[6] <= -MARGIN)
+        owner_stats[manager] = {
+            "given":    rs_given + po_given,
+            "received": rs_received + po_received
+        }
+
+    print(f"  Found {len(all_ws)} woodsheds ({len(rs_entries)} regular, {len(po_entries)} playoff)")
+    return {"top10": top10, "by_owner": owner_stats}
+
+
+# ============================================================
+# STEP 9 - WIN / LOSS STREAKS
+# ============================================================
+def calculate_streaks(rs):
+    print("Calculating streaks...")
+
+    ACTIVE_OWNERS = {
+        "Brian", "Watty", "Russell", "Charles", "Brent",
+        "Michael", "Mark", "Matt", "David", "Emily",
+        "BR", "Arnold", "Grayson", "Jordan"
+    }
+
+    all_win_streaks  = []
+    all_loss_streaks = []
+    current_streaks  = {}
+
+    for manager in rs["Manager"].unique():
+        games = list(
+            rs[rs["Manager"] == manager]
+            .sort_values(["Season", "Week"])[["Season", "Week", "Outcome"]]
+            .itertuples(index=False, name=None)
+        )  # each element: (season, week, outcome)
+
+        if not games:
+            continue
+
+        # Walk through finding every streak segment
+        i = 0
+        while i < len(games):
+            outcome = games[i][2]
+            j = i + 1
+            while j < len(games) and games[j][2] == outcome:
+                j += 1
+            # Streak from index i to j-1
+            if outcome in ("W", "L"):
+                entry = {
+                    "owner":        manager,
+                    "length":       j - i,
+                    "start_season": int(games[i][0]),
+                    "start_week":   int(games[i][1]),
+                    "end_season":   int(games[j - 1][0]),
+                    "end_week":     int(games[j - 1][1])
+                }
+                (all_win_streaks if outcome == "W" else all_loss_streaks).append(entry)
+            i = j
+
+        # Current active streak for active owners
+        if manager in ACTIVE_OWNERS:
+            last_outcome = games[-1][2]
+            if last_outcome in ("W", "L"):
+                length = 0
+                for k in range(len(games) - 1, -1, -1):
+                    if games[k][2] == last_outcome:
+                        length += 1
+                    else:
+                        break
+                current_streaks[manager] = {
+                    "owner": manager, "streak_type": last_outcome, "length": length
+                }
+
+    all_win_streaks.sort(key=lambda x: x["length"], reverse=True)
+    all_loss_streaks.sort(key=lambda x: x["length"], reverse=True)
+
+    print(f"  Calculated streaks for {len(current_streaks)} active owners")
+    return {
+        "top_win_streaks":  all_win_streaks[:10],
+        "top_loss_streaks": all_loss_streaks[:10],
+        "current":          current_streaks
+    }
+
+
+# ============================================================
+# STEP 10 - DIVISIONAL RECORDS
+# ============================================================
+def calculate_divisional_records(rs):
+    print("Calculating divisional records...")
+
+    TEXAROK = {"Brent", "Brian", "David", "Emily", "Jordan", "Matt", "Russell", "Sarah"}
+    AKCOVA  = {"Abby", "Arnold", "BR", "Charles", "Grayson", "Mark", "Michael", "Watty"}
+
+    def div_record(games):
+        return {
+            "wins":          int((games["Outcome"] == "W").sum()),
+            "losses":        int((games["Outcome"] == "L").sum()),
+            "ties":          int((games["Outcome"] == "T").sum()),
+            "points_for":    round(float(games["Points"].sum()), 2),
+            "points_against": round(float(games["Opp Score"].sum()), 2)
+        }
+
+    # Interdivisional only: TEXAROK side vs AKCOVA side
+    inter = rs[
+        (rs["Manager"].isin(TEXAROK) & rs["Opponent"].isin(AKCOVA)) |
+        (rs["Manager"].isin(AKCOVA)  & rs["Opponent"].isin(TEXAROK))
+    ]
+
+    # Season by season
+    season_records = {}
+    for season in sorted(inter["Season"].unique()):
+        s = inter[inter["Season"] == season]
+        season_records[int(season)] = {
+            "season":  int(season),
+            "TEXAROK": div_record(s[s["Manager"].isin(TEXAROK)]),
+            "AKCOVA":  div_record(s[s["Manager"].isin(AKCOVA)])
+        }
+
+    # All-time totals
+    all_time = {
+        "TEXAROK": div_record(inter[inter["Manager"].isin(TEXAROK)]),
+        "AKCOVA":  div_record(inter[inter["Manager"].isin(AKCOVA)])
+    }
+
+    print(f"  Calculated divisional records for {len(season_records)} seasons")
+    return {"seasons": season_records, "all_time": all_time}
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -365,8 +555,17 @@ def main():
     
     # Check ESPN for current season
     pull_espn_current(CURRENT_SEASON, rs)
-    
+
     founding_brothers = calculate_founding_brothers(rs, po)
+    woodsheds         = calculate_woodsheds(rs, po)
+    streaks           = calculate_streaks(rs)
+    divisional        = calculate_divisional_records(rs)
+
+    # Merge woodshed career stats into each owner
+    for manager, ws in woodsheds["by_owner"].items():
+        if manager in owners:
+            owners[manager]["career"]["woodsheds_given"]    = ws["given"]
+            owners[manager]["career"]["woodsheds_received"] = ws["received"]
 
     # Combine everything
     data = {
@@ -381,7 +580,10 @@ def main():
         "head_to_head": h2h,
         "seasons": seasons,
         "records": records,
-        "founding_brothers": founding_brothers
+        "founding_brothers": founding_brothers,
+        "woodsheds": woodsheds,
+        "streaks": streaks,
+        "divisional": divisional
     }
     
     # Write output
