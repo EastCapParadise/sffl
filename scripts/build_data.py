@@ -266,8 +266,79 @@ def pull_espn_current(current_season, rs):
     return None
 
 # ============================================================
+# STEP 7 - FOUNDING BROTHERS CUP
+# ============================================================
+def calculate_founding_brothers(rs, po):
+    print("Calculating Founding Brothers Cup...")
+    founders = ["David", "Russell", "Watty", "BR"]
+    results = {}
+
+    for season in sorted(rs["Season"].unique()):
+        s_rs = rs[rs["Season"] == season]
+        
+        # Only matchups between the four founders
+        founder_rs = s_rs[
+            s_rs["Manager"].isin(founders) & s_rs["Opponent"].isin(founders)
+        ]
+        
+        # Count wins and points for each founder
+        standings = {}
+        for founder in founders:
+            f_games = founder_rs[founder_rs["Manager"] == founder]
+            wins = len(f_games[f_games["Outcome"] == "W"])
+            pts = round(float(f_games["Points"].sum()), 2)
+            standings[founder] = {"wins": wins, "points": pts}
+        
+        # Check for playoff matchups between founders
+        s_po = po[po["Season"] == season]
+        founder_po = s_po[
+            s_po["Manager"].isin(founders) & s_po["Opponent"].isin(founders)
+        ]
+        playoff_wins = {}
+        for founder in founders:
+            f_po = founder_po[founder_po["Manager"] == founder]
+            playoff_wins[founder] = len(f_po[f_po["Outcome"] == "W"])
+
+        # Determine winner(s)
+        max_wins = max(v["wins"] for v in standings.values())
+        leaders = [f for f, v in standings.items() if v["wins"] == max_wins]
+
+        if len(leaders) == 1:
+            winner = leaders
+        else:
+            # Tiebreaker 1: playoff wins between founders
+            max_po_wins = max(playoff_wins[f] for f in leaders)
+            leaders = [f for f in leaders if playoff_wins[f] == max_po_wins]
+
+            if len(leaders) == 1:
+                winner = leaders
+            else:
+                # Tiebreaker 2: total points against each other
+                max_pts = max(standings[f]["points"] for f in leaders)
+                leaders = [f for f in leaders if standings[f]["points"] == max_pts]
+                winner = leaders  # co-winners if still tied
+
+        results[int(season)] = {
+            "season": int(season),
+            "winner": winner,
+            "standings": [
+                {
+                    "owner": f,
+                    "wins": standings[f]["wins"],
+                    "points": standings[f]["points"],
+                    "playoff_wins": playoff_wins[f]
+                }
+                for f in founders
+            ]
+        }
+
+    print(f"  Calculated Founding Brothers Cup for {len(results)} seasons")
+    return results
+
+# ============================================================
 # MAIN
 # ============================================================
+
 def main():
     print("=" * 50)
     print("SFFL Data Builder")
@@ -285,6 +356,8 @@ def main():
     # Check ESPN for current season
     pull_espn_current(CURRENT_SEASON, rs)
     
+    founding_brothers = calculate_founding_brothers(rs, po)
+
     # Combine everything
     data = {
         "meta": {
@@ -297,7 +370,8 @@ def main():
         "owners": owners,
         "head_to_head": h2h,
         "seasons": seasons,
-        "records": records
+        "records": records,
+        "founding_brothers": founding_brothers
     }
     
     # Write output

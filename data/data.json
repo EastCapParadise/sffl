@@ -4,7 +4,7 @@
     "abbreviation": "SFFL",
     "founded": 2013,
     "current_season": 2025,
-    "last_updated": "2026-04-17 20:38"
+    "last_updated": "2026-04-17 23:08"
   },
   "owners": {
     "Mark": {
@@ -13502,5 +13502,423 @@
         "Diff": 81.0
       }
     ]
+  },
+  "founding_brothers": {
+    "2013": {
+      "season": 2013,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 1,
+          "points": 257.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 4,
+          "points": 546.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 1,
+          "points": 452.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 3,
+          "points": 419.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2014": {
+      "season": 2014,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 2,
+          "points": 289.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 370.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "Watty",
+          "wins": 0,
+          "points": 258.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 2,
+          "points": 316.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2015": {
+      "season": 2015,
+      "winner": [
+        "David"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 3,
+          "points": 331.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 2,
+          "points": 245.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 0,
+          "points": 265.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 2,
+          "points": 292.0,
+          "playoff_wins": 1
+        }
+      ]
+    },
+    "2016": {
+      "season": 2016,
+      "winner": [
+        "David"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 4,
+          "points": 328.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "Russell",
+          "wins": 2,
+          "points": 237.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 0,
+          "points": 303.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 1,
+          "points": 229.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2017": {
+      "season": 2017,
+      "winner": [
+        "Watty"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 1,
+          "points": 263.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 2,
+          "points": 251.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 3,
+          "points": 324.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "BR",
+          "wins": 1,
+          "points": 252.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "winner": [
+        "BR"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 0,
+          "points": 326.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 386.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 2,
+          "points": 411.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 3,
+          "points": 379.0,
+          "playoff_wins": 1
+        }
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 2,
+          "points": 345.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 391.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 1,
+          "points": 353.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 2,
+          "points": 336.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 2,
+          "points": 341.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 425.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 2,
+          "points": 329.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "BR",
+          "wins": 1,
+          "points": 313.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 1,
+          "points": 262.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 358.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 1,
+          "points": 334.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 2,
+          "points": 347.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 3,
+          "points": 321.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 447.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 2,
+          "points": 366.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 0,
+          "points": 200.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2023": {
+      "season": 2023,
+      "winner": [
+        "Watty"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 3,
+          "points": 354.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 1,
+          "points": 349.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Watty",
+          "wins": 4,
+          "points": 453.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "BR",
+          "wins": 1,
+          "points": 369.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2024": {
+      "season": 2024,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 1,
+          "points": 339.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 2,
+          "points": 333.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "Watty",
+          "wins": 2,
+          "points": 361.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 1,
+          "points": 292.0,
+          "playoff_wins": 0
+        }
+      ]
+    },
+    "2025": {
+      "season": 2025,
+      "winner": [
+        "Russell"
+      ],
+      "standings": [
+        {
+          "owner": "David",
+          "wins": 2,
+          "points": 419.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "Russell",
+          "wins": 3,
+          "points": 428.0,
+          "playoff_wins": 1
+        },
+        {
+          "owner": "Watty",
+          "wins": 2,
+          "points": 299.0,
+          "playoff_wins": 0
+        },
+        {
+          "owner": "BR",
+          "wins": 0,
+          "points": 307.0,
+          "playoff_wins": 0
+        }
+      ]
+    }
   }
 }
