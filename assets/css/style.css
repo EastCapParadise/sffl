@@ -1132,3 +1132,123 @@ a:hover {
     padding-top: 0;
   }
 }
+
+/* ============================================================
+   PLAYOFFS PAGE
+   ============================================================ */
+
+.subsection-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* FOUNDING BROTHERS LEADERBOARD */
+.fb-leaderboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.fb-leader-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.fb-leader-card:hover {
+  border-color: var(--secondary);
+}
+
+.fb-leader-card.top {
+  border-color: var(--secondary);
+  background: linear-gradient(135deg, var(--card), #162032);
+}
+
+.fb-leader-initial {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--secondary), #a07830);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.fb-leader-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fb-leader-wins {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  color: var(--secondary);
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 8px;
+}
+
+.fb-leader-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* FOUNDING BROTHERS SEASON */
+.fb-season-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.fb-season-winner {
+  background: linear-gradient(90deg, var(--secondary), #a07830);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.fb-season-winner-label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary);
+}
+
+.fb-season-winner-name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.fb-season-standings {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .fb-leaderboard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

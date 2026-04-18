@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFFL | Playoffs</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="assets/logo.png" alt="SFFL Logo" class="nav-logo" />
+        <span class="nav-title">SFFL</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seasons.html">Seasons</a></li>
+        <li><a href="owners.html">Owners</a></li>
+        <li><a href="head-to-head.html">Head to Head</a></li>
+        <li><a href="playoffs.html" class="active">Playoffs</a></li>
+        <li><a href="records.html">Records</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title">Playoffs & Championships</h1>
+      <p class="page-subtitle">Playoff history, records and the Founding Brothers Cup</p>
+    </div>
+  </section>
+
+  <!-- CHAMPIONSHIP HISTORY -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Championship History</h2>
+      <div class="championship-grid" id="champ-history-grid"></div>
+    </div>
+  </section>
+
+  <!-- ALL TIME PLAYOFF RECORDS -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">All-Time Playoff Records</h2>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Owner</th>
+              <th>Appearances</th>
+              <th>W</th>
+              <th>L</th>
+              <th>Win %</th>
+              <th>Championships</th>
+              <th>Division Titles</th>
+            </tr>
+          </thead>
+          <tbody id="playoff-records-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEASON PLAYOFF BRACKET -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Season Playoff Bracket</h2>
+      <div class="season-selector" style="margin-bottom: 32px;">
+        <label class="selector-label">Select Season</label>
+        <select id="bracket-season-select" class="selector-dropdown"></select>
+      </div>
+      <div id="bracket-results"></div>
+    </div>
+  </section>
+
+  <!-- FOUNDING BROTHERS CUP -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">⚔️ Founding Brothers Cup</h2>
+      <p class="page-subtitle" style="margin-bottom: 32px;">
+        All-time record between David, Russell, Watty and BR
+      </p>
+
+      <!-- All Time Leaderboard -->
+      <h3 class="subsection-title">All-Time Leaderboard</h3>
+      <div class="fb-leaderboard" id="fb-leaderboard"></div>
+
+      <!-- Year by Year -->
+      <h3 class="subsection-title" style="margin-top: 48px;">Year by Year</h3>
+      <div class="season-selector" style="margin-bottom: 32px;">
+        <label class="selector-label">Select Season</label>
+        <select id="fb-season-select" class="selector-dropdown"></select>
+      </div>
+      <div id="fb-season-results"></div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Strickland Fantasy Football League &nbsp;|&nbsp; Est. 2013</p>
+      <p class="footer-sub">Last updated: <span id="last-updated"></span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/playoffs.js"></script>
+
+</body>
+</html>
