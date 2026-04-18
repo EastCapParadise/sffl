@@ -7,7 +7,7 @@ let SFFL_DATA = null;
 
 async function loadData() {
   try {
-    const response = await fetch('data/data.json');
+    const response = await fetch('data/data.json?v=' + Date.now());
     SFFL_DATA = await response.json();
     return SFFL_DATA;
   } catch (error) {

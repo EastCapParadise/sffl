@@ -197,6 +197,10 @@ function loadBracket(season) {
 
 function buildFBLeaderboard(data) {
   const el = document.getElementById('fb-leaderboard');
+  if (!data.founding_brothers) {
+    el.innerHTML = '<p style="color:var(--text-muted)">Founding Brothers data unavailable.</p>';
+    return;
+  }
   const founders = ['David', 'Russell', 'Watty', 'BR'];
 
   // Count wins per founder
@@ -230,6 +234,7 @@ function buildFBLeaderboard(data) {
 
 function buildFBSeasonDropdown(data) {
   const select = document.getElementById('fb-season-select');
+  if (!data.founding_brothers) return;
   const seasons = Object.keys(data.founding_brothers).map(Number).sort((a, b) => b - a);
 
   select.innerHTML = seasons.map(s =>
