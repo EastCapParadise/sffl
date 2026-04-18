@@ -80,7 +80,7 @@ function getMatchupHistory(owner1, owner2) {
             type: 'regular',
             owner1score: o1score,
             owner2score: o2score,
-            winner: o1score > o2score ? owner1 : owner2,
+            winner: o1score > o2score ? owner1 : o1score < o2score ? owner2 : 'Tie',
             margin: Math.abs(o1score - o2score).toFixed(1)
           });
         }
@@ -107,7 +107,7 @@ function getMatchupHistory(owner1, owner2) {
                 type: 'playoff',
                 owner1score: o1score,
                 owner2score: o2score,
-                winner: o1score > o2score ? owner1 : owner2,
+                winner: o1score > o2score ? owner1 : o1score < o2score ? owner2 : 'Tie',
                 margin: Math.abs(o1score - o2score).toFixed(1)
               });
             }
@@ -235,10 +235,11 @@ function buildMatchupHistory(owner1, owner2, matchups) {
   }
 
   tbody.innerHTML = matchups.map(m => {
-    const winner = m.winner;
-    const loser = winner === owner1 ? owner2 : owner1;
-    const winScore = winner === owner1 ? m.owner1score : m.owner2score;
-    const loseScore = winner === owner1 ? m.owner2score : m.owner1score;
+    const isTie = m.winner === 'Tie';
+    const winner = isTie ? '—' : m.winner;
+    const loser = isTie ? '—' : (m.winner === owner1 ? owner2 : owner1);
+    const winScore = isTie ? m.owner1score : (m.winner === owner1 ? m.owner1score : m.owner2score);
+    const loseScore = isTie ? m.owner2score : (m.winner === owner1 ? m.owner2score : m.owner1score);
     const typeBadge = m.type === 'playoff'
       ? `<span class="type-badge type-playoff">Playoff</span>`
       : `<span class="type-badge type-regular">Regular</span>`;
@@ -248,7 +249,7 @@ function buildMatchupHistory(owner1, owner2, matchups) {
         <td>${m.season}</td>
         <td>${m.week}</td>
         <td>${typeBadge}</td>
-        <td><strong style="color:var(--secondary)">${winner}</strong></td>
+        <td><strong style="color:${isTie ? 'var(--text-muted)' : 'var(--secondary)'}">${isTie ? 'Tie' : winner}</strong></td>
         <td>${winScore.toFixed(1)}</td>
         <td>${loser}</td>
         <td>${loseScore.toFixed(1)}</td>
