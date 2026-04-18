@@ -4,7 +4,7 @@
     "abbreviation": "SFFL",
     "founded": 2013,
     "current_season": 2025,
-    "last_updated": "2026-04-17 23:08"
+    "last_updated": "2026-04-17 23:47"
   },
   "owners": {
     "Mark": {
@@ -13513,24 +13513,28 @@
         {
           "owner": "David",
           "wins": 1,
+          "losses": 2,
           "points": 257.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 4,
+          "losses": 1,
           "points": 546.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 1,
+          "losses": 4,
           "points": 452.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 3,
+          "losses": 2,
           "points": 419.0,
           "playoff_wins": 0
         }
@@ -13545,24 +13549,28 @@
         {
           "owner": "David",
           "wins": 2,
+          "losses": 1,
           "points": 289.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 1,
           "points": 370.0,
           "playoff_wins": 1
         },
         {
           "owner": "Watty",
           "wins": 0,
+          "losses": 3,
           "points": 258.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 2,
+          "losses": 2,
           "points": 316.0,
           "playoff_wins": 0
         }
@@ -13577,24 +13585,28 @@
         {
           "owner": "David",
           "wins": 3,
+          "losses": 1,
           "points": 331.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 2,
+          "losses": 1,
           "points": 245.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 0,
+          "losses": 4,
           "points": 265.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 2,
+          "losses": 1,
           "points": 292.0,
           "playoff_wins": 1
         }
@@ -13609,24 +13621,28 @@
         {
           "owner": "David",
           "wins": 4,
+          "losses": 0,
           "points": 328.0,
           "playoff_wins": 1
         },
         {
           "owner": "Russell",
           "wins": 2,
+          "losses": 1,
           "points": 237.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 0,
+          "losses": 4,
           "points": 303.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 1,
+          "losses": 2,
           "points": 229.0,
           "playoff_wins": 0
         }
@@ -13641,24 +13657,28 @@
         {
           "owner": "David",
           "wins": 1,
+          "losses": 3,
           "points": 263.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 2,
+          "losses": 1,
           "points": 251.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 3,
+          "losses": 1,
           "points": 324.0,
           "playoff_wins": 1
         },
         {
           "owner": "BR",
           "wins": 1,
+          "losses": 2,
           "points": 252.0,
           "playoff_wins": 0
         }
@@ -13673,24 +13693,28 @@
         {
           "owner": "David",
           "wins": 0,
+          "losses": 4,
           "points": 326.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 1,
           "points": 386.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 2,
+          "losses": 2,
           "points": 411.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 3,
+          "losses": 1,
           "points": 379.0,
           "playoff_wins": 1
         }
@@ -13705,24 +13729,28 @@
         {
           "owner": "David",
           "wins": 2,
+          "losses": 2,
           "points": 345.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 1,
           "points": 391.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 1,
+          "losses": 3,
           "points": 353.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 2,
+          "losses": 2,
           "points": 336.0,
           "playoff_wins": 0
         }
@@ -13737,24 +13765,28 @@
         {
           "owner": "David",
           "wins": 2,
+          "losses": 2,
           "points": 341.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 1,
           "points": 425.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 2,
+          "losses": 2,
           "points": 329.0,
           "playoff_wins": 1
         },
         {
           "owner": "BR",
           "wins": 1,
+          "losses": 3,
           "points": 313.0,
           "playoff_wins": 0
         }
@@ -13769,24 +13801,28 @@
         {
           "owner": "David",
           "wins": 1,
+          "losses": 2,
           "points": 262.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 1,
           "points": 358.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 1,
+          "losses": 3,
           "points": 334.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 2,
+          "losses": 1,
           "points": 347.0,
           "playoff_wins": 0
         }
@@ -13795,30 +13831,34 @@
     "2022": {
       "season": 2022,
       "winner": [
-        "Russell"
+        "David"
       ],
       "standings": [
         {
           "owner": "David",
           "wins": 3,
+          "losses": 1,
           "points": 321.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 2,
           "points": 447.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 2,
+          "losses": 2,
           "points": 366.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 0,
+          "losses": 3,
           "points": 200.0,
           "playoff_wins": 0
         }
@@ -13833,24 +13873,28 @@
         {
           "owner": "David",
           "wins": 3,
+          "losses": 1,
           "points": 354.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 1,
+          "losses": 4,
           "points": 349.0,
           "playoff_wins": 0
         },
         {
           "owner": "Watty",
           "wins": 4,
+          "losses": 1,
           "points": 453.0,
           "playoff_wins": 1
         },
         {
           "owner": "BR",
           "wins": 1,
+          "losses": 3,
           "points": 369.0,
           "playoff_wins": 0
         }
@@ -13865,24 +13909,28 @@
         {
           "owner": "David",
           "wins": 1,
+          "losses": 2,
           "points": 339.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 2,
+          "losses": 1,
           "points": 333.0,
           "playoff_wins": 1
         },
         {
           "owner": "Watty",
           "wins": 2,
+          "losses": 1,
           "points": 361.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 1,
+          "losses": 2,
           "points": 292.0,
           "playoff_wins": 0
         }
@@ -13897,24 +13945,28 @@
         {
           "owner": "David",
           "wins": 2,
+          "losses": 2,
           "points": 419.0,
           "playoff_wins": 0
         },
         {
           "owner": "Russell",
           "wins": 3,
+          "losses": 1,
           "points": 428.0,
           "playoff_wins": 1
         },
         {
           "owner": "Watty",
           "wins": 2,
+          "losses": 1,
           "points": 299.0,
           "playoff_wins": 0
         },
         {
           "owner": "BR",
           "wins": 0,
+          "losses": 3,
           "points": 307.0,
           "playoff_wins": 0
         }

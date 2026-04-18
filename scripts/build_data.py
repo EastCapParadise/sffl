@@ -281,14 +281,15 @@ def calculate_founding_brothers(rs, po):
             s_rs["Manager"].isin(founders) & s_rs["Opponent"].isin(founders)
         ]
         
-        # Count wins and points for each founder
+        # Count wins, losses, and points for each founder
         standings = {}
         for founder in founders:
             f_games = founder_rs[founder_rs["Manager"] == founder]
             wins = len(f_games[f_games["Outcome"] == "W"])
+            losses = len(f_games[f_games["Outcome"] == "L"])
             pts = round(float(f_games["Points"].sum()), 2)
-            standings[founder] = {"wins": wins, "points": pts}
-        
+            standings[founder] = {"wins": wins, "losses": losses, "points": pts}
+
         # Check for playoff matchups between founders
         s_po = po[po["Season"] == season]
         founder_po = s_po[
@@ -299,24 +300,32 @@ def calculate_founding_brothers(rs, po):
             f_po = founder_po[founder_po["Manager"] == founder]
             playoff_wins[founder] = len(f_po[f_po["Outcome"] == "W"])
 
-        # Determine winner(s)
+        # Determine winner(s) with tiebreaker order:
+        # 1. Most wins  2. Fewest losses  3. Most playoff wins  4. Most points
         max_wins = max(v["wins"] for v in standings.values())
         leaders = [f for f, v in standings.items() if v["wins"] == max_wins]
 
         if len(leaders) == 1:
             winner = leaders
         else:
-            # Tiebreaker 1: playoff wins between founders
-            max_po_wins = max(playoff_wins[f] for f in leaders)
-            leaders = [f for f in leaders if playoff_wins[f] == max_po_wins]
+            # Tiebreaker 1: fewest losses
+            min_losses = min(standings[f]["losses"] for f in leaders)
+            leaders = [f for f in leaders if standings[f]["losses"] == min_losses]
 
             if len(leaders) == 1:
                 winner = leaders
             else:
-                # Tiebreaker 2: total points against each other
-                max_pts = max(standings[f]["points"] for f in leaders)
-                leaders = [f for f in leaders if standings[f]["points"] == max_pts]
-                winner = leaders  # co-winners if still tied
+                # Tiebreaker 2: most playoff wins against founders
+                max_po_wins = max(playoff_wins[f] for f in leaders)
+                leaders = [f for f in leaders if playoff_wins[f] == max_po_wins]
+
+                if len(leaders) == 1:
+                    winner = leaders
+                else:
+                    # Tiebreaker 3: most points against founders
+                    max_pts = max(standings[f]["points"] for f in leaders)
+                    leaders = [f for f in leaders if standings[f]["points"] == max_pts]
+                    winner = leaders  # co-winners if still tied
 
         results[int(season)] = {
             "season": int(season),
@@ -325,6 +334,7 @@ def calculate_founding_brothers(rs, po):
                 {
                     "owner": f,
                     "wins": standings[f]["wins"],
+                    "losses": standings[f]["losses"],
                     "points": standings[f]["points"],
                     "playoff_wins": playoff_wins[f]
                 }
