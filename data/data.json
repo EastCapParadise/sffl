@@ -4,7 +4,7 @@
     "abbreviation": "SFFL",
     "founded": 2013,
     "current_season": 2025,
-    "last_updated": "2026-04-17 16:42"
+    "last_updated": "2026-04-17 20:38"
   },
   "owners": {
     "Mark": {
@@ -3334,55 +3334,458 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Mark",
+              "score1": 138.0,
+              "team2": "Michael",
+              "score2": 80.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 83.0,
+              "team2": "BR",
+              "score2": 87.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 110.0,
+              "team2": "Brian",
+              "score2": 148.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 135.0,
+              "team2": "Russell",
+              "score2": 91.0
+            },
+            {
+              "team1": "David",
+              "score1": 98.0,
+              "team2": "Matt",
+              "score2": 78.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 81.0,
+              "team2": "Michael",
+              "score2": 122.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 77.0,
+              "team2": "Mark",
+              "score2": 94.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 129.0,
+              "team2": "Brian",
+              "score2": 97.0
+            },
+            {
+              "team1": "David",
+              "score1": 84.0,
+              "team2": "Watty",
+              "score2": 115.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 67.0,
+              "team2": "Emily",
+              "score2": 50.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 94.0,
+              "team2": "Watty",
+              "score2": 106.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 98.0,
+              "team2": "David",
+              "score2": 92.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 83.0,
+              "team2": "Abby",
+              "score2": 76.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 58.0,
+              "team2": "Mark",
+              "score2": 76.0
+            },
+            {
+              "team1": "BR",
+              "score1": 66.0,
+              "team2": "Russell",
+              "score2": 110.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 122.0,
+              "team2": "Michael",
+              "score2": 92.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 94.0,
+              "team2": "Matt",
+              "score2": 86.0
+            },
+            {
+              "team1": "David",
+              "score1": 75.0,
+              "team2": "Abby",
+              "score2": 92.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 99.0,
+              "team2": "BR",
+              "score2": 110.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 104.0,
+              "team2": "Russell",
+              "score2": 122.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 93.0,
+              "team2": "Michael",
+              "score2": 99.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 104.0,
+              "team2": "Brian",
+              "score2": 81.0
+            },
+            {
+              "team1": "David",
+              "score1": 84.0,
+              "team2": "Emily",
+              "score2": 64.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 78.0,
+              "team2": "BR",
+              "score2": 114.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 113.0,
+              "team2": "Mark",
+              "score2": 64.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 74.0,
+              "team2": "Emily",
+              "score2": 83.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 99.0,
+              "team2": "David",
+              "score2": 86.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 81.0,
+              "team2": "Matt",
+              "score2": 81.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 128.0,
+              "team2": "Abby",
+              "score2": 51.0
+            },
+            {
+              "team1": "BR",
+              "score1": 36.0,
+              "team2": "Brian",
+              "score2": 105.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "David",
+              "score1": 90.0,
+              "team2": "Michael",
+              "score2": 63.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 92.0,
+              "team2": "BR",
+              "score2": 75.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 91.0,
+              "team2": "Watty",
+              "score2": 92.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 87.0,
+              "team2": "Mark",
+              "score2": 83.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 88.0,
+              "team2": "Russell",
+              "score2": 82.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 90.0,
+              "team2": "Abby",
+              "score2": 87.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 75.0,
+              "team2": "Emily",
+              "score2": 86.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 81.0,
+              "team2": "Matt",
+              "score2": 80.0
+            },
+            {
+              "team1": "BR",
+              "score1": 114.0,
+              "team2": "David",
+              "score2": 94.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 120.0,
+              "team2": "Brian",
+              "score2": 114.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 88.0,
+              "team2": "Russell",
+              "score2": 103.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 82.0,
+              "team2": "David",
+              "score2": 111.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 101.0,
+              "team2": "Emily",
+              "score2": 76.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 124.0,
+              "team2": "BR",
+              "score2": 60.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 120.0,
+              "team2": "Watty",
+              "score2": 53.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 120.0,
+              "team2": "Mark",
+              "score2": 89.0
+            },
+            {
+              "team1": "BR",
+              "score1": 77.0,
+              "team2": "Watty",
+              "score2": 50.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 124.0,
+              "team2": "Matt",
+              "score2": 100.0
+            },
+            {
+              "team1": "David",
+              "score1": 79.0,
+              "team2": "Russell",
+              "score2": 76.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 87.0,
+              "team2": "Abby",
+              "score2": 91.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "BR",
+              "score2": 95.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 76.0,
+              "team2": "Russell",
+              "score2": 80.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 89.0,
+              "team2": "Matt",
+              "score2": 105.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 79.0,
+              "team2": "Watty",
+              "score2": 96.0
+            },
+            {
+              "team1": "David",
+              "score1": 97.0,
+              "team2": "Brian",
+              "score2": 111.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 94.0,
+              "team2": "Michael",
+              "score2": 73.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 79.0,
+              "team2": "Emily",
+              "score2": 49.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 80.0,
+              "team2": "David",
+              "score2": 86.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 130.0,
+              "team2": "Mark",
+              "score2": 67.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 111.0,
+              "team2": "BR",
+              "score2": 75.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Matt",
+              "score1": 76.0,
+              "team2": "Michael",
+              "score2": 88.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 119.0,
+              "team2": "Abby",
+              "score2": 89.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 64.0,
+              "team2": "David",
+              "score2": 60.0
+            },
+            {
+              "team1": "BR",
+              "score1": 74.0,
+              "team2": "Mark",
+              "score2": 53.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 127.0,
+              "team2": "Watty",
+              "score2": 100.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -3547,55 +3950,458 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 70.0,
+              "team2": "Matt",
+              "score2": 82.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 105.0,
+              "team2": "Brian",
+              "score2": 95.0
+            },
+            {
+              "team1": "BR",
+              "score1": 99.0,
+              "team2": "Abby",
+              "score2": 77.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 85.0,
+              "team2": "Russell",
+              "score2": 87.0
+            },
+            {
+              "team1": "David",
+              "score1": 108.0,
+              "team2": "Emily",
+              "score2": 118.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Mark",
+              "score1": 86.0,
+              "team2": "Michael",
+              "score2": 59.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 80.0,
+              "team2": "BR",
+              "score2": 88.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 59.0,
+              "team2": "Abby",
+              "score2": 85.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 109.0,
+              "team2": "David",
+              "score2": 89.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 93.0,
+              "team2": "Emily",
+              "score2": 69.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 75.0,
+              "team2": "Michael",
+              "score2": 82.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 54.0,
+              "team2": "Mark",
+              "score2": 98.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 70.0,
+              "team2": "Watty",
+              "score2": 98.0
+            },
+            {
+              "team1": "BR",
+              "score1": 84.0,
+              "team2": "David",
+              "score2": 86.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 60.0,
+              "team2": "Russell",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 96.0,
+              "team2": "Russell",
+              "score2": 93.0
+            },
+            {
+              "team1": "David",
+              "score1": 126.0,
+              "team2": "Matt",
+              "score2": 62.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 115.0,
+              "team2": "Watty",
+              "score2": 98.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 43.0,
+              "team2": "Emily",
+              "score2": 74.0
+            },
+            {
+              "team1": "BR",
+              "score1": 89.0,
+              "team2": "Brian",
+              "score2": 68.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 71.0,
+              "team2": "David",
+              "score2": 98.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 100.0,
+              "team2": "Emily",
+              "score2": 60.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 81.0,
+              "team2": "BR",
+              "score2": 68.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 120.0,
+              "team2": "Matt",
+              "score2": 89.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 99.0,
+              "team2": "Abby",
+              "score2": 81.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 77.0,
+              "team2": "Watty",
+              "score2": 81.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 79.0,
+              "team2": "BR",
+              "score2": 79.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 129.0,
+              "team2": "Brian",
+              "score2": 149.0
+            },
+            {
+              "team1": "David",
+              "score1": 119.0,
+              "team2": "Mark",
+              "score2": 94.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 79.0,
+              "team2": "Abby",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 77.0,
+              "team2": "Michael",
+              "score2": 76.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 86.0,
+              "team2": "Emily",
+              "score2": 50.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 82.0,
+              "team2": "Russell",
+              "score2": 69.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 110.0,
+              "team2": "David",
+              "score2": 115.0
+            },
+            {
+              "team1": "BR",
+              "score1": 57.0,
+              "team2": "Matt",
+              "score2": 95.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 65.0,
+              "team2": "Abby",
+              "score2": 129.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 84.0,
+              "team2": "Mark",
+              "score2": 113.0
+            },
+            {
+              "team1": "David",
+              "score1": 104.0,
+              "team2": "Brian",
+              "score2": 91.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 85.0,
+              "team2": "Watty",
+              "score2": 157.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 98.0,
+              "team2": "BR",
+              "score2": 58.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "David",
+              "score1": 98.0,
+              "team2": "Michael",
+              "score2": 79.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 75.0,
+              "team2": "Russell",
+              "score2": 56.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 100.0,
+              "team2": "BR",
+              "score2": 56.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 119.0,
+              "team2": "Matt",
+              "score2": 106.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 95.0,
+              "team2": "Mark",
+              "score2": 106.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Matt",
+              "score1": 139.0,
+              "team2": "Michael",
+              "score2": 86.0
+            },
+            {
+              "team1": "BR",
+              "score1": 86.0,
+              "team2": "Watty",
+              "score2": 63.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 86.0,
+              "team2": "Brian",
+              "score2": 65.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 121.0,
+              "team2": "Russell",
+              "score2": 135.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 58.0,
+              "team2": "David",
+              "score2": 134.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 78.0,
+              "team2": "Michael",
+              "score2": 71.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 64.0,
+              "team2": "Abby",
+              "score2": 84.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 78.0,
+              "team2": "Brian",
+              "score2": 93.0
+            },
+            {
+              "team1": "David",
+              "score1": 88.0,
+              "team2": "Russell",
+              "score2": 105.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 88.0,
+              "team2": "Matt",
+              "score2": 85.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 112.0,
+              "team2": "Emily",
+              "score2": 72.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 99.0,
+              "team2": "BR",
+              "score2": 95.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 74.0,
+              "team2": "Mark",
+              "score2": 81.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 109.0,
+              "team2": "David",
+              "score2": 89.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 99.0,
+              "team2": "Matt",
+              "score2": 118.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 109.0,
+              "team2": "Michael",
+              "score2": 109.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 98.0,
+              "team2": "David",
+              "score2": 115.0
+            },
+            {
+              "team1": "BR",
+              "score1": 133.0,
+              "team2": "Mark",
+              "score2": 97.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 93.0,
+              "team2": "Emily",
+              "score2": 82.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 78.0,
+              "team2": "Watty",
+              "score2": 61.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -3788,55 +4594,536 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 101.0,
+              "team2": "Brent",
+              "score2": 111.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 104.0,
+              "team2": "Matt",
+              "score2": 76.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 59.0,
+              "team2": "David",
+              "score2": 86.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 60.0,
+              "team2": "Mark",
+              "score2": 73.0
+            },
+            {
+              "team1": "BR",
+              "score1": 75.0,
+              "team2": "Watty",
+              "score2": 59.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 99.0,
+              "team2": "Brian",
+              "score2": 56.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 76.0,
+              "team2": "David",
+              "score2": 69.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 108.0,
+              "team2": "Michael",
+              "score2": 93.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 80.0,
+              "team2": "Brent",
+              "score2": 88.0
+            },
+            {
+              "team1": "BR",
+              "score1": 82.0,
+              "team2": "Abby",
+              "score2": 77.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 80.0,
+              "team2": "Charles",
+              "score2": 59.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 48.0,
+              "team2": "Brian",
+              "score2": 77.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 89.0,
+              "team2": "Emily",
+              "score2": 156.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 92.0,
+              "team2": "Brent",
+              "score2": 109.0
+            },
+            {
+              "team1": "David",
+              "score1": 79.0,
+              "team2": "Matt",
+              "score2": 63.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 69.0,
+              "team2": "Charles",
+              "score2": 112.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 141.0,
+              "team2": "BR",
+              "score2": 68.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 98.0,
+              "team2": "Mark",
+              "score2": 72.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 83.0,
+              "team2": "Michael",
+              "score2": 70.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 65.0,
+              "team2": "David",
+              "score2": 86.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 103.0,
+              "team2": "Matt",
+              "score2": 78.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 39.0,
+              "team2": "Abby",
+              "score2": 66.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 57.0,
+              "team2": "Watty",
+              "score2": 71.0
+            },
+            {
+              "team1": "BR",
+              "score1": 75.0,
+              "team2": "Mark",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 105.0,
+              "team2": "Matt",
+              "score2": 111.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "David",
+              "score2": 81.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 112.0,
+              "team2": "Brent",
+              "score2": 115.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 42.0,
+              "team2": "Watty",
+              "score2": 59.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 88.0,
+              "team2": "Brian",
+              "score2": 84.0
+            },
+            {
+              "team1": "BR",
+              "score1": 73.0,
+              "team2": "Charles",
+              "score2": 46.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 64.0,
+              "team2": "Brian",
+              "score2": 59.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 68.0,
+              "team2": "Michael",
+              "score2": 144.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 82.0,
+              "team2": "Matt",
+              "score2": 100.0
+            },
+            {
+              "team1": "BR",
+              "score1": 82.0,
+              "team2": "Emily",
+              "score2": 100.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 73.0,
+              "team2": "Brent",
+              "score2": 89.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 46.0,
+              "team2": "David",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 80.0,
+              "team2": "Charles",
+              "score2": 126.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 71.0,
+              "team2": "Abby",
+              "score2": 73.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 76.0,
+              "team2": "Mark",
+              "score2": 61.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 98.0,
+              "team2": "BR",
+              "score2": 113.0
+            },
+            {
+              "team1": "David",
+              "score1": 62.0,
+              "team2": "Brian",
+              "score2": 126.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 104.0,
+              "team2": "Watty",
+              "score2": 83.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 85.0,
+              "team2": "BR",
+              "score2": 122.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 68.0,
+              "team2": "Emily",
+              "score2": 79.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 100.0,
+              "team2": "Brent",
+              "score2": 107.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 79.0,
+              "team2": "David",
+              "score2": 51.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 92.0,
+              "team2": "Michael",
+              "score2": 80.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 50.0,
+              "team2": "Matt",
+              "score2": 135.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 81.0,
+              "team2": "Mark",
+              "score2": 77.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 91.0,
+              "team2": "Abby",
+              "score2": 72.0
+            },
+            {
+              "team1": "David",
+              "score1": 108.0,
+              "team2": "BR",
+              "score2": 95.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 80.0,
+              "team2": "Charles",
+              "score2": 125.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 116.0,
+              "team2": "Brian",
+              "score2": 81.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 69.0,
+              "team2": "Watty",
+              "score2": 77.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 71.0,
+              "team2": "Abby",
+              "score2": 19.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 68.0,
+              "team2": "David",
+              "score2": 91.0
+            },
+            {
+              "team1": "BR",
+              "score1": 74.0,
+              "team2": "Michael",
+              "score2": 88.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 91.0,
+              "team2": "Matt",
+              "score2": 92.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 95.0,
+              "team2": "Emily",
+              "score2": 87.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 74.0,
+              "team2": "Brent",
+              "score2": 69.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 84.0,
+              "team2": "Watty",
+              "score2": 82.0
+            },
+            {
+              "team1": "David",
+              "score1": 59.0,
+              "team2": "Abby",
+              "score2": 83.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 84.0,
+              "team2": "Mark",
+              "score2": 80.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 103.0,
+              "team2": "BR",
+              "score2": 28.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 57.0,
+              "team2": "Charles",
+              "score2": 46.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 87.0,
+              "team2": "Brian",
+              "score2": 75.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 93.0,
+              "team2": "Brian",
+              "score2": 62.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 80.0,
+              "team2": "Abby",
+              "score2": 93.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 71.0,
+              "team2": "Mark",
+              "score2": 75.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 71.0,
+              "team2": "BR",
+              "score2": 104.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 104.0,
+              "team2": "Charles",
+              "score2": 96.0
+            },
+            {
+              "team1": "David",
+              "score1": 81.0,
+              "team2": "Watty",
+              "score2": 78.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 97.0,
+              "team2": "Charles",
+              "score2": 128.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 106.0,
+              "team2": "Matt",
+              "score2": 87.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 68.0,
+              "team2": "Emily",
+              "score2": 105.0
+            },
+            {
+              "team1": "BR",
+              "score1": 100.0,
+              "team2": "Brent",
+              "score2": 104.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 72.0,
+              "team2": "David",
+              "score2": 63.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 81.0,
+              "team2": "Michael",
+              "score2": 131.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -4051,55 +5338,536 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 78.0,
+              "team2": "Matt",
+              "score2": 73.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 95.0,
+              "team2": "Russell",
+              "score2": 137.0
+            },
+            {
+              "team1": "BR",
+              "score1": 108.0,
+              "team2": "Watty",
+              "score2": 103.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 72.0,
+              "team2": "David",
+              "score2": 90.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 105.0,
+              "team2": "Mark",
+              "score2": 84.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 141.0,
+              "team2": "Brian",
+              "score2": 54.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 54.0,
+              "team2": "Michael",
+              "score2": 92.0
+            },
+            {
+              "team1": "David",
+              "score1": 73.0,
+              "team2": "Russell",
+              "score2": 67.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 89.0,
+              "team2": "Charles",
+              "score2": 97.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 88.0,
+              "team2": "Brent",
+              "score2": 89.0
+            },
+            {
+              "team1": "BR",
+              "score1": 89.0,
+              "team2": "Abby",
+              "score2": 109.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 93.0,
+              "team2": "Brian",
+              "score2": 120.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 56.0,
+              "team2": "Brent",
+              "score2": 128.0
+            },
+            {
+              "team1": "David",
+              "score1": 116.0,
+              "team2": "Matt",
+              "score2": 88.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 70.0,
+              "team2": "BR",
+              "score2": 94.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 92.0,
+              "team2": "Emily",
+              "score2": 130.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 104.0,
+              "team2": "Charles",
+              "score2": 70.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 77.0,
+              "team2": "Mark",
+              "score2": 103.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 86.0,
+              "team2": "Michael",
+              "score2": 79.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 69.0,
+              "team2": "Matt",
+              "score2": 117.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 99.0,
+              "team2": "Watty",
+              "score2": 111.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 107.0,
+              "team2": "David",
+              "score2": 69.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 61.0,
+              "team2": "Abby",
+              "score2": 66.0
+            },
+            {
+              "team1": "BR",
+              "score1": 96.0,
+              "team2": "Mark",
+              "score2": 91.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 96.0,
+              "team2": "David",
+              "score2": 83.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 72.0,
+              "team2": "Brent",
+              "score2": 92.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 82.0,
+              "team2": "Brian",
+              "score2": 56.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 121.0,
+              "team2": "Russell",
+              "score2": 83.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 74.0,
+              "team2": "Watty",
+              "score2": 111.0
+            },
+            {
+              "team1": "BR",
+              "score1": 111.0,
+              "team2": "Charles",
+              "score2": 99.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 94.0,
+              "team2": "Michael",
+              "score2": 43.0
+            },
+            {
+              "team1": "BR",
+              "score1": 98.0,
+              "team2": "Emily",
+              "score2": 105.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 54.0,
+              "team2": "Russell",
+              "score2": 104.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 71.0,
+              "team2": "Matt",
+              "score2": 92.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 85.0,
+              "team2": "Brent",
+              "score2": 116.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 51.0,
+              "team2": "David",
+              "score2": 76.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 85.0,
+              "team2": "Watty",
+              "score2": 110.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 85.0,
+              "team2": "Mark",
+              "score2": 52.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 70.0,
+              "team2": "Charles",
+              "score2": 130.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 87.0,
+              "team2": "Abby",
+              "score2": 80.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 108.0,
+              "team2": "BR",
+              "score2": 71.0
+            },
+            {
+              "team1": "David",
+              "score1": 96.0,
+              "team2": "Brian",
+              "score2": 97.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 82.0,
+              "team2": "Michael",
+              "score2": 62.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 90.0,
+              "team2": "Brent",
+              "score2": 106.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 76.0,
+              "team2": "David",
+              "score2": 83.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 92.0,
+              "team2": "Emily",
+              "score2": 87.0
+            },
+            {
+              "team1": "BR",
+              "score1": 57.0,
+              "team2": "Russell",
+              "score2": 93.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 76.0,
+              "team2": "Matt",
+              "score2": 75.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 51.0,
+              "team2": "Charles",
+              "score2": 111.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 84.0,
+              "team2": "Mark",
+              "score2": 66.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 100.0,
+              "team2": "Brian",
+              "score2": 73.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 105.0,
+              "team2": "Abby",
+              "score2": 76.0
+            },
+            {
+              "team1": "David",
+              "score1": 83.0,
+              "team2": "BR",
+              "score2": 64.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 104.0,
+              "team2": "Watty",
+              "score2": 93.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 70.0,
+              "team2": "Michael",
+              "score2": 77.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 90.0,
+              "team2": "David",
+              "score2": 68.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 131.0,
+              "team2": "Emily",
+              "score2": 79.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 92.0,
+              "team2": "Russell",
+              "score2": 113.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 96.0,
+              "team2": "Matt",
+              "score2": 82.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 74.0,
+              "team2": "Brent",
+              "score2": 104.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 74.0,
+              "team2": "Mark",
+              "score2": 89.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 89.0,
+              "team2": "BR",
+              "score2": 77.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 125.0,
+              "team2": "Brian",
+              "score2": 85.0
+            },
+            {
+              "team1": "David",
+              "score1": 71.0,
+              "team2": "Abby",
+              "score2": 84.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 74.0,
+              "team2": "Charles",
+              "score2": 76.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 77.0,
+              "team2": "Watty",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 99.0,
+              "team2": "Abby",
+              "score2": 70.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 114.0,
+              "team2": "BR",
+              "score2": 91.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 102.0,
+              "team2": "Brian",
+              "score2": 73.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 105.0,
+              "team2": "Mark",
+              "score2": 47.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 92.0,
+              "team2": "Charles",
+              "score2": 106.0
+            },
+            {
+              "team1": "David",
+              "score1": 96.0,
+              "team2": "Watty",
+              "score2": 76.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 73.0,
+              "team2": "Michael",
+              "score2": 89.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 77.0,
+              "team2": "Emily",
+              "score2": 94.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 86.0,
+              "team2": "Russell",
+              "score2": 65.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 89.0,
+              "team2": "Matt",
+              "score2": 107.0
+            },
+            {
+              "team1": "BR",
+              "score1": 96.0,
+              "team2": "Brent",
+              "score2": 107.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 68.0,
+              "team2": "David",
+              "score2": 78.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -4314,55 +6082,536 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 74.0,
+              "team2": "Matt",
+              "score2": 76.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 89.0,
+              "team2": "Russell",
+              "score2": 104.0
+            },
+            {
+              "team1": "BR",
+              "score1": 64.0,
+              "team2": "Watty",
+              "score2": 107.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 63.0,
+              "team2": "David",
+              "score2": 88.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 93.0,
+              "team2": "Mark",
+              "score2": 40.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 79.0,
+              "team2": "Brian",
+              "score2": 57.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 112.0,
+              "team2": "Michael",
+              "score2": 69.0
+            },
+            {
+              "team1": "David",
+              "score1": 73.0,
+              "team2": "Russell",
+              "score2": 84.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 77.0,
+              "team2": "Charles",
+              "score2": 97.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 101.0,
+              "team2": "Brent",
+              "score2": 109.0
+            },
+            {
+              "team1": "BR",
+              "score1": 95.0,
+              "team2": "Abby",
+              "score2": 55.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 64.0,
+              "team2": "Brian",
+              "score2": 86.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 82.0,
+              "team2": "Brent",
+              "score2": 63.0
+            },
+            {
+              "team1": "David",
+              "score1": 81.0,
+              "team2": "Matt",
+              "score2": 79.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 76.0,
+              "team2": "BR",
+              "score2": 97.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 80.0,
+              "team2": "Emily",
+              "score2": 76.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 81.0,
+              "team2": "Charles",
+              "score2": 114.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 111.0,
+              "team2": "Mark",
+              "score2": 84.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 100.0,
+              "team2": "Russell",
+              "score2": 82.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 103.0,
+              "team2": "Matt",
+              "score2": 97.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 65.0,
+              "team2": "Watty",
+              "score2": 90.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 73.0,
+              "team2": "David",
+              "score2": 80.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 90.0,
+              "team2": "Abby",
+              "score2": 93.0
+            },
+            {
+              "team1": "BR",
+              "score1": 84.0,
+              "team2": "Mark",
+              "score2": 51.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 76.0,
+              "team2": "David",
+              "score2": 58.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 79.0,
+              "team2": "Brent",
+              "score2": 83.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 91.0,
+              "team2": "Brian",
+              "score2": 79.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 86.0,
+              "team2": "Russell",
+              "score2": 68.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 108.0,
+              "team2": "Watty",
+              "score2": 90.0
+            },
+            {
+              "team1": "BR",
+              "score1": 80.0,
+              "team2": "Charles",
+              "score2": 99.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 115.0,
+              "team2": "Michael",
+              "score2": 87.0
+            },
+            {
+              "team1": "BR",
+              "score1": 89.0,
+              "team2": "Emily",
+              "score2": 77.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 87.0,
+              "team2": "Russell",
+              "score2": 92.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 69.0,
+              "team2": "Matt",
+              "score2": 102.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 122.0,
+              "team2": "Brent",
+              "score2": 98.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 89.0,
+              "team2": "David",
+              "score2": 52.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 54.0,
+              "team2": "Watty",
+              "score2": 106.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 82.0,
+              "team2": "Mark",
+              "score2": 48.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 121.0,
+              "team2": "Charles",
+              "score2": 66.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 72.0,
+              "team2": "Abby",
+              "score2": 70.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 82.0,
+              "team2": "BR",
+              "score2": 84.0
+            },
+            {
+              "team1": "David",
+              "score1": 63.0,
+              "team2": "Brian",
+              "score2": 113.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 53.0,
+              "team2": "Michael",
+              "score2": 85.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 83.0,
+              "team2": "Brent",
+              "score2": 113.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 88.0,
+              "team2": "David",
+              "score2": 89.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 89.0,
+              "team2": "Emily",
+              "score2": 73.0
+            },
+            {
+              "team1": "BR",
+              "score1": 82.0,
+              "team2": "Russell",
+              "score2": 102.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 65.0,
+              "team2": "Matt",
+              "score2": 103.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 59.0,
+              "team2": "Charles",
+              "score2": 79.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 73.0,
+              "team2": "Mark",
+              "score2": 80.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 75.0,
+              "team2": "Brian",
+              "score2": 87.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 87.0,
+              "team2": "Abby",
+              "score2": 82.0
+            },
+            {
+              "team1": "David",
+              "score1": 60.0,
+              "team2": "BR",
+              "score2": 106.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 82.0,
+              "team2": "Watty",
+              "score2": 62.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 62.0,
+              "team2": "Michael",
+              "score2": 83.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 90.0,
+              "team2": "David",
+              "score2": 90.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 70.0,
+              "team2": "Emily",
+              "score2": 63.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 114.0,
+              "team2": "Russell",
+              "score2": 59.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 90.0,
+              "team2": "Matt",
+              "score2": 71.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 73.0,
+              "team2": "Brent",
+              "score2": 74.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 94.0,
+              "team2": "Mark",
+              "score2": 52.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 78.0,
+              "team2": "BR",
+              "score2": 54.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 94.0,
+              "team2": "Brian",
+              "score2": 97.0
+            },
+            {
+              "team1": "David",
+              "score1": 82.0,
+              "team2": "Abby",
+              "score2": 128.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 71.0,
+              "team2": "Charles",
+              "score2": 126.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 65.0,
+              "team2": "Watty",
+              "score2": 77.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 96.0,
+              "team2": "Abby",
+              "score2": 78.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 111.0,
+              "team2": "BR",
+              "score2": 103.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 109.0,
+              "team2": "Brian",
+              "score2": 88.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 86.0,
+              "team2": "Mark",
+              "score2": 78.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 81.0,
+              "team2": "Charles",
+              "score2": 102.0
+            },
+            {
+              "team1": "David",
+              "score1": 78.0,
+              "team2": "Watty",
+              "score2": 51.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 85.0,
+              "team2": "Michael",
+              "score2": 84.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 79.0,
+              "team2": "Emily",
+              "score2": 100.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 69.0,
+              "team2": "Russell",
+              "score2": 60.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 109.0,
+              "team2": "Matt",
+              "score2": 106.0
+            },
+            {
+              "team1": "BR",
+              "score1": 93.0,
+              "team2": "Brent",
+              "score2": 106.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 95.0,
+              "team2": "David",
+              "score2": 81.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -4577,55 +6826,536 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 120.0,
+              "team2": "Matt",
+              "score2": 119.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 103.0,
+              "team2": "Russell",
+              "score2": 59.0
+            },
+            {
+              "team1": "BR",
+              "score1": 95.0,
+              "team2": "Watty",
+              "score2": 90.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 98.0,
+              "team2": "David",
+              "score2": 57.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 83.0,
+              "team2": "Mark",
+              "score2": 110.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 74.0,
+              "team2": "Brian",
+              "score2": 108.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 124.0,
+              "team2": "Michael",
+              "score2": 91.0
+            },
+            {
+              "team1": "David",
+              "score1": 78.0,
+              "team2": "Russell",
+              "score2": 92.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 69.0,
+              "team2": "Charles",
+              "score2": 127.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 91.0,
+              "team2": "Brent",
+              "score2": 85.0
+            },
+            {
+              "team1": "BR",
+              "score1": 97.0,
+              "team2": "Abby",
+              "score2": 72.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 95.0,
+              "team2": "Brian",
+              "score2": 89.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 127.0,
+              "team2": "Brent",
+              "score2": 75.0
+            },
+            {
+              "team1": "David",
+              "score1": 102.0,
+              "team2": "Matt",
+              "score2": 99.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 94.0,
+              "team2": "BR",
+              "score2": 94.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 70.0,
+              "team2": "Emily",
+              "score2": 100.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 93.0,
+              "team2": "Charles",
+              "score2": 81.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 53.0,
+              "team2": "Mark",
+              "score2": 78.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 102.0,
+              "team2": "Michael",
+              "score2": 65.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 155.0,
+              "team2": "Matt",
+              "score2": 104.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 113.0,
+              "team2": "Watty",
+              "score2": 96.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 116.0,
+              "team2": "David",
+              "score2": 92.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 62.0,
+              "team2": "Abby",
+              "score2": 64.0
+            },
+            {
+              "team1": "BR",
+              "score1": 87.0,
+              "team2": "Mark",
+              "score2": 74.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 110.0,
+              "team2": "David",
+              "score2": 78.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 58.0,
+              "team2": "Brent",
+              "score2": 124.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 93.0,
+              "team2": "Brian",
+              "score2": 107.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 44.0,
+              "team2": "Russell",
+              "score2": 89.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 61.0,
+              "team2": "Watty",
+              "score2": 81.0
+            },
+            {
+              "team1": "BR",
+              "score1": 112.0,
+              "team2": "Charles",
+              "score2": 102.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 45.0,
+              "team2": "Michael",
+              "score2": 78.0
+            },
+            {
+              "team1": "BR",
+              "score1": 97.0,
+              "team2": "Emily",
+              "score2": 77.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 88.0,
+              "team2": "Russell",
+              "score2": 154.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 85.0,
+              "team2": "Matt",
+              "score2": 128.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 104.0,
+              "team2": "Brent",
+              "score2": 110.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 100.0,
+              "team2": "David",
+              "score2": 41.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 100.0,
+              "team2": "Watty",
+              "score2": 106.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 82.0,
+              "team2": "Mark",
+              "score2": 140.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 69.0,
+              "team2": "Charles",
+              "score2": 77.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 124.0,
+              "team2": "Abby",
+              "score2": 82.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 72.0,
+              "team2": "BR",
+              "score2": 71.0
+            },
+            {
+              "team1": "David",
+              "score1": 64.0,
+              "team2": "Brian",
+              "score2": 79.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 103.0,
+              "team2": "Michael",
+              "score2": 137.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 95.0,
+              "team2": "Brent",
+              "score2": 125.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 82.0,
+              "team2": "David",
+              "score2": 107.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 64.0,
+              "team2": "Emily",
+              "score2": 103.0
+            },
+            {
+              "team1": "BR",
+              "score1": 91.0,
+              "team2": "Russell",
+              "score2": 66.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 62.0,
+              "team2": "Matt",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 136.0,
+              "team2": "Charles",
+              "score2": 97.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 64.0,
+              "team2": "Mark",
+              "score2": 76.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 112.0,
+              "team2": "Brian",
+              "score2": 82.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 88.0,
+              "team2": "Abby",
+              "score2": 47.0
+            },
+            {
+              "team1": "David",
+              "score1": 87.0,
+              "team2": "BR",
+              "score2": 95.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 117.0,
+              "team2": "Watty",
+              "score2": 97.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 102.0,
+              "team2": "Michael",
+              "score2": 74.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 124.0,
+              "team2": "David",
+              "score2": 111.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 70.0,
+              "team2": "Emily",
+              "score2": 87.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 63.0,
+              "team2": "Russell",
+              "score2": 121.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 113.0,
+              "team2": "Matt",
+              "score2": 88.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 96.0,
+              "team2": "Brent",
+              "score2": 113.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "Mark",
+              "score2": 74.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 105.0,
+              "team2": "BR",
+              "score2": 79.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 122.0,
+              "team2": "Brian",
+              "score2": 132.0
+            },
+            {
+              "team1": "David",
+              "score1": 86.0,
+              "team2": "Abby",
+              "score2": 88.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 95.0,
+              "team2": "Charles",
+              "score2": 88.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 99.0,
+              "team2": "Watty",
+              "score2": 83.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Charles",
+              "score1": 85.0,
+              "team2": "Michael",
+              "score2": 57.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 129.0,
+              "team2": "David",
+              "score2": 120.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 82.0,
+              "team2": "Brian",
+              "score2": 112.0
+            },
+            {
+              "team1": "BR",
+              "score1": 98.0,
+              "team2": "Watty",
+              "score2": 138.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 110.0,
+              "team2": "Matt",
+              "score2": 78.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 73.0,
+              "team2": "Abby",
+              "score2": 63.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 68.0,
+              "team2": "Michael",
+              "score2": 82.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 71.0,
+              "team2": "Abby",
+              "score2": 59.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 80.0,
+              "team2": "Russell",
+              "score2": 110.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 76.0,
+              "team2": "BR",
+              "score2": 107.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 82.0,
+              "team2": "Brent",
+              "score2": 73.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 75.0,
+              "team2": "David",
+              "score2": 85.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -4840,55 +7570,536 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 119.0,
+              "team2": "Matt",
+              "score2": 108.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 108.0,
+              "team2": "Russell",
+              "score2": 78.0
+            },
+            {
+              "team1": "BR",
+              "score1": 73.0,
+              "team2": "Watty",
+              "score2": 117.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 83.0,
+              "team2": "David",
+              "score2": 77.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 113.0,
+              "team2": "Mark",
+              "score2": 67.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 105.0,
+              "team2": "Brian",
+              "score2": 84.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 70.0,
+              "team2": "Michael",
+              "score2": 71.0
+            },
+            {
+              "team1": "David",
+              "score1": 76.0,
+              "team2": "Russell",
+              "score2": 106.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 104.0,
+              "team2": "Charles",
+              "score2": 67.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 101.0,
+              "team2": "Brent",
+              "score2": 96.0
+            },
+            {
+              "team1": "BR",
+              "score1": 86.0,
+              "team2": "Abby",
+              "score2": 85.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 89.0,
+              "team2": "Brian",
+              "score2": 83.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 79.0,
+              "team2": "Brent",
+              "score2": 117.0
+            },
+            {
+              "team1": "David",
+              "score1": 89.0,
+              "team2": "Matt",
+              "score2": 97.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 57.0,
+              "team2": "BR",
+              "score2": 100.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 97.0,
+              "team2": "Emily",
+              "score2": 116.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 72.0,
+              "team2": "Charles",
+              "score2": 101.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 120.0,
+              "team2": "Mark",
+              "score2": 104.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 45.0,
+              "team2": "Michael",
+              "score2": 70.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 121.0,
+              "team2": "Matt",
+              "score2": 67.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 70.0,
+              "team2": "Watty",
+              "score2": 103.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 79.0,
+              "team2": "David",
+              "score2": 110.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 64.0,
+              "team2": "Abby",
+              "score2": 86.0
+            },
+            {
+              "team1": "BR",
+              "score1": 87.0,
+              "team2": "Mark",
+              "score2": 88.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 63.0,
+              "team2": "David",
+              "score2": 153.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 93.0,
+              "team2": "Brent",
+              "score2": 161.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 76.0,
+              "team2": "Brian",
+              "score2": 69.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 83.0,
+              "team2": "Russell",
+              "score2": 80.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 109.0,
+              "team2": "Watty",
+              "score2": 99.0
+            },
+            {
+              "team1": "BR",
+              "score1": 90.0,
+              "team2": "Charles",
+              "score2": 130.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 74.0,
+              "team2": "Michael",
+              "score2": 81.0
+            },
+            {
+              "team1": "BR",
+              "score1": 83.0,
+              "team2": "Emily",
+              "score2": 94.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 63.0,
+              "team2": "Russell",
+              "score2": 60.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 127.0,
+              "team2": "Matt",
+              "score2": 113.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 90.0,
+              "team2": "Brent",
+              "score2": 87.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 98.0,
+              "team2": "David",
+              "score2": 101.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 100.0,
+              "team2": "Watty",
+              "score2": 50.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 60.0,
+              "team2": "Mark",
+              "score2": 76.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 116.0,
+              "team2": "Charles",
+              "score2": 58.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 59.0,
+              "team2": "Abby",
+              "score2": 113.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 63.0,
+              "team2": "BR",
+              "score2": 77.0
+            },
+            {
+              "team1": "David",
+              "score1": 84.0,
+              "team2": "Brian",
+              "score2": 85.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 94.0,
+              "team2": "Michael",
+              "score2": 87.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 122.0,
+              "team2": "Brent",
+              "score2": 101.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 77.0,
+              "team2": "David",
+              "score2": 116.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 121.0,
+              "team2": "Emily",
+              "score2": 84.0
+            },
+            {
+              "team1": "BR",
+              "score1": 78.0,
+              "team2": "Russell",
+              "score2": 84.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 74.0,
+              "team2": "Matt",
+              "score2": 76.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 75.0,
+              "team2": "Charles",
+              "score2": 93.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 104.0,
+              "team2": "Mark",
+              "score2": 145.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 66.0,
+              "team2": "Brian",
+              "score2": 108.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 79.0,
+              "team2": "Abby",
+              "score2": 82.0
+            },
+            {
+              "team1": "David",
+              "score1": 81.0,
+              "team2": "BR",
+              "score2": 113.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 36.0,
+              "team2": "Watty",
+              "score2": 135.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 74.0,
+              "team2": "Michael",
+              "score2": 100.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 100.0,
+              "team2": "David",
+              "score2": 76.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 80.0,
+              "team2": "Emily",
+              "score2": 68.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 78.0,
+              "team2": "Russell",
+              "score2": 86.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 86.0,
+              "team2": "Matt",
+              "score2": 113.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 95.0,
+              "team2": "Brent",
+              "score2": 77.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 91.0,
+              "team2": "Mark",
+              "score2": 72.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 83.0,
+              "team2": "BR",
+              "score2": 111.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 69.0,
+              "team2": "Brian",
+              "score2": 59.0
+            },
+            {
+              "team1": "David",
+              "score1": 95.0,
+              "team2": "Abby",
+              "score2": 77.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 72.0,
+              "team2": "Charles",
+              "score2": 92.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 115.0,
+              "team2": "Watty",
+              "score2": 78.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Charles",
+              "score1": 107.0,
+              "team2": "Michael",
+              "score2": 124.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 86.0,
+              "team2": "David",
+              "score2": 87.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 73.0,
+              "team2": "Brian",
+              "score2": 104.0
+            },
+            {
+              "team1": "BR",
+              "score1": 72.0,
+              "team2": "Watty",
+              "score2": 60.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 90.0,
+              "team2": "Matt",
+              "score2": 110.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 68.0,
+              "team2": "Abby",
+              "score2": 56.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 62.0,
+              "team2": "Michael",
+              "score2": 76.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 94.0,
+              "team2": "Abby",
+              "score2": 78.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 95.0,
+              "team2": "Russell",
+              "score2": 81.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 75.0,
+              "team2": "BR",
+              "score2": 83.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 77.0,
+              "team2": "Brent",
+              "score2": 109.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 90.0,
+              "team2": "David",
+              "score2": 83.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -5103,55 +8314,536 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 91.0,
+              "team2": "Matt",
+              "score2": 80.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 80.0,
+              "team2": "David",
+              "score2": 112.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 88.0,
+              "team2": "Russell",
+              "score2": 133.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 73.0,
+              "team2": "Mark",
+              "score2": 48.0
+            },
+            {
+              "team1": "BR",
+              "score1": 107.0,
+              "team2": "Watty",
+              "score2": 72.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 93.0,
+              "team2": "Brian",
+              "score2": 94.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 95.0,
+              "team2": "Michael",
+              "score2": 105.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 76.0,
+              "team2": "Brent",
+              "score2": 117.0
+            },
+            {
+              "team1": "David",
+              "score1": 76.0,
+              "team2": "Russell",
+              "score2": 113.0
+            },
+            {
+              "team1": "BR",
+              "score1": 101.0,
+              "team2": "Abby",
+              "score2": 46.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 82.0,
+              "team2": "Charles",
+              "score2": 163.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 118.0,
+              "team2": "Brian",
+              "score2": 59.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 98.0,
+              "team2": "Brent",
+              "score2": 99.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 95.0,
+              "team2": "Emily",
+              "score2": 121.0
+            },
+            {
+              "team1": "David",
+              "score1": 84.0,
+              "team2": "Matt",
+              "score2": 109.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 56.0,
+              "team2": "Charles",
+              "score2": 149.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 72.0,
+              "team2": "BR",
+              "score2": 98.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 140.0,
+              "team2": "Mark",
+              "score2": 72.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 102.0,
+              "team2": "Michael",
+              "score2": 108.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 91.0,
+              "team2": "David",
+              "score2": 73.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 114.0,
+              "team2": "Matt",
+              "score2": 97.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 107.0,
+              "team2": "Abby",
+              "score2": 49.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 99.0,
+              "team2": "Watty",
+              "score2": 61.0
+            },
+            {
+              "team1": "BR",
+              "score1": 64.0,
+              "team2": "Mark",
+              "score2": 89.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 70.0,
+              "team2": "David",
+              "score2": 93.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 62.0,
+              "team2": "Russell",
+              "score2": 133.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 72.0,
+              "team2": "Brent",
+              "score2": 82.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 67.0,
+              "team2": "Watty",
+              "score2": 89.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 99.0,
+              "team2": "Brian",
+              "score2": 103.0
+            },
+            {
+              "team1": "BR",
+              "score1": 79.0,
+              "team2": "Charles",
+              "score2": 96.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 87.0,
+              "team2": "Michael",
+              "score2": 125.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 80.0,
+              "team2": "Matt",
+              "score2": 110.0
+            },
+            {
+              "team1": "BR",
+              "score1": 91.0,
+              "team2": "Emily",
+              "score2": 52.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 76.0,
+              "team2": "Brent",
+              "score2": 112.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 107.0,
+              "team2": "Russell",
+              "score2": 85.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 65.0,
+              "team2": "David",
+              "score2": 75.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 82.0,
+              "team2": "Watty",
+              "score2": 78.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 89.0,
+              "team2": "Abby",
+              "score2": 93.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 117.0,
+              "team2": "Mark",
+              "score2": 56.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 88.0,
+              "team2": "BR",
+              "score2": 63.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 107.0,
+              "team2": "Charles",
+              "score2": 134.0
+            },
+            {
+              "team1": "David",
+              "score1": 61.0,
+              "team2": "Brian",
+              "score2": 90.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 57.0,
+              "team2": "Michael",
+              "score2": 56.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 58.0,
+              "team2": "Emily",
+              "score2": 134.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 89.0,
+              "team2": "Brent",
+              "score2": 104.0
+            },
+            {
+              "team1": "BR",
+              "score1": 76.0,
+              "team2": "Russell",
+              "score2": 97.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 103.0,
+              "team2": "David",
+              "score2": 54.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 92.0,
+              "team2": "Matt",
+              "score2": 64.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 85.0,
+              "team2": "Brent",
+              "score2": 89.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 86.0,
+              "team2": "Russell",
+              "score2": 118.0
+            },
+            {
+              "team1": "BR",
+              "score1": 58.0,
+              "team2": "David",
+              "score2": 89.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 93.0,
+              "team2": "Michael",
+              "score2": 69.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 72.0,
+              "team2": "Matt",
+              "score2": 63.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 101.0,
+              "team2": "Emily",
+              "score2": 104.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 94.0,
+              "team2": "Abby",
+              "score2": 76.0
+            },
+            {
+              "team1": "David",
+              "score1": 40.0,
+              "team2": "Mark",
+              "score2": 101.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 120.0,
+              "team2": "BR",
+              "score2": 104.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 94.0,
+              "team2": "Charles",
+              "score2": 94.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 67.0,
+              "team2": "Brian",
+              "score2": 99.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 74.0,
+              "team2": "Watty",
+              "score2": 65.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Abby",
+              "score1": 59.0,
+              "team2": "David",
+              "score2": 58.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 92.0,
+              "team2": "Michael",
+              "score2": 120.0
+            },
+            {
+              "team1": "BR",
+              "score1": 48.0,
+              "team2": "Matt",
+              "score2": 105.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 119.0,
+              "team2": "Emily",
+              "score2": 88.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 85.0,
+              "team2": "Brent",
+              "score2": 62.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 106.0,
+              "team2": "Russell",
+              "score2": 91.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Charles",
+              "score1": 94.0,
+              "team2": "BR",
+              "score2": 72.0
+            },
+            {
+              "team1": "Abby",
+              "score1": 88.0,
+              "team2": "Watty",
+              "score2": 145.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 107.0,
+              "team2": "Michael",
+              "score2": 86.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 81.0,
+              "team2": "Matt",
+              "score2": 101.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 71.0,
+              "team2": "David",
+              "score2": 58.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 74.0,
+              "team2": "Russell",
+              "score2": 100.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 86.0,
+              "team2": "BR",
+              "score2": 72.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 83.0,
+              "team2": "Abby",
+              "score2": 122.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 95.0,
+              "team2": "Michael",
+              "score2": 109.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 59.0,
+              "team2": "Brent",
+              "score2": 57.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 124.0,
+              "team2": "David",
+              "score2": 101.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 68.0,
+              "team2": "Matt",
+              "score2": 60.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -5366,59 +9058,577 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 72.0,
+              "team2": "Russell",
+              "score2": 105.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "Matt",
+              "score2": 105.0
+            },
+            {
+              "team1": "BR",
+              "score1": 97.0,
+              "team2": "Emily",
+              "score2": 65.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 88.0,
+              "team2": "Arnold",
+              "score2": 138.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 94.0,
+              "team2": "Brian",
+              "score2": 84.0
+            },
+            {
+              "team1": "David",
+              "score1": 82.0,
+              "team2": "Charles",
+              "score2": 91.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 83.0,
+              "team2": "Russell",
+              "score2": 143.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 97.0,
+              "team2": "Matt",
+              "score2": 108.0
+            },
+            {
+              "team1": "David",
+              "score1": 70.0,
+              "team2": "Brent",
+              "score2": 82.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 67.0,
+              "team2": "BR",
+              "score2": 69.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 126.0,
+              "team2": "Charles",
+              "score2": 95.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 94.0,
+              "team2": "Arnold",
+              "score2": 110.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 95.0,
+              "team2": "Brian",
+              "score2": 103.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 86.0,
+              "team2": "David",
+              "score2": 83.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 68.0,
+              "team2": "Brent",
+              "score2": 88.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 71.0,
+              "team2": "Michael",
+              "score2": 113.0
+            },
+            {
+              "team1": "BR",
+              "score1": 133.0,
+              "team2": "Mark",
+              "score2": 80.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 124.0,
+              "team2": "Arnold",
+              "score2": 78.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 57.0,
+              "team2": "David",
+              "score2": 112.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 78.0,
+              "team2": "Emily",
+              "score2": 91.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 105.0,
+              "team2": "Russell",
+              "score2": 81.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 129.0,
+              "team2": "Mark",
+              "score2": 84.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 51.0,
+              "team2": "Watty",
+              "score2": 106.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 131.0,
+              "team2": "BR",
+              "score2": 96.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brent",
+              "score1": 72.0,
+              "team2": "Brian",
+              "score2": 115.0
+            },
+            {
+              "team1": "David",
+              "score1": 132.0,
+              "team2": "Matt",
+              "score2": 50.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 103.0,
+              "team2": "Russell",
+              "score2": 84.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 83.0,
+              "team2": "Michael",
+              "score2": 101.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 92.0,
+              "team2": "Charles",
+              "score2": 136.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 108.0,
+              "team2": "BR",
+              "score2": 174.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 108.0,
+              "team2": "Michael",
+              "score2": 99.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 103.0,
+              "team2": "Charles",
+              "score2": 97.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 109.0,
+              "team2": "BR",
+              "score2": 73.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 62.0,
+              "team2": "Watty",
+              "score2": 146.0
+            },
+            {
+              "team1": "David",
+              "score1": 104.0,
+              "team2": "Mark",
+              "score2": 78.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 66.0,
+              "team2": "Arnold",
+              "score2": 77.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 96.0,
+              "team2": "Matt",
+              "score2": 56.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 99.0,
+              "team2": "Russell",
+              "score2": 96.0
+            },
+            {
+              "team1": "BR",
+              "score1": 87.0,
+              "team2": "Emily",
+              "score2": 80.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 87.0,
+              "team2": "David",
+              "score2": 92.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 90.0,
+              "team2": "Brent",
+              "score2": 105.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 73.0,
+              "team2": "Brian",
+              "score2": 126.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 81.0,
+              "team2": "Michael",
+              "score2": 121.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 78.0,
+              "team2": "Charles",
+              "score2": 98.0
+            },
+            {
+              "team1": "David",
+              "score1": 87.0,
+              "team2": "BR",
+              "score2": 100.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 82.0,
+              "team2": "Watty",
+              "score2": 61.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 81.0,
+              "team2": "Mark",
+              "score2": 62.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 81.0,
+              "team2": "Arnold",
+              "score2": 73.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 53.0,
+              "team2": "Emily",
+              "score2": 50.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 90.0,
+              "team2": "David",
+              "score2": 109.0
+            },
+            {
+              "team1": "BR",
+              "score1": 84.0,
+              "team2": "Brent",
+              "score2": 84.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 66.0,
+              "team2": "Brian",
+              "score2": 84.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 83.0,
+              "team2": "Matt",
+              "score2": 77.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 68.0,
+              "team2": "Russell",
+              "score2": 57.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "David",
+              "score1": 70.0,
+              "team2": "Michael",
+              "score2": 90.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 56.0,
+              "team2": "Charles",
+              "score2": 94.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 71.0,
+              "team2": "BR",
+              "score2": 94.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 98.0,
+              "team2": "Watty",
+              "score2": 74.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 70.0,
+              "team2": "Mark",
+              "score2": 84.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 90.0,
+              "team2": "Arnold",
+              "score2": 82.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 79.0,
+              "team2": "Brent",
+              "score2": 92.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 110.0,
+              "team2": "Brian",
+              "score2": 121.0
+            },
+            {
+              "team1": "BR",
+              "score1": 94.0,
+              "team2": "Matt",
+              "score2": 68.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 67.0,
+              "team2": "Russell",
+              "score2": 58.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 99.0,
+              "team2": "Emily",
+              "score2": 42.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 66.0,
+              "team2": "David",
+              "score2": 112.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Matt",
+              "score1": 84.0,
+              "team2": "Brian",
+              "score2": 114.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 84.0,
+              "team2": "Russell",
+              "score2": 76.0
+            },
+            {
+              "team1": "David",
+              "score1": 83.0,
+              "team2": "Emily",
+              "score2": 74.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 63.0,
+              "team2": "Michael",
+              "score2": 99.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 80.0,
+              "team2": "BR",
+              "score2": 101.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 52.0,
+              "team2": "Watty",
+              "score2": 103.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 85.0,
+              "team2": "David",
+              "score2": 81.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 78.0,
+              "team2": "Russell",
+              "score2": 120.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 80.0,
+              "team2": "Brent",
+              "score2": 89.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 101.0,
+              "team2": "BR",
+              "score2": 66.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 108.0,
+              "team2": "Watty",
+              "score2": 49.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 98.0,
+              "team2": "Mark",
+              "score2": 68.0
+            }
+          ]
         },
         {
           "week": 14,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Matt",
+              "score1": 108.0,
+              "team2": "David",
+              "score2": 34.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 111.0,
+              "team2": "BR",
+              "score2": 120.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 102.0,
+              "team2": "Brent",
+              "score2": 91.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 98.0,
+              "team2": "Russell",
+              "score2": 102.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 97.0,
+              "team2": "Watty",
+              "score2": 92.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 66.0,
+              "team2": "Emily",
+              "score2": 76.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -5647,59 +9857,577 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 81.0,
+              "team2": "Matt",
+              "score2": 77.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 67.0,
+              "team2": "Russell",
+              "score2": 88.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 109.0,
+              "team2": "Emily",
+              "score2": 59.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 96.0,
+              "team2": "Arnold",
+              "score2": 66.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 105.0,
+              "team2": "Brian",
+              "score2": 76.0
+            },
+            {
+              "team1": "David",
+              "score1": 112.0,
+              "team2": "Charles",
+              "score2": 87.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "David",
+              "score1": 93.0,
+              "team2": "Russell",
+              "score2": 89.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 79.0,
+              "team2": "Emily",
+              "score2": 94.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 108.0,
+              "team2": "Matt",
+              "score2": 45.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 97.0,
+              "team2": "Watty",
+              "score2": 78.0
+            },
+            {
+              "team1": "BR",
+              "score1": 93.0,
+              "team2": "Michael",
+              "score2": 60.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 120.0,
+              "team2": "Charles",
+              "score2": 77.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 91.0,
+              "team2": "Emily",
+              "score2": 100.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 70.0,
+              "team2": "David",
+              "score2": 73.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 82.0,
+              "team2": "Brent",
+              "score2": 93.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 89.0,
+              "team2": "Michael",
+              "score2": 63.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 43.0,
+              "team2": "Mark",
+              "score2": 96.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 88.0,
+              "team2": "BR",
+              "score2": 72.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 96.0,
+              "team2": "Russell",
+              "score2": 57.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 106.0,
+              "team2": "David",
+              "score2": 116.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 100.0,
+              "team2": "Emily",
+              "score2": 73.0
+            },
+            {
+              "team1": "BR",
+              "score1": 72.0,
+              "team2": "Watty",
+              "score2": 96.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 90.0,
+              "team2": "Mark",
+              "score2": 77.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 131.0,
+              "team2": "Arnold",
+              "score2": 102.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 67.0,
+              "team2": "Matt",
+              "score2": 104.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 124.0,
+              "team2": "David",
+              "score2": 59.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 79.0,
+              "team2": "Brent",
+              "score2": 89.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 73.0,
+              "team2": "Watty",
+              "score2": 89.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 100.0,
+              "team2": "BR",
+              "score2": 122.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "Charles",
+              "score2": 83.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 77.0,
+              "team2": "Brent",
+              "score2": 69.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 76.0,
+              "team2": "David",
+              "score2": 50.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 60.0,
+              "team2": "Brian",
+              "score2": 82.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 65.0,
+              "team2": "Watty",
+              "score2": 52.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 101.0,
+              "team2": "Mark",
+              "score2": 123.0
+            },
+            {
+              "team1": "BR",
+              "score1": 99.0,
+              "team2": "Arnold",
+              "score2": 65.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 97.0,
+              "team2": "Russell",
+              "score2": 63.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 85.0,
+              "team2": "David",
+              "score2": 77.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 105.0,
+              "team2": "Emily",
+              "score2": 63.0
+            },
+            {
+              "team1": "BR",
+              "score1": 69.0,
+              "team2": "Brian",
+              "score2": 109.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 84.0,
+              "team2": "Matt",
+              "score2": 56.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 54.0,
+              "team2": "Brent",
+              "score2": 92.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 104.0,
+              "team2": "Mark",
+              "score2": 72.0
+            },
+            {
+              "team1": "David",
+              "score1": 108.0,
+              "team2": "Watty",
+              "score2": 106.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 102.0,
+              "team2": "BR",
+              "score2": 82.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 91.0,
+              "team2": "Arnold",
+              "score2": 105.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 102.0,
+              "team2": "Charles",
+              "score2": 96.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 142.0,
+              "team2": "Michael",
+              "score2": 80.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 99.0,
+              "team2": "Russell",
+              "score2": 76.0
+            },
+            {
+              "team1": "BR",
+              "score1": 59.0,
+              "team2": "David",
+              "score2": 74.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 85.0,
+              "team2": "Emily",
+              "score2": 70.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 84.0,
+              "team2": "Brian",
+              "score2": 142.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 97.0,
+              "team2": "Matt",
+              "score2": 62.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 82.0,
+              "team2": "Brent",
+              "score2": 113.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 105.0,
+              "team2": "BR",
+              "score2": 69.0
+            },
+            {
+              "team1": "David",
+              "score1": 76.0,
+              "team2": "Michael",
+              "score2": 69.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 75.0,
+              "team2": "Charles",
+              "score2": 83.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 91.0,
+              "team2": "Watty",
+              "score2": 97.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 73.0,
+              "team2": "Mark",
+              "score2": 74.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 115.0,
+              "team2": "Arnold",
+              "score2": 92.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Arnold",
+              "score1": 117.0,
+              "team2": "Russell",
+              "score2": 88.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 104.0,
+              "team2": "David",
+              "score2": 73.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 102.0,
+              "team2": "Emily",
+              "score2": 78.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 102.0,
+              "team2": "Brian",
+              "score2": 79.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 71.0,
+              "team2": "Matt",
+              "score2": 84.0
+            },
+            {
+              "team1": "BR",
+              "score1": 73.0,
+              "team2": "Brent",
+              "score2": 81.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 88.0,
+              "team2": "Charles",
+              "score2": 92.0
+            },
+            {
+              "team1": "David",
+              "score1": 95.0,
+              "team2": "Arnold",
+              "score2": 96.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 105.0,
+              "team2": "Mark",
+              "score2": 96.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 102.0,
+              "team2": "Michael",
+              "score2": 93.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 60.0,
+              "team2": "BR",
+              "score2": 81.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 93.0,
+              "team2": "Watty",
+              "score2": 66.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 130.0,
+              "team2": "David",
+              "score2": 86.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 60.0,
+              "team2": "Russell",
+              "score2": 88.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 69.0,
+              "team2": "Brent",
+              "score2": 97.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 117.0,
+              "team2": "BR",
+              "score2": 94.0
+            },
+            {
+              "team1": "Michael",
+              "score1": 70.0,
+              "team2": "Watty",
+              "score2": 69.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 64.0,
+              "team2": "Mark",
+              "score2": 89.0
+            }
+          ]
         },
         {
           "week": 14,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 102.0,
+              "team2": "David",
+              "score2": 46.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 72.0,
+              "team2": "Brian",
+              "score2": 95.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 76.0,
+              "team2": "Brent",
+              "score2": 74.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 95.0,
+              "team2": "Watty",
+              "score2": 96.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 111.0,
+              "team2": "Michael",
+              "score2": 126.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 62.0,
+              "team2": "BR",
+              "score2": 76.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -5928,59 +10656,577 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 53.0,
+              "team2": "Michael",
+              "score2": 104.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 106.0,
+              "team2": "Mark",
+              "score2": 67.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 82.0,
+              "team2": "BR",
+              "score2": 74.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 104.0,
+              "team2": "Watty",
+              "score2": 61.0
+            },
+            {
+              "team1": "David",
+              "score1": 63.0,
+              "team2": "Charles",
+              "score2": 78.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 63.0,
+              "team2": "Arnold",
+              "score2": 87.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "BR",
+              "score2": 127.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 74.0,
+              "team2": "David",
+              "score2": 85.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 76.0,
+              "team2": "Brian",
+              "score2": 94.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 86.0,
+              "team2": "Brent",
+              "score2": 87.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 83.0,
+              "team2": "Mark",
+              "score2": 91.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 88.0,
+              "team2": "Arnold",
+              "score2": 83.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 116.0,
+              "team2": "Watty",
+              "score2": 63.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 88.0,
+              "team2": "Russell",
+              "score2": 75.0
+            },
+            {
+              "team1": "David",
+              "score1": 64.0,
+              "team2": "Matt",
+              "score2": 75.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 124.0,
+              "team2": "Brian",
+              "score2": 116.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 122.0,
+              "team2": "Arnold",
+              "score2": 101.0
+            },
+            {
+              "team1": "BR",
+              "score1": 78.0,
+              "team2": "Charles",
+              "score2": 69.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Arnold",
+              "score1": 92.0,
+              "team2": "Michael",
+              "score2": 128.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 142.0,
+              "team2": "Brian",
+              "score2": 54.0
+            },
+            {
+              "team1": "David",
+              "score1": 95.0,
+              "team2": "Brent",
+              "score2": 116.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 99.0,
+              "team2": "Matt",
+              "score2": 113.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 111.0,
+              "team2": "BR",
+              "score2": 88.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 48.0,
+              "team2": "Charles",
+              "score2": 104.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Charles",
+              "score1": 98.0,
+              "team2": "Michael",
+              "score2": 92.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 126.0,
+              "team2": "Russell",
+              "score2": 61.0
+            },
+            {
+              "team1": "David",
+              "score1": 90.0,
+              "team2": "Brian",
+              "score2": 109.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 96.0,
+              "team2": "Emily",
+              "score2": 51.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 109.0,
+              "team2": "Arnold",
+              "score2": 70.0
+            },
+            {
+              "team1": "BR",
+              "score1": 105.0,
+              "team2": "Mark",
+              "score2": 81.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Mark",
+              "score1": 66.0,
+              "team2": "Michael",
+              "score2": 109.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 86.0,
+              "team2": "Russell",
+              "score2": 63.0
+            },
+            {
+              "team1": "David",
+              "score1": 89.0,
+              "team2": "Emily",
+              "score2": 72.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 68.0,
+              "team2": "Matt",
+              "score2": 76.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 85.0,
+              "team2": "Charles",
+              "score2": 78.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 83.0,
+              "team2": "BR",
+              "score2": 89.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Emily",
+              "score1": 72.0,
+              "team2": "Michael",
+              "score2": 78.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 42.0,
+              "team2": "Watty",
+              "score2": 78.0
+            },
+            {
+              "team1": "David",
+              "score1": 91.0,
+              "team2": "Mark",
+              "score2": 106.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 82.0,
+              "team2": "BR",
+              "score2": 67.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 76.0,
+              "team2": "Arnold",
+              "score2": 112.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 97.0,
+              "team2": "Charles",
+              "score2": 70.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 123.0,
+              "team2": "Brent",
+              "score2": 103.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 55.0,
+              "team2": "Russell",
+              "score2": 91.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 100.0,
+              "team2": "David",
+              "score2": 69.0
+            },
+            {
+              "team1": "BR",
+              "score1": 86.0,
+              "team2": "Emily",
+              "score2": 85.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 93.0,
+              "team2": "Brian",
+              "score2": 122.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 48.0,
+              "team2": "Matt",
+              "score2": 89.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Russell",
+              "score1": 70.0,
+              "team2": "Michael",
+              "score2": 109.0
+            },
+            {
+              "team1": "David",
+              "score1": 130.0,
+              "team2": "BR",
+              "score2": 98.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 89.0,
+              "team2": "Arnold",
+              "score2": 59.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 91.0,
+              "team2": "Charles",
+              "score2": 68.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 77.0,
+              "team2": "Watty",
+              "score2": 114.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 88.0,
+              "team2": "Mark",
+              "score2": 72.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 84.0,
+              "team2": "David",
+              "score2": 72.0
+            },
+            {
+              "team1": "BR",
+              "score1": 100.0,
+              "team2": "Russell",
+              "score2": 62.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 53.0,
+              "team2": "Emily",
+              "score2": 93.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 80.0,
+              "team2": "Brian",
+              "score2": 121.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 100.0,
+              "team2": "Matt",
+              "score2": 85.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 97.0,
+              "team2": "Brent",
+              "score2": 144.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Matt",
+              "score1": 72.0,
+              "team2": "Michael",
+              "score2": 82.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 95.0,
+              "team2": "Arnold",
+              "score2": 92.0
+            },
+            {
+              "team1": "David",
+              "score1": 59.0,
+              "team2": "Charles",
+              "score2": 97.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 72.0,
+              "team2": "Watty",
+              "score2": 95.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 103.0,
+              "team2": "Mark",
+              "score2": 78.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 127.0,
+              "team2": "BR",
+              "score2": 101.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 109.0,
+              "team2": "Brian",
+              "score2": 83.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 81.0,
+              "team2": "Russell",
+              "score2": 121.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 66.0,
+              "team2": "David",
+              "score2": 105.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 78.0,
+              "team2": "Emily",
+              "score2": 56.0
+            },
+            {
+              "team1": "BR",
+              "score1": 96.0,
+              "team2": "Matt",
+              "score2": 142.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 106.0,
+              "team2": "Brent",
+              "score2": 84.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 140.0,
+              "team2": "Michael",
+              "score2": 109.0
+            },
+            {
+              "team1": "David",
+              "score1": 100.0,
+              "team2": "Brian",
+              "score2": 95.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 78.0,
+              "team2": "Emily",
+              "score2": 84.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 74.0,
+              "team2": "Matt",
+              "score2": 106.0
+            },
+            {
+              "team1": "BR",
+              "score1": 81.0,
+              "team2": "Charles",
+              "score2": 68.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 110.0,
+              "team2": "Arnold",
+              "score2": 88.0
+            }
+          ]
         },
         {
           "week": 14,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 115.0,
+              "team2": "Arnold",
+              "score2": 58.0
+            },
+            {
+              "team1": "David",
+              "score1": 70.0,
+              "team2": "Russell",
+              "score2": 67.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 80.0,
+              "team2": "Matt",
+              "score2": 79.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 58.0,
+              "team2": "Emily",
+              "score2": 88.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 103.0,
+              "team2": "BR",
+              "score2": 83.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 87.0,
+              "team2": "Charles",
+              "score2": 117.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -6209,59 +11455,661 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 121.0,
+              "team2": "Matt",
+              "score2": 108.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 140.0,
+              "team2": "Brian",
+              "score2": 119.0
+            },
+            {
+              "team1": "David",
+              "score1": 99.0,
+              "team2": "Russell",
+              "score2": 101.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 125.0,
+              "team2": "Jordan",
+              "score2": 112.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 80.0,
+              "team2": "BR",
+              "score2": 76.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 108.0,
+              "team2": "Arnold",
+              "score2": 88.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 99.0,
+              "team2": "Emily",
+              "score2": 107.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 96.0,
+              "team2": "David",
+              "score2": 144.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 143.0,
+              "team2": "Mark",
+              "score2": 91.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 86.0,
+              "team2": "Brent",
+              "score2": 103.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 165.0,
+              "team2": "Grayson",
+              "score2": 129.0
+            },
+            {
+              "team1": "BR",
+              "score1": 86.0,
+              "team2": "Watty",
+              "score2": 119.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 100.0,
+              "team2": "Charles",
+              "score2": 103.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 94.0,
+              "team2": "Brian",
+              "score2": 84.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Mark",
+              "score1": 89.0,
+              "team2": "Michael",
+              "score2": 152.0
+            },
+            {
+              "team1": "David",
+              "score1": 133.0,
+              "team2": "Brent",
+              "score2": 86.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 81.0,
+              "team2": "Emily",
+              "score2": 104.0
+            },
+            {
+              "team1": "BR",
+              "score1": 111.0,
+              "team2": "Arnold",
+              "score2": 89.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 115.0,
+              "team2": "Jordan",
+              "score2": 81.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 118.0,
+              "team2": "Matt",
+              "score2": 98.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 82.0,
+              "team2": "Russell",
+              "score2": 128.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 146.0,
+              "team2": "Grayson",
+              "score2": 115.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 80.0,
+              "team2": "Brian",
+              "score2": 68.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 102.0,
+              "team2": "Watty",
+              "score2": 90.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 119.0,
+              "team2": "BR",
+              "score2": 150.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 112.0,
+              "team2": "David",
+              "score2": 114.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 116.0,
+              "team2": "Mark",
+              "score2": 112.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 124.0,
+              "team2": "Emily",
+              "score2": 97.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 97.0,
+              "team2": "Michael",
+              "score2": 91.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 105.0,
+              "team2": "Russell",
+              "score2": 98.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 78.0,
+              "team2": "Brent",
+              "score2": 138.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 144.0,
+              "team2": "Charles",
+              "score2": 148.0
+            },
+            {
+              "team1": "David",
+              "score1": 106.0,
+              "team2": "BR",
+              "score2": 111.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 89.0,
+              "team2": "Jordan",
+              "score2": 88.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 161.0,
+              "team2": "Matt",
+              "score2": 117.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 100.0,
+              "team2": "Emily",
+              "score2": 85.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 75.0,
+              "team2": "Watty",
+              "score2": 123.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 106.0,
+              "team2": "Jordan",
+              "score2": 63.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 114.0,
+              "team2": "David",
+              "score2": 112.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 96.0,
+              "team2": "Brian",
+              "score2": 97.0
+            },
+            {
+              "team1": "BR",
+              "score1": 123.0,
+              "team2": "Mark",
+              "score2": 119.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 99.0,
+              "team2": "Grayson",
+              "score2": 123.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Jordan",
+              "score1": 92.0,
+              "team2": "Michael",
+              "score2": 111.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 88.0,
+              "team2": "Brent",
+              "score2": 66.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 108.0,
+              "team2": "BR",
+              "score2": 46.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 95.0,
+              "team2": "Charles",
+              "score2": 113.0
+            },
+            {
+              "team1": "David",
+              "score1": 114.0,
+              "team2": "Matt",
+              "score2": 113.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 122.0,
+              "team2": "Russell",
+              "score2": 115.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 126.0,
+              "team2": "Arnold",
+              "score2": 80.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 121.0,
+              "team2": "Russell",
+              "score2": 141.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 100.0,
+              "team2": "Jordan",
+              "score2": 94.0
+            },
+            {
+              "team1": "David",
+              "score1": 134.0,
+              "team2": "Watty",
+              "score2": 120.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 107.0,
+              "team2": "Grayson",
+              "score2": 98.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 114.0,
+              "team2": "Emily",
+              "score2": 120.0
+            },
+            {
+              "team1": "BR",
+              "score1": 169.0,
+              "team2": "Brian",
+              "score2": 109.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 104.0,
+              "team2": "Mark",
+              "score2": 111.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 86.0,
+              "team2": "Michael",
+              "score2": 103.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 94.0,
+              "team2": "David",
+              "score2": 104.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 101.0,
+              "team2": "Charles",
+              "score2": 114.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 75.0,
+              "team2": "Arnold",
+              "score2": 125.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 113.0,
+              "team2": "Brent",
+              "score2": 123.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 151.0,
+              "team2": "BR",
+              "score2": 106.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 113.0,
+              "team2": "Matt",
+              "score2": 132.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brent",
+              "score1": 95.0,
+              "team2": "Michael",
+              "score2": 82.0
+            },
+            {
+              "team1": "David",
+              "score1": 98.0,
+              "team2": "Grayson",
+              "score2": 93.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 164.0,
+              "team2": "Watty",
+              "score2": 78.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 77.0,
+              "team2": "Brian",
+              "score2": 114.0
+            },
+            {
+              "team1": "BR",
+              "score1": 93.0,
+              "team2": "Jordan",
+              "score2": 67.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 96.0,
+              "team2": "Russell",
+              "score2": 117.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 133.0,
+              "team2": "Emily",
+              "score2": 111.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 110.0,
+              "team2": "Charles",
+              "score2": 95.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 131.0,
+              "team2": "Mark",
+              "score2": 102.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 132.0,
+              "team2": "David",
+              "score2": 130.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 110.0,
+              "team2": "Brent",
+              "score2": 91.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 120.0,
+              "team2": "Matt",
+              "score2": 111.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 96.0,
+              "team2": "Arnold",
+              "score2": 127.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 117.0,
+              "team2": "BR",
+              "score2": 95.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 122.0,
+              "team2": "Michael",
+              "score2": 100.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 126.0,
+              "team2": "Brian",
+              "score2": 66.0
+            },
+            {
+              "team1": "David",
+              "score1": 85.0,
+              "team2": "Emily",
+              "score2": 93.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 136.0,
+              "team2": "Russell",
+              "score2": 103.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 156.0,
+              "team2": "Jordan",
+              "score2": 101.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 71.0,
+              "team2": "Watty",
+              "score2": 117.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 159.0,
+              "team2": "Brent",
+              "score2": 106.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 110.0,
+              "team2": "Arnold",
+              "score2": 126.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 114.0,
+              "team2": "David",
+              "score2": 120.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 97.0,
+              "team2": "Grayson",
+              "score2": 88.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 127.0,
+              "team2": "Mark",
+              "score2": 129.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 109.0,
+              "team2": "BR",
+              "score2": 119.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 100.0,
+              "team2": "Charles",
+              "score2": 139.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 101.0,
+              "team2": "Matt",
+              "score2": 119.0
+            }
+          ]
         },
         {
           "week": 14,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 111.0,
+              "team2": "Michael",
+              "score2": 108.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 91.0,
+              "team2": "Emily",
+              "score2": 153.0
+            },
+            {
+              "team1": "David",
+              "score1": 107.0,
+              "team2": "Matt",
+              "score2": 77.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 62.0,
+              "team2": "Brian",
+              "score2": 129.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 96.0,
+              "team2": "Charles",
+              "score2": 144.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 139.0,
+              "team2": "Jordan",
+              "score2": 106.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 115.0,
+              "team2": "BR",
+              "score2": 51.0
+            }
+          ]
         }
       ],
       "standings": [
@@ -6526,59 +12374,661 @@
       "weeks": [
         {
           "week": 1,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 104.0,
+              "team2": "Emily",
+              "score2": 86.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 91.0,
+              "team2": "David",
+              "score2": 92.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 118.0,
+              "team2": "Russell",
+              "score2": 102.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 81.0,
+              "team2": "Matt",
+              "score2": 84.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 121.0,
+              "team2": "BR",
+              "score2": 120.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 117.0,
+              "team2": "Brian",
+              "score2": 70.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 96.0,
+              "team2": "Arnold",
+              "score2": 104.0
+            }
+          ]
         },
         {
           "week": 2,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Brian",
+              "score1": 89.0,
+              "team2": "Michael",
+              "score2": 119.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 72.0,
+              "team2": "Charles",
+              "score2": 115.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 141.0,
+              "team2": "Grayson",
+              "score2": 95.0
+            },
+            {
+              "team1": "David",
+              "score1": 156.0,
+              "team2": "Emily",
+              "score2": 112.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 119.0,
+              "team2": "Jordan",
+              "score2": 126.0
+            },
+            {
+              "team1": "BR",
+              "score1": 116.0,
+              "team2": "Mark",
+              "score2": 63.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 97.0,
+              "team2": "Watty",
+              "score2": 78.0
+            }
+          ]
         },
         {
           "week": 3,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 91.0,
+              "team2": "David",
+              "score2": 151.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 111.0,
+              "team2": "Brent",
+              "score2": 107.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 64.0,
+              "team2": "Jordan",
+              "score2": 110.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 103.0,
+              "team2": "Arnold",
+              "score2": 84.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 118.1,
+              "team2": "Russell",
+              "score2": 118.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 145.0,
+              "team2": "BR",
+              "score2": 100.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 114.0,
+              "team2": "Matt",
+              "score2": 140.0
+            }
+          ]
         },
         {
           "week": 4,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 138.0,
+              "team2": "Michael",
+              "score2": 90.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 126.0,
+              "team2": "Grayson",
+              "score2": 119.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 78.0,
+              "team2": "David",
+              "score2": 88.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 172.0,
+              "team2": "Charles",
+              "score2": 125.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 107.0,
+              "team2": "Brian",
+              "score2": 123.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 115.0,
+              "team2": "Watty",
+              "score2": 113.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 171.0,
+              "team2": "Emily",
+              "score2": 99.0
+            }
+          ]
         },
         {
           "week": 5,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 113.0,
+              "team2": "Arnold",
+              "score2": 103.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 125.0,
+              "team2": "Brent",
+              "score2": 159.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 119.0,
+              "team2": "Jordan",
+              "score2": 107.0
+            },
+            {
+              "team1": "David",
+              "score1": 100.0,
+              "team2": "Russell",
+              "score2": 98.0
+            },
+            {
+              "team1": "BR",
+              "score1": 144.0,
+              "team2": "Matt",
+              "score2": 77.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 131.0,
+              "team2": "Brian",
+              "score2": 106.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 106.0,
+              "team2": "Mark",
+              "score2": 112.0
+            }
+          ]
         },
         {
           "week": 6,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Matt",
+              "score1": 111.0,
+              "team2": "Michael",
+              "score2": 103.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 90.0,
+              "team2": "Charles",
+              "score2": 144.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 95.0,
+              "team2": "Emily",
+              "score2": 123.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 138.0,
+              "team2": "Arnold",
+              "score2": 81.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 121.0,
+              "team2": "David",
+              "score2": 118.0
+            },
+            {
+              "team1": "BR",
+              "score1": 69.0,
+              "team2": "Grayson",
+              "score2": 119.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 101.0,
+              "team2": "Watty",
+              "score2": 54.0
+            }
+          ]
         },
         {
           "week": 7,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 85.0,
+              "team2": "Russell",
+              "score2": 134.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 134.0,
+              "team2": "Mark",
+              "score2": 99.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 70.0,
+              "team2": "Brent",
+              "score2": 131.0
+            },
+            {
+              "team1": "David",
+              "score1": 110.0,
+              "team2": "Jordan",
+              "score2": 122.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 111.0,
+              "team2": "Matt",
+              "score2": 97.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 104.0,
+              "team2": "BR",
+              "score2": 76.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 131.0,
+              "team2": "Brian",
+              "score2": 136.0
+            }
+          ]
         },
         {
           "week": 8,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Grayson",
+              "score1": 123.0,
+              "team2": "Michael",
+              "score2": 66.0
+            },
+            {
+              "team1": "BR",
+              "score1": 98.0,
+              "team2": "Charles",
+              "score2": 94.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 107.0,
+              "team2": "Arnold",
+              "score2": 108.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 84.0,
+              "team2": "Emily",
+              "score2": 66.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 167.0,
+              "team2": "David",
+              "score2": 101.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 117.0,
+              "team2": "Watty",
+              "score2": 111.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 101.0,
+              "team2": "Russell",
+              "score2": 121.0
+            }
+          ]
         },
         {
           "week": 9,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 106.0,
+              "team2": "Brent",
+              "score2": 77.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 120.0,
+              "team2": "Matt",
+              "score2": 126.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 100.0,
+              "team2": "Mark",
+              "score2": 133.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 129.0,
+              "team2": "Jordan",
+              "score2": 127.0
+            },
+            {
+              "team1": "David",
+              "score1": 106.0,
+              "team2": "Brian",
+              "score2": 75.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 70.0,
+              "team2": "BR",
+              "score2": 132.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 127.0,
+              "team2": "Grayson",
+              "score2": 123.0
+            }
+          ]
         },
         {
           "week": 10,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Watty",
+              "score1": 55.0,
+              "team2": "Michael",
+              "score2": 99.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 92.0,
+              "team2": "Emily",
+              "score2": 117.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 97.0,
+              "team2": "Brent",
+              "score2": 71.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 91.0,
+              "team2": "Russell",
+              "score2": 100.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 127.0,
+              "team2": "Arnold",
+              "score2": 120.0
+            },
+            {
+              "team1": "BR",
+              "score1": 130.0,
+              "team2": "David",
+              "score2": 148.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 114.0,
+              "team2": "Charles",
+              "score2": 152.0
+            }
+          ]
         },
         {
           "week": 11,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 97.0,
+              "team2": "Jordan",
+              "score2": 132.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 111.0,
+              "team2": "BR",
+              "score2": 86.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 126.0,
+              "team2": "Brian",
+              "score2": 90.0
+            },
+            {
+              "team1": "David",
+              "score1": 59.0,
+              "team2": "Matt",
+              "score2": 127.0
+            },
+            {
+              "team1": "Charles",
+              "score1": 137.0,
+              "team2": "Watty",
+              "score2": 65.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 127.0,
+              "team2": "Mark",
+              "score2": 113.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 84.0,
+              "team2": "Grayson",
+              "score2": 81.0
+            }
+          ]
         },
         {
           "week": 12,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Charles",
+              "score1": 123.0,
+              "team2": "Michael",
+              "score2": 78.0
+            },
+            {
+              "team1": "Brian",
+              "score1": 150.0,
+              "team2": "Brent",
+              "score2": 96.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 74.0,
+              "team2": "David",
+              "score2": 124.0
+            },
+            {
+              "team1": "BR",
+              "score1": 101.0,
+              "team2": "Russell",
+              "score2": 136.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 128.0,
+              "team2": "Emily",
+              "score2": 106.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 106.0,
+              "team2": "Arnold",
+              "score2": 110.0
+            },
+            {
+              "team1": "Mark",
+              "score1": 119.0,
+              "team2": "Jordan",
+              "score2": 120.0
+            }
+          ]
         },
         {
           "week": 13,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "Michael",
+              "score1": 107.0,
+              "team2": "Mark",
+              "score2": 88.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 109.0,
+              "team2": "BR",
+              "score2": 111.0
+            },
+            {
+              "team1": "Emily",
+              "score1": 149.0,
+              "team2": "Charles",
+              "score2": 135.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 82.0,
+              "team2": "Matt",
+              "score2": 109.0
+            },
+            {
+              "team1": "David",
+              "score1": 81.0,
+              "team2": "Watty",
+              "score2": 117.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 85.0,
+              "team2": "Brian",
+              "score2": 82.0
+            },
+            {
+              "team1": "Arnold",
+              "score1": 96.0,
+              "team2": "Grayson",
+              "score2": 67.0
+            }
+          ]
         },
         {
           "week": 14,
-          "matchups": []
+          "matchups": [
+            {
+              "team1": "BR",
+              "score1": 151.0,
+              "team2": "Michael",
+              "score2": 104.0
+            },
+            {
+              "team1": "Matt",
+              "score1": 127.0,
+              "team2": "Brian",
+              "score2": 108.0
+            },
+            {
+              "team1": "Jordan",
+              "score1": 107.0,
+              "team2": "Charles",
+              "score2": 131.0
+            },
+            {
+              "team1": "Grayson",
+              "score1": 67.0,
+              "team2": "Arnold",
+              "score2": 98.0
+            },
+            {
+              "team1": "Russell",
+              "score1": 97.0,
+              "team2": "David",
+              "score2": 90.0
+            },
+            {
+              "team1": "Brent",
+              "score1": 104.0,
+              "team2": "Emily",
+              "score2": 87.0
+            },
+            {
+              "team1": "Watty",
+              "score1": 58.0,
+              "team2": "Mark",
+              "score2": 110.0
+            }
+          ]
         }
       ],
       "standings": [

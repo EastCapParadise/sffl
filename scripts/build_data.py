@@ -174,11 +174,14 @@ def build_seasons(rs, po, ft):
             seen = set()
             for _, row in w_rs.iterrows():
                 game = str(row["Game"])
-                if game not in seen:
-                    seen.add(game)
-                    team1 = w_rs[w_rs["Game"] == row["Game"]].iloc[0]
-                    team2 = w_rs[w_rs["Game"] == row["Game"]].iloc[1] if len(w_rs[w_rs["Game"] == row["Game"]]) > 1 else None
-                    if team2 is not None:
+                base = game[:-1]
+                if base not in seen:
+                    seen.add(base)
+                    team1_rows = w_rs[w_rs["Game"].astype(str) == base + "1"]
+                    team2_rows = w_rs[w_rs["Game"].astype(str) == base + "2"]
+                    if len(team1_rows) > 0 and len(team2_rows) > 0:
+                        team1 = team1_rows.iloc[0]
+                        team2 = team2_rows.iloc[0]
                         matchups.append({
                             "team1": team1["Manager"],
                             "score1": float(team1["Points"]),
