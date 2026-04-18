@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFFL | Records</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="assets/logo.png" alt="SFFL Logo" class="nav-logo" />
+        <span class="nav-title">SFFL</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seasons.html">Seasons</a></li>
+        <li><a href="owners.html">Owners</a></li>
+        <li><a href="head-to-head.html">Head to Head</a></li>
+        <li><a href="playoffs.html">Playoffs</a></li>
+        <li><a href="records.html" class="active">Records</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title">Records & Milestones</h1>
+      <p class="page-subtitle">All-time records, streaks and league history</p>
+    </div>
+  </section>
+
+  <!-- SCORING RECORDS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Scoring Records</h2>
+      <div class="records-two-col">
+        <div>
+          <h3 class="subsection-title">Top 10 Highest Scores</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Score</th>
+                  <th>Opponent</th>
+                  <th>Season</th>
+                  <th>Week</th>
+                </tr>
+              </thead>
+              <tbody id="highest-scores-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3 class="subsection-title">Top 10 Lowest Scores</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Score</th>
+                  <th>Opponent</th>
+                  <th>Season</th>
+                  <th>Week</th>
+                </tr>
+              </thead>
+              <tbody id="lowest-scores-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIGGEST BLOWOUTS -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Top 10 Biggest Blowouts</h2>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Winner</th>
+              <th>Score</th>
+              <th>Loser</th>
+              <th>Score</th>
+              <th>Margin</th>
+              <th>Season</th>
+              <th>Week</th>
+            </tr>
+          </thead>
+          <tbody id="blowouts-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- WOODSHEDS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">🪵 Woodsheds (50+ Point Margins)</h2>
+      <div class="records-two-col" style="margin-bottom: 32px;">
+        <div>
+          <h3 class="subsection-title">Most Woodsheds Given</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Owner</th>
+                  <th>Woodsheds Given</th>
+                  <th>Received</th>
+                </tr>
+              </thead>
+              <tbody id="woodsheds-given-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3 class="subsection-title">Most Woodsheds Received</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Owner</th>
+                  <th>Woodsheds Received</th>
+                  <th>Given</th>
+                </tr>
+              </thead>
+              <tbody id="woodsheds-received-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <h3 class="subsection-title">Top 10 Biggest Woodsheds</h3>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Winner</th>
+              <th>Score</th>
+              <th>Loser</th>
+              <th>Score</th>
+              <th>Margin</th>
+              <th>Season</th>
+              <th>Week</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody id="woodsheds-top10-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEASON RECORDS -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Season Records</h2>
+      <div class="records-two-col">
+        <div>
+          <h3 class="subsection-title">Best Regular Season Records</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Season</th>
+                  <th>W</th>
+                  <th>L</th>
+                  <th>Win %</th>
+                </tr>
+              </thead>
+              <tbody id="best-records-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3 class="subsection-title">Worst Regular Season Records</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Season</th>
+                  <th>W</th>
+                  <th>L</th>
+                  <th>Win %</th>
+                </tr>
+              </thead>
+              <tbody id="worst-records-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="records-two-col" style="margin-top: 32px;">
+        <div>
+          <h3 class="subsection-title">Highest Scoring Seasons</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Season</th>
+                  <th>Total Points</th>
+                  <th>PPG</th>
+                </tr>
+              </thead>
+              <tbody id="highest-season-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3 class="subsection-title">Lowest Scoring Seasons</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Season</th>
+                  <th>Total Points</th>
+                  <th>PPG</th>
+                </tr>
+              </thead>
+              <tbody id="lowest-season-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STREAKS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Streaks</h2>
+      <h3 class="subsection-title">Current Active Streaks</h3>
+      <div class="streaks-grid" id="current-streaks-grid"></div>
+      <div class="records-two-col" style="margin-top: 48px;">
+        <div>
+          <h3 class="subsection-title">Top 10 Win Streaks All Time</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Streak</th>
+                  <th>Start</th>
+                  <th>End</th>
+                </tr>
+              </thead>
+              <tbody id="win-streaks-body"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3 class="subsection-title">Top 10 Loss Streaks All Time</h3>
+          <div class="table-wrapper">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Owner</th>
+                  <th>Streak</th>
+                  <th>Start</th>
+                  <th>End</th>
+                </tr>
+              </thead>
+              <tbody id="loss-streaks-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OWNER MILESTONES -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Owner Milestones</h2>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Owner</th>
+              <th>Wins</th>
+              <th>Win %</th>
+              <th>Points For</th>
+              <th>PPG</th>
+              <th>Titles</th>
+              <th>Playoffs</th>
+              <th>Div Titles</th>
+              <th>🪵 Given</th>
+              <th>🪵 Received</th>
+            </tr>
+          </thead>
+          <tbody id="milestones-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVISIONAL RECORDS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Divisional Records</h2>
+      <h3 class="subsection-title">All-Time TEXAROK vs AKCOVA</h3>
+      <div class="divisional-summary" id="divisional-summary"></div>
+      <h3 class="subsection-title" style="margin-top: 48px;">Season by Season</h3>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Season</th>
+              <th>TEXAROK W</th>
+              <th>TEXAROK L</th>
+              <th>TEXAROK PF</th>
+              <th>AKCOVA W</th>
+              <th>AKCOVA L</th>
+              <th>AKCOVA PF</th>
+              <th>Winner</th>
+            </tr>
+          </thead>
+          <tbody id="divisional-season-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Strickland Fantasy Football League &nbsp;|&nbsp; Est. 2013</p>
+      <p class="footer-sub">Last updated: <span id="last-updated"></span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/records.js"></script>
+
+</body>
+</html>

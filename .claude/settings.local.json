@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m http.server 8765)",
+      "Bash(curl -s \"http://localhost:8765/data/data.json\")",
+      "Bash(python3 -c ' *)",
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(git -C \"C:/Users/Maria Strickland/Desktop/sffl\" show 1fef52e -- assets/js/playoffs.js)",
+      "Bash(git -C \"C:/Users/Maria Strickland/Desktop/sffl\" show 51832ec -- data/data.json)",
+      "Read(//c/Program Files/Google/Chrome/Application/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
+      "Read(//c/Program Files/Mozilla Firefox/**)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --virtual-time-budget=5000 --dump-dom \"http://localhost:8765/playoffs.html\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --virtual-time-budget=5000 --dump-dom \"file:///C:/Users/Maria%20Strickland/Desktop/sffl/playoffs.html\")",
+      "Bash(git -C \"C:/Users/Maria Strickland/Desktop/sffl\" status)",
+      "Bash(git -C \"C:/Users/Maria Strickland/Desktop/sffl\" diff)",
+      "Bash(git *)",
+      "Bash(python scripts/build_data.py)"
+    ]
+  }
+}
