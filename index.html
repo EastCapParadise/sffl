@@ -16,7 +16,10 @@
         <img src="assets/logo.png" alt="SFFL Logo" class="nav-logo" />
         <span class="nav-title">SFFL</span>
       </div>
-      <ul class="nav-links">
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="seasons.html">Seasons</a></li>
         <li><a href="owners.html">Owners</a></li>
@@ -139,6 +142,16 @@
 
   <script src="assets/js/data.js"></script>
   <script src="assets/js/index.js"></script>
+  <script>
+    (function() {
+      var btn = document.getElementById('nav-hamburger');
+      var links = document.getElementById('nav-links');
+      btn.addEventListener('click', function() {
+        btn.classList.toggle('open');
+        links.classList.toggle('open');
+      });
+    })();
+  </script>
 
 </body>
 </html>

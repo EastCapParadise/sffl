@@ -448,10 +448,45 @@ a:hover {
 }
 
 /* ============================================================
-   RESPONSIVE
+   HAMBURGER MENU
    ============================================================ */
 
-   /* ============================================================
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 10px;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.nav-hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--secondary);
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.nav-hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.nav-hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ============================================================
    PAGE HEADER
    ============================================================ */
 
@@ -1368,5 +1403,257 @@ a:hover {
 
   .streaks-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================================
+   GLOBAL MOBILE — 768px
+   ============================================================ */
+
+@media (max-width: 768px) {
+  /* --- NAVBAR / HAMBURGER --- */
+  .navbar {
+    position: sticky;
+    overflow: visible;
+  }
+
+  .nav-hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background-color: var(--primary);
+    border-bottom: 2px solid var(--secondary);
+    padding: 8px 0;
+    z-index: 99;
+    gap: 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: flex;
+    align-items: center;
+    padding: 14px 24px;
+    min-height: 44px;
+    border-radius: 0;
+  }
+
+  /* --- HERO --- */
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 28px 16px 28px;
+    gap: 16px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+  }
+
+  .hero-logo img {
+    height: 80px;
+  }
+
+  /* --- CHAMPION BANNER --- */
+  .champion-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+  }
+
+  /* --- SECTION / CONTAINER --- */
+  .section {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  /* --- PAGE HEADER --- */
+  .page-header {
+    padding: 32px 0;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  /* --- SELECTORS / DROPDOWNS --- */
+  .season-selector {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .season-selector .selector-dropdown {
+    width: 100%;
+  }
+
+  .week-selector-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .week-selector-row .selector-dropdown {
+    width: 100%;
+  }
+
+  .selector-dropdown {
+    min-height: 44px;
+  }
+
+  /* --- H2H SELECTORS --- */
+  .h2h-selectors {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .selector-group {
+    width: 100%;
+  }
+
+  .selector-group .selector-dropdown {
+    width: 100%;
+  }
+
+  .h2h-vs {
+    padding-top: 0;
+  }
+
+  /* --- NAV CARDS --- */
+  .nav-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .nav-card {
+    padding: 20px 14px;
+    min-height: 44px;
+  }
+
+  /* --- CHAMPIONSHIP GRID --- */
+  .championship-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* --- OWNER CARDS --- */
+  .owner-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* --- SEASON CHAMPION --- */
+  .season-champion-card {
+    padding: 24px 16px;
+  }
+
+  .season-champion-name {
+    font-size: 1.8rem;
+  }
+
+  .season-champion-trophy {
+    font-size: 2rem;
+  }
+
+  /* --- RIVALRY CARD --- */
+  .rivalry-card {
+    padding: 24px 16px;
+  }
+
+  .rivalry-owner-name {
+    font-size: 1.3rem;
+  }
+
+  /* --- OWNER PROFILE --- */
+  .profile-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .back-btn {
+    min-height: 44px;
+  }
+
+  /* --- DIVISIONAL SUMMARY --- */
+  .divisional-summary {
+    padding: 20px 16px;
+  }
+
+  .div-summary-name {
+    font-size: 1.3rem;
+  }
+
+  /* --- TABLE WRAPPER ensure scroll --- */
+  .table-wrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .data-table thead th,
+  .data-table tbody td {
+    padding: 10px 12px;
+    font-size: 0.82rem;
+  }
+}
+
+/* ============================================================
+   SMALL PHONES — 480px
+   ============================================================ */
+
+@media (max-width: 480px) {
+  .nav-title {
+    font-size: 1.2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .nav-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .owner-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .championship-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .rivalry-card {
+    padding: 16px 12px;
+  }
+
+  .season-champion-name {
+    font-size: 1.5rem;
   }
 }
