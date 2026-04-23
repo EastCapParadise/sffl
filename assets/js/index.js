@@ -27,19 +27,14 @@ function buildStandingsTable(data) {
 
   tbody.innerHTML = owners.map((owner, index) => {
     const c = owner.career;
-    const isActive = owner.active;
     const champBadge = c.championships > 0
       ? `<span class="badge badge-gold">🏆 ${c.championships}</span>`
       : '—';
-    const activeBadge = isActive
-      ? `<span class="badge badge-active">Active</span>`
-      : `<span style="color: var(--text-muted); font-size: 0.8rem;">Alumni</span>`;
 
     return `
       <tr>
         <td>
           <strong>${owner.name}</strong>
-          <br/>${activeBadge}
         </td>
         <td>${c.wins}</td>
         <td>${c.losses}</td>
@@ -109,9 +104,11 @@ function buildRecordsStrip(data) {
   const totalGames = Object.values(data.owners)
     .reduce((sum, o) => sum + o.career.wins + o.career.losses + o.career.ties, 0) / 2;
 
-  // Most championships
-  const mostChamps = Object.values(data.owners)
-    .sort((a, b) => b.career.championships - a.career.championships)[0];
+  // Most championships (all tied for the top)
+  const allOwners = Object.values(data.owners);
+  const maxChamps = Math.max(...allOwners.map(o => o.career.championships));
+  const mostChampsOwners = allOwners.filter(o => o.career.championships === maxChamps);
+  const mostChamps = { career: { championships: maxChamps }, name: mostChampsOwners.map(o => o.name).join(', ') };
 
   strip.innerHTML = `
     <div class="record-card">
