@@ -3,6 +3,9 @@
 // ============================================================
 
 let allData = null;
+let currentMatchups = [];
+let currentOwner1 = '';
+let currentOwner2 = '';
 
 document.addEventListener('DOMContentLoaded', async () => {
   allData = await loadData();
@@ -13,6 +16,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   document.getElementById('owner1-select').addEventListener('change', checkAndLoad);
   document.getElementById('owner2-select').addEventListener('change', checkAndLoad);
+  document.getElementById('season-filter').addEventListener('change', () => {
+    if (!currentOwner1 || !currentOwner2) return;
+    const val = document.getElementById('season-filter').value;
+    const filtered = val
+      ? currentMatchups.filter(m => String(m.season) === val)
+      : currentMatchups;
+    buildMatchupHistory(currentOwner1, currentOwner2, filtered);
+  });
 });
 
 // ============================================================
@@ -37,9 +48,13 @@ function checkAndLoad() {
   const owner1 = document.getElementById('owner1-select').value;
   const owner2 = document.getElementById('owner2-select').value;
 
+  // Reset season filter when either owner changes
+  document.getElementById('season-filter').value = '';
+
   if (!owner1 || !owner2 || owner1 === owner2) {
     document.getElementById('h2h-prompt').style.display = 'block';
     document.getElementById('h2h-results').style.display = 'none';
+    document.getElementById('season-filter-row').style.display = 'none';
     return;
   }
 
@@ -53,9 +68,22 @@ function checkAndLoad() {
 // ============================================================
 
 function loadRivalry(owner1, owner2) {
+  currentOwner1 = owner1;
+  currentOwner2 = owner2;
   const matchups = getMatchupHistory(owner1, owner2);
+  currentMatchups = matchups;
   buildRivalryCard(owner1, owner2, matchups);
+  populateSeasonFilter(matchups);
   buildMatchupHistory(owner1, owner2, matchups);
+}
+
+function populateSeasonFilter(matchups) {
+  const sel = document.getElementById('season-filter');
+  const row = document.getElementById('season-filter-row');
+  const seasons = [...new Set(matchups.map(m => m.season))].sort((a, b) => b - a);
+  sel.innerHTML = `<option value="">All Seasons</option>` +
+    seasons.map(s => `<option value="${s}">${s}</option>`).join('');
+  row.style.display = matchups.length > 0 ? '' : 'none';
 }
 
 // ============================================================

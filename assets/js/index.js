@@ -110,7 +110,7 @@ function buildRecordsStrip(data) {
   const allOwners = Object.values(data.owners);
   const maxChamps = Math.max(...allOwners.map(o => o.career.championships));
   const mostChampsOwners = allOwners.filter(o => o.career.championships === maxChamps);
-  const mostChamps = { career: { championships: maxChamps }, name: mostChampsOwners.map(o => o.name).join(', ') };
+  const mostChamps = { career: { championships: maxChamps }, name: mostChampsOwners.map(o => o.name).join(' & ') };
 
   strip.innerHTML = `
     <div class="record-card">
