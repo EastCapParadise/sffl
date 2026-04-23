@@ -97,6 +97,8 @@ function buildPlayoffRecordsTable(data) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================
@@ -293,6 +295,9 @@ function loadFBSeason(season) {
       </div>
     </div>
   `;
+
+  const fbTable = el.querySelector('table.data-table');
+  if (fbTable) makeSortable(fbTable);
 }
 
 // ============================================================

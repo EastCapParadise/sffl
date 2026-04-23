@@ -257,6 +257,8 @@ function buildMatchupHistory(owner1, owner2, matchups) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================

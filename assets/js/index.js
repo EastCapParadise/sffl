@@ -25,7 +25,7 @@ function buildStandingsTable(data) {
     return b.career.win_pct - a.career.win_pct;
   });
 
-  tbody.innerHTML = owners.map((owner, index) => {
+  tbody.innerHTML = owners.map((owner, _index) => {
     const c = owner.career;
     const champBadge = c.championships > 0
       ? `<span class="badge badge-gold">🏆 ${c.championships}</span>`
@@ -48,6 +48,8 @@ function buildStandingsTable(data) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================

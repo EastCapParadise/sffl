@@ -269,6 +269,35 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.02);
 }
 
+.th-sortable {
+  cursor: pointer;
+  user-select: none;
+  padding-right: 26px !important;
+  position: relative;
+}
+
+.th-sortable::after {
+  content: '⇅';
+  position: absolute;
+  right: 8px;
+  opacity: 0.35;
+  font-size: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.th-sort-asc::after {
+  content: '↑';
+  opacity: 1;
+  color: var(--secondary);
+}
+
+.th-sort-desc::after {
+  content: '↓';
+  opacity: 1;
+  color: var(--secondary);
+}
+
 .badge {
   display: inline-block;
   padding: 2px 8px;

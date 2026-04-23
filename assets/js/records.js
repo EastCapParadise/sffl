@@ -38,6 +38,7 @@ function buildScoringRecords(data) {
       <td>${r.Week}</td>
     </tr>
   `).join('');
+  makeSortable(highest.closest('table'));
 
   lowest.innerHTML = data.records.lowest_scores.map((r, i) => `
     <tr>
@@ -51,6 +52,7 @@ function buildScoringRecords(data) {
       <td>${r.Week}</td>
     </tr>
   `).join('');
+  makeSortable(lowest.closest('table'));
 }
 
 // ============================================================
@@ -74,6 +76,7 @@ function buildBlowouts(data) {
       <td>${r.Week}</td>
     </tr>
   `).join('');
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================
@@ -106,6 +109,7 @@ function buildWoodsheds(data) {
       </tr>
     `;
   }).join('');
+  makeSortable(top10.closest('table'));
 
   // By owner - given
   const byOwner = data.woodsheds.by_owner;
@@ -123,6 +127,7 @@ function buildWoodsheds(data) {
       <td style="color:var(--text-muted)">${stats.received}</td>
     </tr>
   `).join('');
+  makeSortable(givenBody.closest('table'));
 
   receivedBody.innerHTML = sortedReceived.map(([owner, stats]) => `
     <tr>
@@ -133,6 +138,7 @@ function buildWoodsheds(data) {
       <td style="color:var(--text-muted)">${stats.given}</td>
     </tr>
   `).join('');
+  makeSortable(receivedBody.closest('table'));
 }
 
 // ============================================================
@@ -180,6 +186,7 @@ function buildSeasonRecords(data) {
       <td style="color:var(--secondary)">${(r.winPct * 100).toFixed(1)}%</td>
     </tr>
   `).join('');
+  makeSortable(bestBody.closest('table'));
 
   worstBody.innerHTML = worst.map((r, i) => `
     <tr>
@@ -191,6 +198,7 @@ function buildSeasonRecords(data) {
       <td style="color:var(--danger)">${(r.winPct * 100).toFixed(1)}%</td>
     </tr>
   `).join('');
+  makeSortable(worstBody.closest('table'));
 
   highBody.innerHTML = highest.map((r, i) => `
     <tr>
@@ -201,6 +209,7 @@ function buildSeasonRecords(data) {
       <td>${r.ppg.toFixed(1)}</td>
     </tr>
   `).join('');
+  makeSortable(highBody.closest('table'));
 
   lowBody.innerHTML = lowest.map((r, i) => `
     <tr>
@@ -211,6 +220,7 @@ function buildSeasonRecords(data) {
       <td>${r.ppg.toFixed(1)}</td>
     </tr>
   `).join('');
+  makeSortable(lowBody.closest('table'));
 }
 
 // ============================================================
@@ -246,6 +256,7 @@ function buildStreaks(data) {
       <td>${s.end_season} Wk ${s.end_week}</td>
     </tr>
   `).join('');
+  makeSortable(winBody.closest('table'));
 
   // Top 10 loss streaks
   lossBody.innerHTML = data.streaks.top_loss_streaks.map((s, i) => `
@@ -259,6 +270,7 @@ function buildStreaks(data) {
       <td>${s.end_season} Wk ${s.end_week}</td>
     </tr>
   `).join('');
+  makeSortable(lossBody.closest('table'));
 }
 
 // ============================================================
@@ -294,6 +306,8 @@ function buildMilestones(data) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================
@@ -359,6 +373,8 @@ function buildDivisionalRecords(data) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================

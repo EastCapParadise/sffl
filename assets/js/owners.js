@@ -294,6 +294,8 @@ function buildSeasonHistory(owner) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================
@@ -336,6 +338,8 @@ function buildH2HTable(owner, name) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================

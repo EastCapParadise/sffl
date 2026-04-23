@@ -114,6 +114,8 @@ function buildSeasonStandings(data) {
       </tr>
     `;
   }).join('');
+
+  makeSortable(tbody.closest('table'));
 }
 
 // ============================================================
