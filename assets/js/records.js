@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   allData = await loadData();
   if (!allData) return;
 
+  buildRecordCallouts(allData);
   buildScoringRecords(allData);
   buildBlowouts(allData);
   buildWoodsheds(allData);
@@ -17,6 +18,124 @@ document.addEventListener('DOMContentLoaded', async () => {
   buildDivisionalRecords(allData);
   setLastUpdated(allData);
 });
+
+// ============================================================
+// RECORD CALLOUTS
+// ============================================================
+
+function buildRecordCallouts(data) {
+  const el = document.getElementById('record-callouts');
+  if (!el) return;
+
+  const highScore = data.records.highest_scores[0];
+  const lowScore = data.records.lowest_scores[0];
+  const blowout = data.records.biggest_blowouts[0];
+  const bigWoodshed = data.woodsheds.top10[0];
+  const winStreak = data.streaks.top_win_streaks[0];
+  const lossStreak = data.streaks.top_loss_streaks[0];
+
+  // Best single-season record
+  const seasonRecords = [];
+  Object.values(data.owners).forEach(owner => {
+    owner.seasons.forEach(s => {
+      const total = s.wins + s.losses + s.ties;
+      if (total > 0) seasonRecords.push({ owner: owner.name, season: s.season, wins: s.wins, losses: s.losses, winPct: s.wins / total });
+    });
+  });
+  const bestSeason = [...seasonRecords].sort((a, b) => b.winPct - a.winPct)[0];
+  const highSeason = Object.values(data.owners)
+    .flatMap(o => o.seasons.map(s => ({ owner: o.name, season: s.season, points: s.points_for })))
+    .sort((a, b) => b.points - a.points)[0];
+
+  // Most woodsheds given
+  const topGiver = Object.entries(data.woodsheds.by_owner)
+    .sort((a, b) => b[1].given - a[1].given)[0];
+
+  const callouts = [
+    {
+      icon: '📈',
+      label: 'Highest Single Game Score',
+      value: highScore.Points.toFixed(1),
+      detail: `${highScore.Manager}`,
+      sub: `vs ${highScore.Opponent} — Wk ${highScore.Week}, ${highScore.Season}`,
+      color: 'var(--secondary)'
+    },
+    {
+      icon: '📉',
+      label: 'Lowest Single Game Score',
+      value: lowScore.Points.toFixed(1),
+      detail: `${lowScore.Manager}`,
+      sub: `vs ${lowScore.Opponent} — Wk ${lowScore.Week}, ${lowScore.Season}`,
+      color: 'var(--danger)'
+    },
+    {
+      icon: '💥',
+      label: 'Biggest Blowout',
+      value: `+${blowout.Diff.toFixed(1)}`,
+      detail: `${blowout.Manager}`,
+      sub: `vs ${blowout.Opponent} — Wk ${blowout.Week}, ${blowout.Season}`,
+      color: 'var(--secondary)'
+    },
+    {
+      icon: '🪵',
+      label: 'Biggest Woodshed',
+      value: `+${bigWoodshed.margin.toFixed(1)}`,
+      detail: `${bigWoodshed.manager}`,
+      sub: `vs ${bigWoodshed.opponent} — Wk ${bigWoodshed.week}, ${bigWoodshed.season}`,
+      color: 'var(--secondary)'
+    },
+    {
+      icon: '🪵',
+      label: 'Most Woodsheds Given',
+      value: topGiver[1].given,
+      detail: topGiver[0],
+      sub: `${topGiver[1].received} received`,
+      color: 'var(--secondary)'
+    },
+    {
+      icon: '🔥',
+      label: 'Longest Win Streak',
+      value: `${winStreak.length} wins`,
+      detail: winStreak.owner,
+      sub: `${winStreak.start_season} Wk ${winStreak.start_week} – ${winStreak.end_season} Wk ${winStreak.end_week}`,
+      color: 'var(--success)'
+    },
+    {
+      icon: '💀',
+      label: 'Longest Loss Streak',
+      value: `${lossStreak.length} losses`,
+      detail: lossStreak.owner,
+      sub: `${lossStreak.start_season} Wk ${lossStreak.start_week} – ${lossStreak.end_season} Wk ${lossStreak.end_week}`,
+      color: 'var(--danger)'
+    },
+    {
+      icon: '🏅',
+      label: 'Best Single Season',
+      value: `${bestSeason.wins}-${bestSeason.losses}`,
+      detail: bestSeason.owner,
+      sub: `${bestSeason.season} Season — ${(bestSeason.winPct * 100).toFixed(1)}% win rate`,
+      color: 'var(--secondary)'
+    },
+    {
+      icon: '💰',
+      label: 'Highest Scoring Season',
+      value: highSeason.points.toLocaleString(),
+      detail: highSeason.owner,
+      sub: `${highSeason.season} Season`,
+      color: 'var(--secondary)'
+    }
+  ];
+
+  el.innerHTML = callouts.map(c => `
+    <div class="record-callout-card">
+      <div class="rcc-icon">${c.icon}</div>
+      <div class="rcc-label">${c.label}</div>
+      <div class="rcc-value" style="color:${c.color}">${c.value}</div>
+      <div class="rcc-detail">${c.detail}</div>
+      <div class="rcc-sub">${c.sub}</div>
+    </div>
+  `).join('');
+}
 
 // ============================================================
 // SCORING RECORDS

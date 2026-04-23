@@ -410,6 +410,65 @@ a:hover {
 }
 
 /* ============================================================
+   RECORD CALLOUT CARDS (Records page top highlights)
+   ============================================================ */
+
+.record-callouts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.record-callout-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--secondary);
+  border-radius: 8px;
+  padding: 20px 18px;
+  text-align: center;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.record-callout-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.rcc-icon {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.rcc-label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.rcc-value {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.rcc-detail {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.rcc-sub {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* ============================================================
    NAV CARDS
    ============================================================ */
 
