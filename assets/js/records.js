@@ -24,7 +24,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ============================================================
 
 function buildRecordCallouts(data) {
-  const el = document.getElementById('record-callouts');
+  let el = document.getElementById('record-callouts');
+  if (!el) {
+    const section = document.createElement('section');
+    section.className = 'section section-dark';
+    section.innerHTML = '<div class="container"><div class="record-callouts-grid" id="record-callouts"></div></div>';
+    const pageHeader = document.querySelector('.page-header');
+    if (pageHeader && pageHeader.nextElementSibling) {
+      pageHeader.parentNode.insertBefore(section, pageHeader.nextElementSibling);
+    }
+    el = document.getElementById('record-callouts');
+  }
   if (!el) return;
 
   const highScore = data.records.highest_scores[0];
