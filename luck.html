@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFFL | Luck Analysis</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <img src="assets/logo.png" alt="SFFL Logo" class="nav-logo" />
+        <span class="nav-title">SFFL</span>
+      </a>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seasons.html">Seasons</a></li>
+        <li><a href="owners.html">Owners</a></li>
+        <li><a href="head-to-head.html">Head to Head</a></li>
+        <li><a href="playoffs.html">Playoffs</a></li>
+        <li><a href="luck.html" class="active">Luck</a></li>
+        <li><a href="records.html">Records</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-title">Luck Analysis</h1>
+      <p class="page-subtitle">Who has the universe worked for — and who has it worked against?</p>
+    </div>
+  </section>
+
+  <!-- SECTION 1: METRIC TILES -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="luck-tiles" id="luck-tiles">
+        <!-- Filled by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: ALL-TIME CHARTS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">All-Time Luck Rankings</h2>
+      <div class="luck-charts-row">
+        <div class="luck-chart-wrap">
+          <div class="luck-chart-title">Luck Index (pts/game, career)</div>
+          <canvas id="luck-bar-chart" height="340"></canvas>
+        </div>
+        <div class="luck-chart-wrap">
+          <div class="luck-chart-title">Luck vs Win% — Does Luck Win Games?</div>
+          <canvas id="luck-scatter-chart" height="340"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: PER-OWNER VIEW -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">Owner Breakdown</h2>
+      <div class="luck-selector-row">
+        <span class="luck-selector-label">Owner:</span>
+        <select class="selector-dropdown" id="luck-owner-select">
+          <!-- Filled by JavaScript -->
+        </select>
+      </div>
+      <div class="luck-owner-grid">
+        <div class="luck-chart-wrap">
+          <div class="luck-chart-title">H2H Luck vs Each Opponent</div>
+          <div id="luck-heatmap-container">
+            <!-- Filled by JavaScript -->
+          </div>
+        </div>
+        <div class="luck-chart-wrap">
+          <div class="luck-chart-title">Luck Score by Season</div>
+          <canvas id="luck-season-chart" height="260"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: GAME LOG -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Game-by-Game Luck Log</h2>
+      <div class="luck-selector-row" style="margin-bottom: 20px;">
+        <span class="luck-selector-label">Filter by Owner:</span>
+        <select class="selector-dropdown" id="luck-log-filter">
+          <option value="all">All Owners</option>
+          <!-- Filled by JavaScript -->
+        </select>
+      </div>
+      <div class="table-wrapper">
+        <table class="data-table" id="luck-log-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Week</th>
+              <th>Owner</th>
+              <th>Opponent</th>
+              <th>Score</th>
+              <th>Opp Score</th>
+              <th>Your Dev</th>
+              <th>Opp Dev</th>
+              <th>Net Luck</th>
+            </tr>
+          </thead>
+          <tbody id="luck-log-body">
+            <!-- Filled by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Strickland Fantasy Football League &nbsp;|&nbsp; Est. 2013</p>
+      <p class="footer-sub">Last updated: <span id="last-updated"></span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/luck.js"></script>
+  <script>
+    (function() {
+      var btn = document.getElementById('nav-hamburger');
+      var links = document.getElementById('nav-links');
+      btn.addEventListener('click', function() {
+        btn.classList.toggle('open');
+        links.classList.toggle('open');
+      });
+    })();
+  </script>
+
+</body>
+</html>

@@ -1747,3 +1747,142 @@ a:hover {
     font-size: 1.5rem;
   }
 }
+
+/* ============================================================
+   LUCK PAGE
+   ============================================================ */
+
+.luck-tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.luck-tile {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 16px;
+  text-align: center;
+}
+
+.luck-tile-emoji {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.luck-tile-value {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--secondary);
+  line-height: 1.2;
+}
+
+.luck-tile-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+
+.luck-tile-sub {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.luck-charts-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.luck-chart-wrap {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.luck-chart-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.luck-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.luck-badge.lucky {
+  background: rgba(34, 197, 94, 0.18);
+  color: #22c55e;
+}
+
+.luck-badge.unlucky {
+  background: rgba(239, 68, 68, 0.18);
+  color: #ef4444;
+}
+
+.luck-owner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.luck-heatmap-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+}
+
+.luck-heatmap-table thead th {
+  padding: 6px 12px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--border);
+}
+
+.luck-selector-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.luck-selector-label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .luck-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .luck-charts-row {
+    grid-template-columns: 1fr;
+  }
+
+  .luck-owner-grid {
+    grid-template-columns: 1fr;
+  }
+}

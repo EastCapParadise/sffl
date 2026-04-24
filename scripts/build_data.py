@@ -536,6 +536,114 @@ def calculate_divisional_records(rs):
 
 
 # ============================================================
+# STEP 11 - LUCK METRICS
+# ============================================================
+def calculate_luck(rs):
+    print("Calculating luck metrics...")
+
+    # Per-season, per-manager average score
+    season_avg_series = rs.groupby(["Manager", "Season"])["Points"].mean()
+    season_avg = {
+        (str(mgr), int(szn)): float(avg)
+        for (mgr, szn), avg in season_avg_series.items()
+    }
+
+    game_rows = []
+    for _, row in rs.iterrows():
+        manager = str(row["Manager"])
+        opponent = str(row["Opponent"])
+        season = int(row["Season"])
+        week = int(row["Week"])
+        score = float(row["Points"])
+        opp_score = float(row["Opp Score"])
+
+        team_avg = season_avg.get((manager, season), score)
+        opp_avg = season_avg.get((opponent, season), opp_score)
+
+        team_dev = round(score - team_avg, 2)
+        opp_dev = round(opp_score - opp_avg, 2)
+        net_luck = round(team_dev - opp_dev, 2)
+
+        game_rows.append({
+            "year": season,
+            "week": week,
+            "team": manager,
+            "opp": opponent,
+            "team_display": manager,
+            "opp_display": opponent,
+            "score": round(score, 2),
+            "opp_score": round(opp_score, 2),
+            "team_deviation": team_dev,
+            "opp_deviation": opp_dev,
+            "net_luck": net_luck
+        })
+
+    game_rows.sort(key=lambda x: (x["year"], x["week"]), reverse=True)
+
+    luck_summary = {}
+    for manager in rs["Manager"].unique():
+        mgr_rows = [r for r in game_rows if r["team"] == manager]
+        if not mgr_rows:
+            continue
+        n = len(mgr_rows)
+        avg_net = round(sum(r["net_luck"] for r in mgr_rows) / n, 2)
+        avg_opp_under = round(sum(-r["opp_deviation"] for r in mgr_rows) / n, 2)
+        avg_own_over = round(sum(r["team_deviation"] for r in mgr_rows) / n, 2)
+
+        luckiest = max(mgr_rows, key=lambda r: r["net_luck"])
+        unluckiest = min(mgr_rows, key=lambda r: r["net_luck"])
+
+        luck_summary[manager] = {
+            "net_luck_per_game": avg_net,
+            "opponent_underperformance_per_game": avg_opp_under,
+            "own_overperformance_per_game": avg_own_over,
+            "luckiest_game": {
+                "year": luckiest["year"],
+                "week": luckiest["week"],
+                "opp": luckiest["opp"],
+                "margin": luckiest["net_luck"]
+            },
+            "unluckiest_game": {
+                "year": unluckiest["year"],
+                "week": unluckiest["week"],
+                "opp": unluckiest["opp"],
+                "margin": unluckiest["net_luck"]
+            }
+        }
+
+    luck_by_matchup = {}
+    for manager in rs["Manager"].unique():
+        luck_by_matchup[str(manager)] = {}
+        mgr_rows = [r for r in game_rows if r["team"] == manager]
+        for opp in set(r["opp"] for r in mgr_rows):
+            matchup_rows = [r for r in mgr_rows if r["opp"] == opp]
+            luck_by_matchup[str(manager)][str(opp)] = {
+                "avg_luck": round(sum(r["net_luck"] for r in matchup_rows) / len(matchup_rows), 2),
+                "games": len(matchup_rows)
+            }
+
+    luck_by_season = {}
+    for manager in rs["Manager"].unique():
+        luck_by_season[str(manager)] = {}
+        mgr_rows = [r for r in game_rows if r["team"] == manager]
+        for year in sorted(set(r["year"] for r in mgr_rows)):
+            season_rows = [r for r in mgr_rows if r["year"] == year]
+            luck_by_season[str(manager)][int(year)] = {
+                "net_luck": round(sum(r["net_luck"] for r in season_rows), 2),
+                "opponent_component": round(sum(-r["opp_deviation"] for r in season_rows), 2),
+                "own_component": round(sum(r["team_deviation"] for r in season_rows), 2)
+            }
+
+    print(f"  Calculated luck for {len(luck_summary)} teams, {len(game_rows)} games")
+    return {
+        "luck_summary": luck_summary,
+        "luck_by_matchup": luck_by_matchup,
+        "luck_by_season": luck_by_season,
+        "luck_game_log": game_rows
+    }
+
+
+# ============================================================
 # MAIN
 # ============================================================
 
@@ -560,6 +668,7 @@ def main():
     woodsheds         = calculate_woodsheds(rs, po)
     streaks           = calculate_streaks(rs)
     divisional        = calculate_divisional_records(rs)
+    luck              = calculate_luck(rs)
 
     # Merge woodshed career stats into each owner
     for manager, ws in woodsheds["by_owner"].items():
@@ -583,7 +692,8 @@ def main():
         "founding_brothers": founding_brothers,
         "woodsheds": woodsheds,
         "streaks": streaks,
-        "divisional": divisional
+        "divisional": divisional,
+        "luck": luck
     }
     
     # Write output
